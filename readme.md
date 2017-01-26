@@ -8,3 +8,11 @@
 	Andrea
 	Kevin
 	Alexandre
+
+<center><h1> NORMALISATION </h1></center>
+
+code couleur: 
+
+			#1693A5;
+			#F1F1F1;
+			
