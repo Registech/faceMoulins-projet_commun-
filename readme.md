@@ -1,6 +1,6 @@
-Entreprise PINK-FLOYD
+<center><h1> Entreprise PINK-FLOYD </h1></center>
 
-Membres: 
+###Membres 
 
 	Anthony
 	Regis*
