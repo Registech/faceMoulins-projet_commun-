@@ -8,27 +8,39 @@
 		<title>Face-Moulins.fr</title>
 	</head>
 	<body>
-		<div id="haut" class="container">
-			<img src="img/faceimg.png" alt="logo FACEBourbonnais">
-			<a href="">Présentation</a>
-			<a href="">Galerie</a>
-			<a href="">Partenariat</a>
-			<a href="">La Fabrik</a>
-		</div>
-		<div id="gauche">
-			<a href=""><img src=""></a>
-			<div id="droite">
-				<a href="">fil d'actualité</a>
-				<a href="">fil 1</a>
-				<a href="">fil 2</a>
-				<a href="">fil 3</a>
-			</div>
-		</div>
-		<div id="bas">
-			<div id="presse">
-			</div>
-			<div id="agenda">
-			</div>
+		<div class="container">
+			<header class="row">
+				<img src="img/faceimg.png" alt="logo FACEBourbonnais" class="col-md-3">
+				<a href="" class="col-md-offset-1 col-md-2">Présentation</a>
+				<a href="" class="col-md-2">Galerie</a>
+				<a href="" class="col-md-2">Partenariat</a>
+				<a href="" class="col-md-2">La Fabrik</a>
+			</header>
+
+			<section class="row">
+				<article class="col-md-offset-2 col-md-5">
+					<a href=""><img src=""></a>
+				</article>
+
+				<article class="col-md-3 text-center">	
+					<h2 class="h2">fil d'actualité</h2>
+					<a href="" class="col-md-12">Article 1</a>
+					<a href="" class="col-md-12">Article 2</a>
+					<a href="" class="col-md-12">Article 3</a>
+				</article>
+			</section>
+
+			<section class="row">
+				<article class="col-md-offset-1 col-md-5 presse_agenda">
+				</article>
+				<article class="col-md-offset-1 col-md-4 presse_agenda">
+				</article>
+			</section>
+				<footer>
+					<button class="col-md-offset-2 col-md-2">Facebook</button>
+					 <button class="col-md-offset-1 col-md-2">Instagram</button>
+					 <button class="col-md-offset-1 col-md-2">Tweeter</button>
+				</footer>
 		</div>
 		<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
