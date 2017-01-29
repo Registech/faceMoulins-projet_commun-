@@ -14,6 +14,7 @@ img {
 .presse_agenda {
 	height: 300px;
 	border:1px solid black;
+	background-image:radial-gradient(white, #F2F2F2);
 }
 header{
 	line-height: 150px;
@@ -32,4 +33,65 @@ header a:hover {
              0 -1px 0 rgba(255, 255, 255, 1.8),
              0 1px 0 rgba(255, 255, 255, 1.8);
     font-size: 30px;
+}
+section {
+	margin-top: 70px;
+	
+}
+#section1{
+	padding: 20px 0 20px 0;
+	background-color: #FAEFE5;
+	
+}
+.img1{
+	width: 500px;
+	height: 350px;
+}
+#articles{
+	
+	height: 200px;
+	margin-top: -35px;
+
+}
+#articles a {
+	padding: 30px;
+	border: 1px solid black;
+	background-color: #C83F62;
+	text-decoration: none;
+	font-size: 25px;
+	color: #FAEFE5;
+}
+#articles a:hover {
+	color:#F79362;
+	font-size: 27px; 
+}
+footer{
+	margin-top: 200px;
+}
+
+.imgUn{
+	
+	width: 70px;
+	height: 70px;
+}
+.imgDeux{
+	
+	width: 70px;
+	height: 70px;
+}
+.imgTrois{
+	width: 70px;
+	height: 70px;
+}
+#logo {
+	display: flex;
+	justify-content: space-around;
+}
+#logos {
+	display: flex;
+	justify-content: space-around;
+	font-size: 25px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#000BA5), to(#8EF9F2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
