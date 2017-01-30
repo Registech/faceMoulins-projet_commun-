@@ -56,7 +56,7 @@ section {
 #articles a {
 	padding: 30px;
 	border: 1px solid black;
-	background-color: #C83F62;
+	
 	text-decoration: none;
 	font-size: 25px;
 	color: #FAEFE5;
@@ -94,4 +94,13 @@ footer{
 	background: -webkit-gradient(linear, left top, left bottom, from(#000BA5), to(#8EF9F2));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+#article2{
+	background-color: #525A6E;
+}
+#article3{
+	background-color: #2889A7;
+}
+#article1{
+	background-color: #C83F62;
 }
