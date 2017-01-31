@@ -1,6 +1,8 @@
 body{
-	background-image: url(http://maximumwallhd.com/wp-content/uploads/2016/11/fond-ecran-wallpaper-image-fonds-ecran-abstrait-gris-18.jpg);
-	background-repeat: no-repeat;
+	background-image: url(https://images.alphacoders.com/605/605746.jpg);
+	background-repeat: repeat-y;
+	height: 100%;
+	margin: 0px;
 }
 .a{
 	padding: 10px;
@@ -14,14 +16,15 @@ img {
 
 .presse_agenda {
 	height: 300px;
-	border:1px solid black;
-	background-image:radial-gradient(white, #F2F2F2);
+	border:3px double black;
+	background-color: #F2F2F2;
 }
 header{
 	line-height: 150px;
 	background-color: #E4F4F2;
 	border-top: 3px solid white;
 	background-color: rgba(255,255,255, .4);
+	box-shadow: -0px 5px 5px 1px rgba(0, 0, 0, 0.1);
 
 }
 header a{
@@ -40,43 +43,48 @@ section {
 	
 }
 #section1{
-	padding: 20px 0 20px 0;
 	
-
+	box-shadow: -0px 5px 5px 1px rgba(0, 0, 0, 0.3); 
 }
 .img1{
 	width: 500px;
 	height: 350px;
+	margin-top: 40px;
+	margin-left: 70px;
 }
 #articles{
 	
-	height: 200px;
-	margin-top: -35px;
+	
+	margin-top: 30px;
+	text-align: left;
+	
+	padding: 0;
+
 
 }
 #articles a {
-	padding: 45px;
+	padding: 7px;
 	border-bottom: 1px solid #1693A5;
 	margin: 0px;
 	text-decoration: none;
 	font-size: 25px;
 	color: #1693A5;
-	background-color: rgba(255,255,255, .3);
-	
+	background-color: rgba(46, 138, 138, 0.1);
 }
 #articles a:hover {
-	color:white;
+	color:#005449;
 	font-size: 27px; 
-	background-color: rgba(46, 138, 138, 0.3);
+	
 }
 #articles h2{
-	margin-bottom: 18px;
-	margin-top: -20px;
+	margin-bottom: 30px;
+	margin-top: -10px;
 	color: #005449;
+	font-family: 'Archivo Black', sans-serif;;
 }
 footer{
-	margin-top: 200px;
-	background-color: rgba(255,255,255, .1); 
+	margin-top: 100px;
+	background-color: rgba(255,255,255, .3); 
 	border-top: 4px solid #1693A5;
 	padding: 20px 20px 0px 20px;
 
@@ -108,18 +116,48 @@ footer{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#article2{
-	background-color: #F1F1F1;
-}
-#article3{
-	background-color: #F1F1F1;
-}
-#article1{
-	background-color: #F1F1F1;
-}
+
 #section2{
 	margin-top: 200px;
+
 }
 #sec {
-	border: 1px solid black;
+	
+	position: relative;
+  z-index: 1;
+  	height: 400px;
+  	margin-top: 140px;
+
+
+}
+#sec p {
+	background-color: rgba(0, 0, 0, 0.2); 
+	position: absolute;
+    z-index: 2;
+    padding: 20px;
+    margin-top: -70px;
+    width: 100%;
+    margin-left: -75px;
+}
+.article1{
+	padding: 0px;
+	
+	margin: 0px;
+	text-decoration: none;
+	font-size: 25px;
+	
+	padding-top: 30px;
+	
+}
+.article1 p {
+	color: black;
+	font-size: 20px;
+	font-family: 'Gruppo', cursive;
+
+}
+
+#Fil {
+	color: #F79362;
+	margin-bottom: -40px;
+	font-size: 40px;
 }
