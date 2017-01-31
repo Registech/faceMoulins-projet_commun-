@@ -1,5 +1,6 @@
 body{
-	background-color: #F2F2F2;
+	background-image: url(http://maximumwallhd.com/wp-content/uploads/2016/11/fond-ecran-wallpaper-image-fonds-ecran-abstrait-gris-18.jpg);
+	background-repeat: no-repeat;
 }
 .a{
 	padding: 10px;
@@ -20,6 +21,8 @@ header{
 	line-height: 150px;
 	background-color: #E4F4F2;
 	border-top: 3px solid white;
+	background-color: rgba(255,255,255, .4);
+
 }
 header a{
 	font-size: 25px;
@@ -28,11 +31,9 @@ header a{
 header a:hover {
 	text-decoration: none;
 	color: #F79362;
-	text-shadow: -1px 0 0 rgba(255, 255, 255, 1.8), 
-             1px 0 0 rgba(255, 255, 255, 1.8),
-             0 -1px 0 rgba(255, 255, 255, 1.8),
-             0 1px 0 rgba(255, 255, 255, 1.8);
+	
     font-size: 30px;
+
 }
 section {
 	margin-top: 70px;
@@ -40,8 +41,8 @@ section {
 }
 #section1{
 	padding: 20px 0 20px 0;
-	background-color: #FAEFE5;
 	
+
 }
 .img1{
 	width: 500px;
@@ -54,19 +55,31 @@ section {
 
 }
 #articles a {
-	padding: 30px;
-	border: 1px solid black;
-	
+	padding: 45px;
+	border-bottom: 1px solid #1693A5;
+	margin: 0px;
 	text-decoration: none;
 	font-size: 25px;
-	color: #FAEFE5;
+	color: #1693A5;
+	background-color: rgba(255,255,255, .3);
+	
 }
 #articles a:hover {
-	color:#F79362;
+	color:white;
 	font-size: 27px; 
+	background-color: rgba(46, 138, 138, 0.3);
+}
+#articles h2{
+	margin-bottom: 18px;
+	margin-top: -20px;
+	color: #005449;
 }
 footer{
 	margin-top: 200px;
+	background-color: rgba(255,255,255, .1); 
+	border-top: 4px solid #1693A5;
+	padding: 20px 20px 0px 20px;
+
 }
 
 .imgUn{
@@ -96,11 +109,17 @@ footer{
     -webkit-text-fill-color: transparent;
 }
 #article2{
-	background-color: #525A6E;
+	background-color: #F1F1F1;
 }
 #article3{
-	background-color: #2889A7;
+	background-color: #F1F1F1;
 }
 #article1{
-	background-color: #C83F62;
+	background-color: #F1F1F1;
+}
+#section2{
+	margin-top: 200px;
+}
+#sec {
+	border: 1px solid black;
 }
