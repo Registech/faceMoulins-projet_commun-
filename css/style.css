@@ -1,6 +1,6 @@
 body{
 	background-image: url(https://images.alphacoders.com/605/605746.jpg);
-	background-repeat: repeat-y;
+	background-repeat: repeat;
 	height: 100%;
 	margin: 0px;
 }
@@ -58,10 +58,7 @@ section {
 	
 	margin-top: 50px;
 	text-align: left;
-	
 	padding: 0;
-
-
 }
 #articles a {
 	padding: 7px;
@@ -93,12 +90,10 @@ footer{
 }
 
 .imgUn{
-	
 	width: 70px;
 	height: 70px;
 }
 .imgDeux{
-	
 	width: 70px;
 	height: 70px;
 }
@@ -124,22 +119,17 @@ footer{
 
 }
 #sec {
-	
 	position: relative;
-  z-index: 1;
   	height: 400px;
   	margin-top: 140px;
-
-
+  	padding: 0;
 }
 #sec p {
 	background-color: rgba(0, 0, 0, 0.15); 
 	position: absolute;
-    z-index: 2;
+	bottom: -10px;
     padding: 20px;
-    margin-top: -50px;
     width: 100%;
-    margin-left: -75px;
 }
 .article1{
 	padding: 0px;
