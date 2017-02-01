@@ -17,7 +17,7 @@ img {
 .presse_agenda {
 	height: 300px;
 	border:3px double black;
-	background-color: #F2F2F2;
+	background-color: rgba(229, 255, 255, 0.1); 
 }
 header{
 	line-height: 150px;
@@ -56,7 +56,7 @@ section {
 #articles{
 	
 	
-	margin-top: 50px;
+	margin-top: 42px;
 	text-align: left;
 	padding: 0;
 }
@@ -65,7 +65,7 @@ section {
 	border-bottom: 1px solid #1693A5;
 	margin: 0px;
 	text-decoration: none;
-	font-size: 22px;
+	font-size: 20px;
 	color: #1693A5;
 	background-color: rgba(46, 138, 138, 0.1);
 }
@@ -79,19 +79,25 @@ section {
 	margin-top: -10px;
 	color: #005449;
 	font-family: 'Gudea', sans-serif;
-	font-size: 50px;
+	font-size: 45px;
 }
 footer{
-	margin-top: 100px;
+	margin-top: 150px;
 	background-color: rgba(255,255,255, .3); 
-	border-top: 4px solid #1693A5;
-	padding: 20px 20px 0px 20px;
+	
+	padding: -50px;
 
+}
+footer h4{
+	margin-top: -60px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+	color: grey;
 }
 
 .imgUn{
-	width: 70px;
-	height: 70px;
+	width: 40px;
+	height: 40px;
 }
 .imgDeux{
 	width: 70px;
@@ -106,16 +112,29 @@ footer{
 	justify-content: space-around;
 }
 #logos {
-	display: flex;
-	justify-content: space-around;
-	font-size: 25px;
+	
+	font-size: 20px;
 	background: -webkit-gradient(linear, left top, left bottom, from(#000BA5), to(#8EF9F2));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
 }
 
 #section2{
-	margin-top: 200px;
+	margin-top: 150px;
+
+
+}
+#section2 p{
+	margin-top: 30px;
+	font-family: 'Gudea', sans-serif;
+}
+#section2 h1{
+	margin-top: 40px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#005449), to(#2DB9B0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 
 }
 #sec {
@@ -123,12 +142,13 @@ footer{
   	height: 400px;
   	margin-top: 140px;
   	padding: 0;
+
 }
 #sec p {
-	background-color: rgba(0, 0, 0, 0.15); 
+	background-color: rgba(0, 0, 0, 0.1); 
 	position: absolute;
 	bottom: -10px;
-    padding: 20px;
+    padding: 25px;
     width: 100%;
 }
 .article1{
@@ -138,7 +158,7 @@ footer{
 	text-decoration: none;
 	font-size: 25px;
 	
-	padding-top: 30px;
+	padding-top: 50.5px;
 	
 }
 .article1 p {
@@ -153,5 +173,8 @@ footer{
 	color: #F79362;
 	margin-bottom: -40px;
 	font-size: 70px;
-	font-family: 'Lobster', cursive;
+	font-family: 'Dancing Script', cursive;
+}
+.bas{
+	padding-top: 20px;
 }
