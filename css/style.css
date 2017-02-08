@@ -29,7 +29,7 @@ body{
 }
 #Accueil{
 	background-color: #E79063;
-	border-bottom: 2px solid #feb38c;
+	border-top: 2px solid #feb38c;
 }
 .navHeader a{
 	color: #FFFFFF;
