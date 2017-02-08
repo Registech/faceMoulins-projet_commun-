@@ -1,61 +1,107 @@
-
+body{
+	background-color: #E0E0E0;
+}
 #headerContact{
-	background-color: #143F4F;
 	color: #FFFFFF;
-}
-
-.iconeContact{
 	line-height: 35px;
+	background-color: #2786A7;
 }
-
-#imageFace{
+#headerRecherche{
+	background-color: #C0C0C0;
+}
+#logoFace {
 	width: 300px;
-	height: 120px;
 }
-
-#loupe{
-	background-color: #143F4F;
-	line-height: 25px;
+#search span{
 	color: #FFFFFF;
-	width: 25px;
-	text-align: center;
+	padding: 8px;
 	margin-left: -5px;
-
+	border-radius: 0 5px 5px 0;
+	background-color: #2786A7;	
 }
-
-#headerLien{
-	background-color: #E69062;
-	line-height: 35px;
-	text-align: center;
+#Accueil{
+	background-color: #E79063;
+	border-bottom: 2px solid #feb38c;
 }
-
-
-.section1{
-	background-color: #4D99A8;
-	margin-right: 50px;
-	text-align: center;
+.navHeader a{
+	color: #FFFFFF;
+	text-transform: uppercase;
 }
-
-header{
-	margin:auto;
+#section1{
+	margin-top: 290px;
+	margin-right: auto;
+	margin-left: auto;
 }
-
-#foot{
-	background-color: lime;
+#img1{
+	width: 100%;
+	height: 100%;
+	border:1px solid black;
+}
+#sec{
+	position: relative;
+	padding: 0;
+	width: 650px;
+	height: 400px;
+	background-color: #FFFFFF;
+	border:1px solid black;
+}
+#sec p{
+	background-color: rgba(0, 0, 0, 0.4);
+	color: #FFFFFF;
+	padding: 25px;
+	position: absolute;
+	bottom: -10px;
+}
+#section2{
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#divFacebook{
+	color: #FFFFFF;
+	background-color: #3B5999;
+}
+#divFacebook div, #divPresse div{
+	padding-left: 25px;
+	padding-top: 10px;
+}
+#divFacebook div h2, #divPresse div h2{
+	font-size: 3em;
+	margin:0;
+	margin-bottom: 10px;
+}
+#pFacebook{
+	margin:0;
+	display: inline-block;
+	position: relative;
+	width: 40px;
+	height: 40px;
+	font-size: 3em;
+	color: #3B5999;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+}
+#logoFacebook{
+	position: absolute;
+	bottom: -5px;
+	right: 5px;
+}
+#contenuFacebook{
+	width: 90%;
 	height: 200px;
+	background-color: #FFFFFF;
+	margin: 0 0 20px 10px;
 }
-
-#foot2{
-	background-color: red;
+#divPresse{
+	background-color: #FFFFFF;
+}
+#contenuPresse{
+	background-color: #FFFAF0;
+	width: 90%;
 	height: 200px;
+	margin: 0 0 20px 10px;
 }
-
-#foot3{
-	background-color: white;
-	height: 200px;
-}
-
-
-.footer{
-	width: 1200px;
+footer p{
+	width: 100%;
+	line-height: 200px;
 }

@@ -4,75 +4,92 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Gudea" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 		<title>Face-Moulins.fr</title>
 	</head>
 	<body>
-		<div class="container-fluid">
-			
-			<header>
-				<div id="headerContact" class="row">
-					<span class="iconeContact glyphicon glyphicon-earphone col-md-offset-5"> 06 89 32 71 09</span>
-					<i class= "iconeContact glyphicon glyphicon-envelope col-md-offset-1"> contact.territoirebourbonnais@fondationface.org</i>
-					<i class= "iconeContact iconeContact fa fa-facebook col-md-offset-1"></i>
+		<div class="container-fluid" style="padding: 0">
+			<header class="container-fluid navbar-fixed-top">
+				<div class="row" id="headerContact">
+					<div class=" col-md-offset-3 col-md-3">
+						<span class="glyphicon glyphicon-earphone"> 06 82 39 71 09 </span>
+					</div>	
+					<div class="col-md-5">
+						<i class="glyphicon glyphicon-envelope"> contact.territoirebourbonnais@fondationface.org </i>
+					</div>
+					<div class="col-md-1">	
+						<i class="fa fa-facebook"></i>
+					</div>	
 				</div>
-				<div id="headerSearch" class="row">
-					<img id="imageFace" src="img/faceimg.png" alt="logo Face">
-					<input type="search" class="col-md-offset-5" name="Rechercher" placeholder="Rechercher">
-					<span id="loupe" class="glyphicon glyphicon-search"</span>
+				<div id="headerRecherche" class="row">
+					<img src="img/faceimg.png" alt="logo_face" id="logoFace" class="col-md-3" />
+					<div class="col-md-offset-9" style="margin-top: 30px;" id="search">
+						<input type="search" name="recherche" id="recherche"/><span class="glyphicon glyphicon-search"></span>
+					</div>	
 				</div>
-				<div id="headerLien" class="row">
-					<a class=col-md-2 href="">ACCEUIL</a>
-					<a class=col-md-2 href="">PRÉSENTATION</a>
-					<a class=col-md-2 href="">GALERIE</a>
-					<a class=col-md-2 href="">PARTENARIAT</a>
-					<a class=col-md-2 href="">LA FABRIK</a>
-					<a class=col-md-2 href="">CONTACT</a>
+				<div id="Accueil" class="row">
+					<div class="col-md-offset-1 col-md-10">
+						<ul class="nav navbar-nav navHeader col-md-12 nopadding">
+							<li class="col-md-2 text-center"><a href="#" title="Accueil" class="lienMenu">ACCUEIL</a></li>
+							<li class="col-md-2 text-center"><a href="#" title="Présentation" class="lienMenu">présentation</a></li>
+							<li class="col-md-2 text-center"><a href="#" title="Gallerie" class="lienMenu">galerie</a></li>
+							<li class="col-md-2 text-center"><a href="#" title="Partenariat" class="lienMenu">partenariat</a></li>
+							<li class="col-md-2 text-center"><a href="#" title="La Fabrik" class="lienMenu">La Fabrik</a></li>
+							<li class="col-md-2 text-center"><a href="#" title="Contact" class="lienMenu">Contact</a></li>
+						</ul>
+					</div>	
 				</div>
 			</header>
+			<div class="container">
+				<section class="row" id="section1">
+					<article class=" col-md-7 text-center" id="sec" >
+						<a href=""><img class="img1" id="img1" src="http://www.fondationface.org/wp-content/uploads/hollande-675x385.jpg"></a>
+						<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, </p>
+					</article>	
+					<article class="col-md-4 text-left" id="articles">	
+						<h2 class="h1 text-center"><span id="Fil">Fil       </span> d'actualité</h2>
+						<div class="article1">
+							<a href="" class="col-md-12 h4 text-center" id="articleUn">LANCEMENT DE LA FONDATION POUR...</a>
+							<p>  Lancement de la fondation pour l’investissement social et le développement humain (FISO), sous l’égide de...</p>
+						</div>
+						<div class="article1">
+							<a href="" class="col-md-12 h4 text-center" class="article1"  id="articleDeux">LANCEMENT DU CONCOURS S’ENGAGER POUR...</a>
+							<p>Associations, start-ups, entreprises, collectivités, votre projet crée de l’innovation sociale, des emplois et de...</p>
+						</div>
+						<div class="article1">
+							<a href="" class="col-md-12 h4 text-center" class="article1"  id="articleTrois">CIVIGAZ, GRAND VAINQUEUR DU CHALLENGE...</a>
+							<p>Découvrez le Programme de Service Civique de la Transition énergétique soutenu et récompensé par...</p>
+						<div id="article3">
+					</article>
+				</section>
+				<section id="section2" class="row container text-center">
+					<div id="divFacebook" class="col-md-4">
+						<div class=row>
+							<p id="pFacebook" class="col-md-1"><i class="fa fa-facebook" id="logoFacebook"></i></p>
+							<h2 class="h2 col-md-1">FACEBOOK</h2>
+						</div>
+						<div id="contenuFacebook">
 
-			<section class="row">
-				<article class=" col-md-7 text-center">
-					<a href=""><img class="img1" id="img1" src="img/image1.jpeg"></a>
-					<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500,</p>
-					
-				</article>	
-				<article class="col-md-5 text-center">	
-					<h2 class="h1"><span id="Fil">Fil       </span> d'actualité</h2>
-					<div class="section1">
-						<a href="" class="col-md-12 h4">LANCEMENT DE LA FONDATION POUR...</a>
-						<p >  Lancement de la fondation pour l’investissement social et le développement humain (FISO), sous l’égide de...</p>
-					</div>
-					<div class="section1">
-						<a href="" class="col-md-12 h4">LANCEMENT DU CONCOURS S’ENGAGER POUR...</a>
-						<p>Associations, start-ups, entreprises, collectivités, votre projet crée de l’innovation sociale, des emplois et de...</p>
-					</div>
-					<div class="section1">
-						<a href="" class="col-md-12 h4 ">CIVIGAZ, GRAND VAINQUEUR DU CHALLENGE...</a>
-						<p>Découvrez le Programme de Service Civique de la Transition énergétique soutenu et récompensé par...</p>
-					</div>
-					<div class="section1">
-						<a href="" class="col-md-12 h4 ">CIVIGAZ, GRAND VAINQUEUR DU CHALLENGE...</a>
-						<p>Découvrez le Programme de Service Civique de la Transition énergétique soutenu et récompensé par...</p>
-					</div>
-				</article>
-			</section>
+						</div>	
+					</div>	
+					<div id="divPresse" class="col-md-offset-1 col-md-6">
+						<div class=row>
+							<h2 class="h2 col-md-12">PRESSE</h2>
+							<div id="contenuPresse" class="col-md-offset-1 col-md-10">
 
-			 
-				<footer>
-					<div>
-    					<div class="row" style="border:1px solid #ddd;">
-    						<div class="col-xs-12 col-sm-9 col-md-9 col-lg-7" style="background-color:orange;height:200px;">fb
-    						</div>
-    						<div class="col-xs-12 col-sm-3 col-md-3 col-lg-4 col-lg-offset-1" style="background-color:green;height:200px;">actu
-    						</div>
-    					</div>
-    				</div>
-					</footer>
-        <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+							</div>	
+						</div>
+					</div>	
+				</section>
+				<footer class="row container-fluid text-center">
+					<p class="col-md-offset-1 col-md-10">Ce site est tout à fait légal</p>
+				</footer>
+			</div>	
+		</div>			
+		<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
 	</body>
