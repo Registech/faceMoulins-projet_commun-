@@ -48,6 +48,10 @@ body{
 	color: #FFFFFF;
 	text-transform: uppercase;
 }
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color: inherit;
+	border-bottom: 5px solid #2786A7;
+}
 #section1{
 	margin-top: 290px;
 	margin-right: auto;
