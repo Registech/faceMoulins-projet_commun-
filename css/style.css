@@ -4,7 +4,7 @@ body{
 #headerContact{
 	color: #FFFFFF;
 	line-height: 35px;
-	background-color: #2786A7;
+	background-color: #1D4B58;
 }
 .tel{
 	margin-right: -400px;
@@ -32,7 +32,9 @@ body{
 #recherche{
 	padding: 8px;
 	margin-bottom: 4px;
+	width: 300px;
 }
+
 #Accueil{
 	background-color: #E79063;
 	border-top: 2px solid #feb38c;
@@ -119,6 +121,9 @@ body{
 	width: 90%;
 	height: 200px;
 	margin: 0 0 20px 10px;
+}
+.article1 a{
+	text-decoration: none;
 }
 footer p{
 	width: 100%;
