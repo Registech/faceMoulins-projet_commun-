@@ -6,6 +6,9 @@ body{
 	line-height: 35px;
 	background-color: #2786A7;
 }
+.tel{
+	margin-right: -400px;
+}
 #headerRecherche{
 	background-color: #C0C0C0;
 }
@@ -14,15 +17,23 @@ body{
 }
 #search span{
 	color: #FFFFFF;
-	padding: 8px;
-	margin-left: -5px;
+	padding: 13px;
 	border-radius: 0 5px 5px 0;
 	background-color: #2786A7;	
+}
+#recherche{
+	padding: 8px;
+	margin-bottom: 4px;
 }
 #Accueil{
 	background-color: #E79063;
 	border-bottom: 2px solid #feb38c;
 }
+#Acceuil:hover{
+	background-color: #ED9964;
+
+}
+
 .navHeader a{
 	color: #FFFFFF;
 	text-transform: uppercase;
