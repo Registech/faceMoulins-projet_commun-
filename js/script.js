@@ -22,3 +22,15 @@ $('#articleTrois').on('click',function(e){
 
 
 
+
+  ///////////////////////////////////
+ //----------Cache header---------//
+///////////////////////////////////
+$(document).on('scroll', function(){
+	$('#headerRecherche').slideUp();
+	$('#corpPage').css('margin-top', '-120px'); //voir avec animate et une durée de transition
+});
+
+
+//faire une fonction pour remettre le "#headerRecherche" une fois le scroll tt en haut
+//voir avec détection de pixel
