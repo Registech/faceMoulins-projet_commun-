@@ -126,7 +126,8 @@ box-shadow: 3px 18px 43px 0px rgba(0,0,0,0.64);
 #contenuFacebook{
 	width: 90%;
 	height: 200px;
-	background-color: #FFFFFF;
+	background: url(../img/fb.png) no-repeat;
+	background-size: 200%;
 	margin: 0 0 20px 10px;
 }
 #divPresse{
@@ -139,7 +140,8 @@ box-shadow: 3px 18px 43px 0px rgba(0,0,0,0.64);
     font-family: 'Fjalla One', sans-serif;
 }
 #contenuPresse{
-	background-color: white;
+	background: url(https://scontent-cdg2-1.xx.fbcdn.net/v/t31.0-8/15042044_285895341805192_8464025097125481141_o.jpg?oh=bfa99e49b58da973e9a241e47cd186c5&oe=59467C74) center;
+	background-size: 200%;
 	width: 90%;
 	height: 200px;
 	margin: 0 0 20px 10px;
