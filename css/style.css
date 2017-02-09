@@ -184,9 +184,9 @@ footer {
 	color: white;
 }
 
-footer p{
+footer img{
 	width: 100%;
-	line-height: 200px;
+	height: 100%;
 }
 /*---------------------------------------------------------------------------------------*/
 /*----------------------------------CAROUSEL---------------------------------------------*/
@@ -199,11 +199,6 @@ footer p{
    	background-color: white;
 }
 /* -----------------DESIGN---------------- */
-
-.carousel-inner {
-  border-radius: 15px;
-}
-
 .carousel-caption {
   background-color: rgba(0,0,0,.5);
   position: absolute;
