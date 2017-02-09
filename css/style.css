@@ -91,12 +91,12 @@ box-shadow: 3px 18px 43px 0px rgba(0,0,0,0.64);
 }
 #divFacebook{
 	color: #FFFFFF;
-	background-color: #3B5999;
+	background: url(../img/blocFB.png) center;
 	border: 1px solid black;
 	-webkit-box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
--moz-box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
-box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
-font-family: 'Fjalla One', sans-serif;
+    -moz-box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
+    box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
+    font-family: 'Fjalla One', sans-serif;
 }
 #divFacebook div, #divPresse div{
 	padding-left: 25px;
@@ -130,13 +130,13 @@ font-family: 'Fjalla One', sans-serif;
 	margin: 0 0 20px 10px;
 }
 #divPresse{
-	background-color: #8F8F8F;
+	background: url(../img/blocGris.png) center;
 	color: white;
 	border: 1px solid black;
 	-webkit-box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
--moz-box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
-box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
-font-family: 'Fjalla One', sans-serif;
+    -moz-box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
+    box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
+    font-family: 'Fjalla One', sans-serif;
 }
 #contenuPresse{
 	background-color: white;
