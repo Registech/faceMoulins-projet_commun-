@@ -3,9 +3,8 @@ body{
 }
 #headerContact{
 	color: #FFFFFF;
-	line-height: 35px;
+	height: 35px;
 	background-color: #1D4B58;
-	
 }
 #headerRecherche{
 	position: relative;
@@ -144,12 +143,6 @@ font-family: 'Fjalla One', sans-serif;
 	height: 200px;
 	margin: 0 0 20px 10px;
 }
-
-
-footer {
-	padding: 20px;
-
-}
 #articles h2{
 	margin-bottom: 40px;
 	margin-top: -3px;
@@ -183,10 +176,57 @@ footer {
 	background-color: #378991;
 	color: white;
 }
-
-footer img{
+#footer {
+	padding: 20px;
+	color: #FFFFFF;
+	background-color: #1F5D74;
+}
+#footer img{
 	width: 100%;
 	height: 100%;
+}
+.titreContact{
+	margin-bottom: 0;
+}
+.contact{
+	color: #E79063;
+}
+#mailDiv{
+	position: relative;
+	width: 210px;
+}
+#mail{
+	border-radius: 0;
+	border: none;
+	height: 32px;
+	border-left:1px solid #FFFFFF;
+	border-top:1px solid #FFFFFF;
+	border-bottom:1px solid #FFFFFF;  
+	background-color: transparent;
+}
+#boxEnveloppe{
+	padding: 5px 10px 5px 10px;
+	background-color: #1D4B58;
+	position: absolute;
+	top: 0;
+	right: 10px;
+	border-top:1px solid #FFFFFF;
+	border-right:1px solid #FFFFFF;
+	border-bottom:1px solid #FFFFFF;  
+}
+#texteEtoile{
+	margin-top: 20px;
+	font-size: 10px;
+	color: #C0C0C0;
+}
+#footerFooter{
+	background-color: #1D4B58;
+	color: #FFFFFF;
+	line-height: 80px;
+}
+#listFooter li a{
+	color: #FFFFFF;
+	text-decoration: none;
 }
 /*---------------------------------------------------------------------------------------*/
 /*----------------------------------CAROUSEL---------------------------------------------*/
