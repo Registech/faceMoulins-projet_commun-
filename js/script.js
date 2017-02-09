@@ -22,6 +22,15 @@ $('#articleTrois').on('click',function(e){
 	$('#img1').attr('src', "http://www.fondationface.org/wp-content/uploads/selfigaz-min-675x385.png");
 	$("#lienArticle").attr("href", "http://www.fondationface.org/civigaz-vainqueur-kioz-de-grdf/");
 });
+///////////////////////////////////		
+//----------Cache header---------//		
+///////////////////////////////////		
+$(document).on('scroll', function(){		
+    $('#headerRecherche').stop().slideUp();			
+    if ($(this).scrollTop()<50){		
+        $('#headerRecherche').stop().slideDown();		
+    }		
+});		
 
 
 
