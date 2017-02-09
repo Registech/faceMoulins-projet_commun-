@@ -13,7 +13,7 @@
 	<body>
 		<div class="container-fluid" style="padding: 0">
 			<header class="container-fluid navbar-fixed-top">
-				<div class="row" id="headerContact">
+				<div class="row hidden-xs" id="headerContact">
 					<div class=" col-md-offset-3 col-md-3">
 						<span class="glyphicon glyphicon-earphone"> 06 82 39 71 09 </span>
 					</div>	
@@ -25,15 +25,15 @@
 					</div>	
 				</div>
 				<div id="headerRecherche" class="row">
-					<img src="img/faceimg.png" alt="logo_face" id="logoFace" class="col-md-3" />
-					<div class="col-md-offset-9" style="margin-top: 30px;" id="search">
+					<img src="img/faceimg.png" alt="logo_face" id="logoFace" class="col-xs-3 col-md-3" />
+					<div class="hidden-xs col-md-offset-9" style="margin-top: 30px;" id="search">
 						<input type="search" name="recherche" id="recherche"/><span class="glyphicon glyphicon-search"></span>
 					</div>
 					<img src="img/header_background.png" alt="fond entête" id="fondRecherche" />	
 				</div>
 				<div id="Accueil" class="row">
 					<div class="col-md-offset-1 col-md-10">
-						<ul class="nav navbar-nav navHeader col-md-12 nopadding">
+						<ul class="nav navbar-nav navHeader col-md-12 nopadding hidden-xs">
 							<li class="col-md-2 text-center liMenu"><a href="#" title="Accueil" class="lienMenu">ACCUEIL</a></li>
 							<li class="col-md-2 text-center liMenu"><a href="#" title="Présentation" class="lienMenu">présentation</a></li>
 							<li class="col-md-2 text-center liMenu"><a href="#" title="Gallerie" class="lienMenu">galerie</a></li>
@@ -41,27 +41,37 @@
 							<li class="col-md-2 text-center liMenu"><a href="#" title="La Fabrik" class="lienMenu">La Fabrik</a></li>
 							<li class="col-md-2 text-center liMenu"><a href="#" title="Contact" class="lienMenu">Contact</a></li>
 						</ul>
+					</div>
+					<div class="dropdown visible-xs col-xs-offset-10 col-xs-1">
+						<button class="btn btn-default dropdown-toggle" type="button" id="MenuXS" data-toggle="dropdown"><i class="glyphicon glyphicon-menu-hamburger"></i></button>
+						<ul class="dropdown-menu dropdown-menu-right">
+						    <li><a href="#">ACCEUIL</a></li>
+						    <li><a href="#">Présentation</a></li>
+						    <li><a href="#">Partenariat</a></li>
+						    <li><a href="#">La Fabrik</a></li>
+						    <li><a href="#">contact</a></li>
+						</ul>
 					</div>	
 				</div>
 			</header>
 			<div class="container">
 				<section class="row" id="section1">
-					<article class=" col-md-7 text-center" id="sec" >
-						<a href=""><img class="img1" id="img1" src="http://www.fondationface.org/wp-content/uploads/hollande-675x385.jpg"></a>
+					<article class="col-md-7 text-center hidden-xs" id="sec" >
+						<a id="lienArticle" href="http://www.fondationface.org/lancement-de-la-fondation-pour-linvestissement-social-et-le-developpement-humain/"><img class="img1" id="img1" src="http://www.fondationface.org/wp-content/uploads/hollande-675x385.jpg"></a>
 						<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, </p>
 					</article>	
 					<article class="col-md-4 text-left" id="articles">	
 						<h2 class="h1 text-center"><span id="Fil">Fil       </span> d'actualité</h2>
-						<div class="article1">
-							<a href="" class="col-md-12 h4 text-center" id="articleUn">LANCEMENT DE LA FONDATION POUR...</a>
+						<div class="article1 col-xs-12">
+							<a href="" class="col-xs-12 col-md-12 h4 text-center" id="articleUn">LANCEMENT DE LA FONDATION POUR...</a>
 							<p>  Lancement de la fondation pour l’investissement social et le développement humain (FISO), sous l’égide de...</p>
 						</div>
-						<div class="article1">
-							<a href="" class="col-md-12 h4 text-center" class="article1"  id="articleDeux">LANCEMENT DU CONCOURS S’ENGAGER POUR...</a>
+						<div class="article1 col-xs-12">
+							<a href="" class="col-xs-12 col-md-12 h4 text-center" class="article1"  id="articleDeux">LANCEMENT DU CONCOURS S’ENGAGER POUR...</a>
 							<p>Associations, start-ups, entreprises, collectivités, votre projet crée de l’innovation sociale, des emplois et de...</p>
 						</div>
-						<div class="article1">
-							<a href="" class="col-md-12 h4 text-center" class="article1"  id="articleTrois">CIVIGAZ, GRAND VAINQUEUR DU CHALLENGE...</a>
+						<div class="article1 col-xs-12">
+							<a href="" class="col-xs-12 col-md-12 h4 text-center" class="article1"  id="articleTrois">CIVIGAZ, GRAND VAINQUEUR DU CHALLENGE...</a>
 							<p>Découvrez le Programme de Service Civique de la Transition énergétique soutenu et récompensé par...</p>
 						<div id="article3">
 					</article>
