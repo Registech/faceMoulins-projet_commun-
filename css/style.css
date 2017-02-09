@@ -178,7 +178,7 @@ footer p{
   }
 }
 @media screen and (min-width: 992px) {
-  .container {
+  .container1 {
     max-width: 930px;
   }
 }
