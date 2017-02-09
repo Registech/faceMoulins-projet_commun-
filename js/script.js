@@ -25,12 +25,14 @@ $('#articleTrois').on('click',function(e){
 ///////////////////////////////////		
 //----------Cache header---------//		
 ///////////////////////////////////		
-$(document).on('scroll', function(){		
-    $('#headerRecherche').stop().slideUp();			
-    if ($(this).scrollTop()<50){		
-        $('#headerRecherche').stop().slideDown();		
-    }		
-});		
+$(document).on('scroll', function(){	
 
+	if ($(this).scrollTop()>1) {
+		$('#headerRecherche').slideUp();
+	}else{
+		$('#headerRecherche').slideDown();
+	}	
+   		
+});
 
 
