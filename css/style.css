@@ -133,7 +133,7 @@ box-shadow: 3px 18px 43px 0px rgba(0,0,0,0.64);
 
 
 #divPresse{
-	background: url(../img/blocGris.png) center;
+	background: url(../img/blocGRIS.png) center;
 	color: white;
 	border: 1px solid black;
 	-webkit-box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
@@ -211,6 +211,7 @@ box-shadow: 3px 18px 43px 0px rgba(0,0,0,0.64);
 #mail{
 	border-radius: 0;
 	border: none;
+	width:85%;
 	height: 25px;
 	border-left:1px solid #FFFFFF;
 	border-top:1px solid #FFFFFF;
@@ -218,11 +219,16 @@ box-shadow: 3px 18px 43px 0px rgba(0,0,0,0.64);
 	background-color: transparent;
 }
 #boxEnveloppe{
-	padding: 5px 10px 5px 10px;
+	height: 100%;
+	width: 15%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
 	background-color: #1D4B58;
 	position: absolute;
 	top: 0;
-	right: 10px;
+	right: 0;
 	border-top:1px solid #FFFFFF;
 	border-right:1px solid #FFFFFF;
 	border-bottom:1px solid #FFFFFF;  
