@@ -5,6 +5,7 @@ body{
 	color: #FFFFFF;
 	line-height: 35px;
 	background-color: #1D4B58;
+	margin-right: -70px;
 }
 .tel{
 	margin-right: -400px;
@@ -38,19 +39,19 @@ body{
 #Accueil{
 	background-color: #E79063;
 	border-top: 2px solid #feb38c;
+	-webkit-box-shadow: 3px 18px 43px 0px rgba(0,0,0,0.64);
+-moz-box-shadow: 3px 18px 43px 0px rgba(0,0,0,0.64);
+box-shadow: 3px 18px 43px 0px rgba(0,0,0,0.64);
 }
-#Acceuil:hover{
-	background-color: #ED9964;
 
-}
 
 .navHeader a{
 	color: #FFFFFF;
 	text-transform: uppercase;
 }
 .nav > li > a:hover, .nav > li > a:focus {
-	background-color: inherit;
-	border-bottom: 5px solid #2786A7;
+	background-color: #DC9D70;
+	border-bottom: 4px inset #2786A7;
 }
 #section1{
 	margin-top: 290px;
@@ -78,13 +79,19 @@ body{
 	bottom: -10px;
 }
 #section2{
-	margin-top: 50px;
+	margin-top: 100px;
 	margin-right: auto;
 	margin-left: auto;
+	margin-bottom: 100px;
 }
 #divFacebook{
 	color: #FFFFFF;
 	background-color: #3B5999;
+	border: 2px solid black;
+	-webkit-box-shadow: -1px 16px 45px 0px rgba(0,0,0,0.79);
+-moz-box-shadow: -1px 16px 45px 0px rgba(0,0,0,0.79);
+box-shadow: -1px 16px 45px 0px rgba(0,0,0,0.79);
+font-family: 'Fjalla One', sans-serif;
 }
 #divFacebook div, #divPresse div{
 	padding-left: 25px;
@@ -118,7 +125,13 @@ body{
 	margin: 0 0 20px 10px;
 }
 #divPresse{
-	background-color: #FFFFFF;
+	background-color: #1D4B58;
+	color: white;
+	border: 2px solid black;
+	-webkit-box-shadow: -1px 16px 45px 0px rgba(0,0,0,0.79);
+-moz-box-shadow: -1px 16px 45px 0px rgba(0,0,0,0.79);
+box-shadow: -1px 16px 45px 0px rgba(0,0,0,0.79);
+font-family: 'Fjalla One', sans-serif;
 }
 #contenuPresse{
 	background-color: #FFFAF0;
@@ -126,10 +139,38 @@ body{
 	height: 200px;
 	margin: 0 0 20px 10px;
 }
-.article1 a{
-	text-decoration: none;
+
+footer {
+	padding: 20px;
+
 }
-footer p{
-	width: 100%;
-	line-height: 200px;
+#articles h2{
+	margin-bottom: 40px;
+	margin-top: -3px;
+	margin-left: -55px;
+	color: #309CA6;
+
+}
+#articles{
+	margin-left: 30px;
+}
+.article1 a{
+	margin-left: -15px;
+	text-decoration: none;
+	color: #378991;
+}
+.article1 a:hover{
+	color: white;
+}
+#Fil{
+	color: #E79063;
+}
+.article1{
+	background-color: #C4D7D9;
+	border-left: 5px solid #E79063;
+	margin-bottom: 15px;
+}
+.article1:hover{
+	background-color: #378991;
+	color: white;
 }
