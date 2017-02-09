@@ -5,10 +5,9 @@ body{
 	color: #FFFFFF;
 	line-height: 35px;
 	background-color: #1D4B58;
-	margin-right: -70px;
+	
 }
 .tel{
-	margin-right: -400px;
 }
 #headerRecherche{
 	position: relative;
@@ -87,10 +86,10 @@ box-shadow: 3px 18px 43px 0px rgba(0,0,0,0.64);
 #divFacebook{
 	color: #FFFFFF;
 	background-color: #3B5999;
-	border: 2px solid black;
-	-webkit-box-shadow: -1px 16px 45px 0px rgba(0,0,0,0.79);
--moz-box-shadow: -1px 16px 45px 0px rgba(0,0,0,0.79);
-box-shadow: -1px 16px 45px 0px rgba(0,0,0,0.79);
+	border: 1px solid black;
+	-webkit-box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
+-moz-box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
+box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
 font-family: 'Fjalla One', sans-serif;
 }
 #divFacebook div, #divPresse div{
@@ -125,16 +124,16 @@ font-family: 'Fjalla One', sans-serif;
 	margin: 0 0 20px 10px;
 }
 #divPresse{
-	background-color: #1D4B58;
+	background-color: #8F8F8F;
 	color: white;
-	border: 2px solid black;
-	-webkit-box-shadow: -1px 16px 45px 0px rgba(0,0,0,0.79);
--moz-box-shadow: -1px 16px 45px 0px rgba(0,0,0,0.79);
-box-shadow: -1px 16px 45px 0px rgba(0,0,0,0.79);
+	border: 1px solid black;
+	-webkit-box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
+-moz-box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
+box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
 font-family: 'Fjalla One', sans-serif;
 }
 #contenuPresse{
-	background-color: #FFFAF0;
+	background-color: white;
 	width: 90%;
 	height: 200px;
 	margin: 0 0 20px 10px;
