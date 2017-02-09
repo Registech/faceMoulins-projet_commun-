@@ -47,7 +47,7 @@ box-shadow: 3px 18px 43px 0px rgba(0,0,0,0.64);
 	text-transform: uppercase;
 }
 .nav > li > a:hover, .nav > li > a:focus {
-	background-color: #DC9D70;
+	background-color: #E79063;
 	border-bottom: 4px inset #2786A7;
 }
 #section1{
@@ -57,7 +57,7 @@ box-shadow: 3px 18px 43px 0px rgba(0,0,0,0.64);
 	background-color: white;
 	padding-top: 20px;
 	padding-bottom: 10px;
-	padding-left: 15px;
+	padding-left: 50px;
 	border: 2px solid #9FA0A0;
 }
 #img1{
@@ -72,7 +72,7 @@ box-shadow: 3px 18px 43px 0px rgba(0,0,0,0.64);
 	height: 400px;
 	background-color: #FFFFFF;
 	border:1px solid black;
-	margin-top: 40px;
+	margin-top: 60px;
 }
 #sec p{
 	background-color: rgba(0, 0, 0, 0.4);
