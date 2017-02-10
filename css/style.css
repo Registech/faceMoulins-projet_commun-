@@ -321,6 +321,12 @@ box-shadow: 3px 18px 43px 0px rgba(0,0,0,0.64);
   #articles p{
   	text-align: center;
   }
+  #divPresse{
+  	margin-top: 15px;
+  }
+  #carou{
+  	margin-bottom: 70px;
+  }
 }
 @media screen and (min-width: 768px) {
   #carou {
