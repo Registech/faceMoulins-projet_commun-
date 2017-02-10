@@ -34,13 +34,4 @@ $(document).on('scroll', function(){
 	}	
    		
 });
-///////////////////////////////////
-//--------MENU PAS HUMBURGER-----//
-///////////////////////////////////
-$("#MenuXS").on("mouseover", function(){
-	$(".dropdown-menu").css("display", "block");
-});
-$(".contact").on("mouseout", function(){
-	$(".dropdown-menu").css("display", "none");
-});	
 

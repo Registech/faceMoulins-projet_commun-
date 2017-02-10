@@ -314,8 +314,13 @@ box-shadow: 3px 18px 43px 0px rgba(0,0,0,0.64);
   }
   #articles h2{
 	margin-left: 0;
-
-}
+  }
+  #articles a{
+  	text-align: center;
+  }
+  #articles p{
+  	text-align: center;
+  }
 }
 @media screen and (min-width: 768px) {
   #carou {
