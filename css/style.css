@@ -19,6 +19,8 @@ body{
 }
 #logoFace {
 	width: 300px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 #search span{
 	color: #FFFFFF;
