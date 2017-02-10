@@ -253,10 +253,11 @@ box-shadow: 3px 18px 43px 0px rgba(0,0,0,0.64);
 
 #carou{
 	margin-top: 240px;
+	margin-bottom: 100px;
    	color: #555;
    	border: 1px solid black;
    	background-color: white;
-}
+   }
 /* -----------------DESIGN---------------- */
 .carousel-caption {
   background-color: rgba(0,0,0,.5);
