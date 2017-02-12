@@ -418,3 +418,46 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	border-radius: 5px;
 	border-top: 6px solid #1693A5;
 }
+#fondation{
+	font-weight: bold;
+}
+#prenom{
+	color: #FFFFFF;
+	padding: 12px;
+	top: 3px;
+	border-radius: 5px 0px 0px 5Px;
+	background-color: #1e5d74;
+	cursor: pointer;
+}
+#prenom1{
+	background-color: #f8f8f8;
+	padding: 8px;
+	margin-bottom: 4px;
+	width: 300px;
+	color: #8e8e8e;
+	font-size: 13px;
+	outline: none;
+	border: 2px solid #1e5d74;
+	border-radius: 0px 5px 5px 0px;
+}
+#message1{
+	background-color: #f8f8f8;
+	padding: 8px;
+	margin-bottom: 4px;
+	width: 300px;
+	color: #8e8e8e;
+	font-size: 13px;
+	outline: none;
+	border: 2px solid #1e5d74;
+	border-radius: 0px 5px 5px 0px;
+	height: 200px;
+}
+#message{
+	color: #FFFFFF;
+	padding: 12px;
+	top: 3px;
+	border-radius: 5px 0px 0px 5Px;
+	background-color: #1e5d74;
+	cursor: pointer;
+	height: 200px;
+}
