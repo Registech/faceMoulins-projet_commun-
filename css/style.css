@@ -411,6 +411,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	border: 1px solid #1693A5; 
 	border-radius: 5px;
 	border-top: 6px solid #1693A5;
+	margin-bottom: 50px;
 }
 #cadredroit{
 	background-color: white;
@@ -455,9 +456,30 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 #message{
 	color: #FFFFFF;
 	padding: 12px;
-	top: 3px;
+	top: -78px;
 	border-radius: 5px 0px 0px 5Px;
 	background-color: #1e5d74;
 	cursor: pointer;
 	height: 200px;
+	margin-bottom: -50px;
+}
+#envoyer{
+	background-color: #70C067;
+	width: 150px;
+	margin-bottom: 20px;
+}
+#reinit{
+	width: 150px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+#code{
+	text-align: left;
+	font-weight: bold;
+}
+#champ{
+	color: red;
+}
+.onglet{
+	text-align: left;
 }

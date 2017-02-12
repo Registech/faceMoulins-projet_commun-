@@ -88,33 +88,56 @@
 							<p>Pour nous écrire, merci de remplir ce formulaire.</p>
 							 <form>
     							<div class="form-group">
-     	 							<label for="email">Prénom *</label>
-     	 							<span id="prenom" class="glyphicon glyphicon-user"></span><input id="prenom1" type="email" name="recherche" id="recherche"  placeholder="Prénom"/>
+     	 							<label for="prenom">Prénom *</label>
+     	 							<div class="onglet">
+     	 							<span id="prenom" class="glyphicon glyphicon-user"></span><input id="prenom1" type="prenom" name="prenom" placeholder="Prénom"/>
+     	 							</div>
     							</div>
     							<div class="form-group">
-     	 							<label for="email">Nom *</label>
-     	 							<span id="prenom" class="glyphicon glyphicon-user"></span><input id="prenom1" type="email" name="recherche" id="recherche"  placeholder="Nom"/>
+     	 							<label for="nom">Nom *</label>
+     	 							<div class="onglet">
+     	 							<span id="prenom" class="glyphicon glyphicon-user"></span><input id="prenom1" type="nom" name="nom" placeholder="Nom"/>
+     	 							</div>
     							</div>
     							<div class="form-group">
      	 							<label for="email">E-mail *</label>
+     	 							<div class="onglet">
      	 							<span id="prenom" class="glyphicon glyphicon-envelope"></span><input id="prenom1" type="email" name="recherche" id="recherche"  placeholder="Adresse e-mail"/>
+     	 							</div>
     							</div>
     							<div class="form-group">
-     	 							<label for="email">Téléphone *</label>
-     	 							<span id="prenom" class="glyphicon glyphicon-earphone"></span><input id="prenom1" type="email" name="recherche" id="recherche"  placeholder="Téléphone"/>
+     	 							<label for="telephone">Téléphone *</label>
+     	 							<div class="onglet">
+     	 							<span id="prenom" class="glyphicon glyphicon-earphone"></span><input id="prenom1" type="telephone" name="telephone" placeholder="Téléphone"/>
+     	 							</div>
     							</div>
     							<div class="form-group">
-     	 							<label for="email">Sujet *</label>
-     	 							<span id="prenom" class="glyphicon glyphicon-info-sign"></span><input id="prenom1" type="email" name="recherche" id="recherche"  placeholder="Sujet"/>
+     	 							<label for="sujet">Sujet *</label>
+     	 							<div class="onglet">
+     	 							<span id="prenom" class="glyphicon glyphicon-info-sign"></span><input id="prenom1" type="sujet" name="sujet" placeholder="Sujet"/>
+     	 							</div>
     							</div>
     							<div class="form-group">
-     	 							<label for="email">Message *</label>
-     	 							<span id="message" class="glyphicon glyphicon-pencil"></span><input id="message1" type="email" name="recherche" id="recherche"  placeholder="Message"/>
+     	 							<label for="message">Message *</label>
+     	 							<div class="onglet">
+     	 							<span id="message" class="glyphicon glyphicon-pencil"></span><input id="message1" type="message" name="message" placeholder="Message"/>
+     	 							</div>
+    							</div>
+    								<div class="form-group">
+     	 							<label for="code">Code de sécurité *</label>
+     	 							<div class="onglet">
+     	 							<span id="prenom" class="glyphicon glyphicon-ok"></span><input id="prenom1" type="code" name="code" placeholder="Recopiez le code ci-dessous"/>
+     	 							</div>
+     	 							<p id="code">Zert90Ba</p>
+     	 							<p id="champ">*Champs obligatoire</p>
     							</div>
     							<div class="checkbox">
       								<label><input type="checkbox"> Remember me</label>
     							</div>
-    								<button type="submit" class="btn btn-default">Submit</button>
+    							<div class="row">
+    								<button id="envoyer" type="submit" class="btn btn-default">Envoyer</button>
+    								<button id="reinit" type="submit" class="btn btn-default">Reinitialiser</button>
+    							</div>
   							</form>
 						</div>
 						<div id="cadredroit" class="col-md-4 col-md-offset-1">
