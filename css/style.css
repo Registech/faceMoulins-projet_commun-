@@ -343,3 +343,33 @@ box-shadow: 3px 18px 43px 0px rgba(0,0,0,0.64);
     max-width: 930px;
   }
 }
+
+/* --------------PAGE CONTACT----------------- */
+
+#map{
+	border: 1px solid #1693A5; 
+	border-radius: 5px;
+	border-top: 6px solid #1693A5;
+}
+#planaccés{
+	color: #468183;
+}
+#marker{
+	color: red;
+}
+#contactez{
+	color: #C93F5E;
+}
+#info{
+	color: #C93F5E;
+}
+#cadregauche{
+	border: 1px solid #1693A5; 
+	border-radius: 5px;
+	border-top: 6px solid #1693A5;
+}
+#cadredroit{
+	border: 1px solid #1693A5; 
+	border-radius: 5px;
+	border-top: 6px solid #1693A5;
+}
