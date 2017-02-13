@@ -89,6 +89,8 @@ body{
 }
 ul.nav li.dropdown:hover ul.dropdown-menu {
     display: block;
+    font-size: 17px;
+
 }
 .dropdown-menu li a {
 	color: white;
@@ -96,6 +98,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
 	background-color: #D5855C;
 	color: white;
+
 }
 #section1{
 	margin-top: 290px;
