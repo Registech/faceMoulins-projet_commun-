@@ -467,6 +467,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	background-color: #70C067;
 	width: 150px;
 	margin-bottom: 20px;
+	margin-left: 15px;
 }
 #reinit{
 	width: 150px;
