@@ -8,14 +8,17 @@ body{
 }
 #headerRecherche{
 	position: relative;
+	margin-top: -10px;
+
 }
 #fondRecherche{
 	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+	left: -40em;
+	height: 110%;
 	z-index: -1;
+	overflow: hidden;
 	position: absolute;
+	margin-top: -10px;
 }
 #logoFace {
 	width: 300px;
@@ -23,7 +26,8 @@ body{
 	margin-bottom: 15px;
 }
 #search{
-	padding-top: 15px;
+	padding-top: 35px;
+	width: 100%;
 }
 #search span{
 	color: #FFFFFF;
@@ -46,14 +50,13 @@ body{
 }
 .Accueil{
 	background-color: #E79063;
-	border-top: 2px solid #feb38c;
 	border-bottom: 3px solid #8b563c;
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 18px;
 	-webkit-box-shadow: 0px 0px 8px 1px rgba(50, 50, 50, 0.3);
 	-moz-box-shadow: 0px 0px 8px 1px rgba(50, 50, 50, 0.3);
 	box-shadow: 0px 0px 8px 1px rgba(50, 50, 50, 0.3);
-}
+	}
 #ulMenu{
 	width: 100%;
 	margin: 0;
