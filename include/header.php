@@ -7,7 +7,7 @@
 					<div class="col-md-offset-8 hidden-xs hidden-sm" style="margin-top: 30px;" id="search">
 						<input type="search" name="recherche" id="recherche"  placeholder="Recherche..."/><span class="glyphicon glyphicon-search"></span>
 					</div>
-					<img src="blocFB.png" alt="fond entête" id="fondRecherche">
+					<img src="img/blocFB.png" alt="fond entête" id="fondRecherche">
 				</div>
 				<div class="row Accueil">
 					<div class="col-md-offset-1 col-md-10 hidden-xs hidden-sm">
