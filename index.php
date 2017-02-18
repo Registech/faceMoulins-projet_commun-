@@ -13,6 +13,15 @@
 		<title>Face-Moulins.fr</title>
 	</head>
 	<body>
+	<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+  				var js, fjs = d.getElementsByTagName(s)[0];
+  					if (d.getElementById(id)) return;
+  						js = d.createElement(s); js.id = id;
+  						js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.8";
+  						fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));
+			</script>
 		<div class="container-fluid" style="padding: 0">
 			<?php include("include/header.php"); ?>
 			<div class="container">
@@ -43,11 +52,9 @@
 							<p id="pFacebook" class="col-md-1"><i class="fa fa-facebook" id="logoFacebook"></i></p>
 							<h2 class="h2 col-md-1">FACEBOOK</h2>
 						</div>
-
-						<div id="contenuFacebook">
-
+							<div class="fb-page" data-href="https://www.facebook.com/faceterritoirebourbonnais" data-height="300px" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/faceterritoirebourbonnais" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/faceterritoirebourbonnais">FACE Territoire Bourbonnais</a></blockquote>
+							</div>
 						</div>	
-					</div>	
 					<div id="divPresse" class="col-xs-offset-1 col-xs-11 col-md-offset-1 col-md-7">
 						<div class=row>
 							<h2 class="h2 col-md-12">PRESSE</h2>
