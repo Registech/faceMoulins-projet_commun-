@@ -4,8 +4,8 @@
 ### Membres: 
 
 > **Regis***  
-> Kévin
-> Alexandre
+> Kévin  
+> Alexandre  
 > Stéphane  
 > Vlad  
 > Thomas  
