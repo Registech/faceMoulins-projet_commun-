@@ -18,7 +18,7 @@
 			<div class="container">
 
 				<div class="row top" id="presentation">
-					<h1 class="col-md-12 boxtitle"><i class="fa fa-history" aria-hidden="true"></i>Présentation</h1>
+					<h1 class="col-md-12 boxtitle"><i class="fa fa-info-circle" aria-hidden="true"></i>Présentation</h1>
 
 					<div class="col-md-12 box">
 						<div class="col-md-6">
@@ -36,6 +36,69 @@
 
 						<div class="col-md-12">
 							<h3>FACE Territoire Bourbonnais</h3>
+							<hr />
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row" id="histoire">
+					<h1 class="col-md-7 boxtitle"><i class="fa fa-history" aria-hidden="true"></i>Histoire</h1>
+					<h1 class="col-md-4 col-md-offset-1 boxtitle"><i class="fa fa-bars" aria-hidden="true"></i>Navigation</h1>
+
+					<div class="col-md-7 box">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+
+					<div class="col-md-4 col-md-offset-1 box">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+
+				<div class="row" id="actions">
+					<h1 class="col-md-12 boxtitle"><i class="fa fa-check-square-o" aria-hidden="true"></i>Nos actions</h1>
+
+					<div class="col-md-12 box">
+						<div class="col-md-4">
+							<h3>La fabrique du numérique</h3>
+							<hr />
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<button type="button" class="btn btn-info" style="float: right;">En savoir plus...</button>
+						</div>
+
+						<div class="col-md-4">
+							<h3>Projet Civigaz</h3>
+							<hr />
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+
+						<div class="col-md-4">
+							<h3>Café d'en Face</h3>
 							<hr />
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
