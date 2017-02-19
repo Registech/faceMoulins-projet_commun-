@@ -43,7 +43,7 @@
     							<div class="form-group">
      	 							<label for="email">E-mail *</label>
      	 							<div class="onglet">
-     	 							<span class="prenom glyphicon glyphicon-envelope"></span><input class="prenom1" type="email" name="recherche" id="recherche"  placeholder="Adresse e-mail"/>
+     	 							<span class="prenom glyphicon glyphicon-envelope"></span><input class="prenom1" type="email" name="recherche" placeholder="Adresse e-mail"/>
      	 							</div>
     							</div>
     							<div class="form-group">

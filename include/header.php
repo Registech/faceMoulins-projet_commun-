@@ -24,7 +24,7 @@
 							<li class="col-md-2 text-center liMenu dropdown">
 								<a href="presentation.php" title="Présentation" class="lienMenu">Présentation</a>
 									<ul class="dropdown-menu">
-										<li><a href="histoire.php">Histoire</a></li>
+										<li><a href="presentation.php#histoire">Histoire</a></li>
 										<li><a href="#">Palmarès</a></li>
 									</ul>
 							</li>
