@@ -122,7 +122,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	margin-right: auto;
 	margin-left: auto;
 }
-.container .row .fa { /* Icônes des sections*/
+.container .row .boxtitle .fa { /* Icônes des sections*/
 	color: #C93F5E;
 	margin-right: 10px;
 }
