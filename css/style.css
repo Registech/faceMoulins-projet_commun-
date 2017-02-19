@@ -85,9 +85,8 @@ body{
 .nav > li > a:focus {
 	background-color: #8b563c;
 }
-.active {
+#active {
 	background-color: #8b563c;
-	padding: 0;
 }
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
 	background-color: #8b563c;

@@ -21,7 +21,7 @@
 						<a id="lienArticle" href="http://www.fondationface.org/lancement-de-la-fondation-pour-linvestissement-social-et-le-developpement-humain/"><img class="img1" id="img1" src="http://www.fondationface.org/wp-content/uploads/hollande-675x385.jpg"></a>
 						<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, </p>
 					</article>	
-					<article class="col-xs-12 col-md-4 text-left" id="articles">	
+					<article class="col-xs-12 col-md-4 text-left">	
 						<h2 class="h1 text-center"><span id="Fil">FIL       </span> D'ACTUALITE</h2>
 						<div class="article1">
 							<a href="" class="col-xs-12 col-md-12 h4 " id="articleUn">LANCEMENT DE LA FONDATION POUR...</a>

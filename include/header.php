@@ -13,7 +13,7 @@
 					<div class="col-md-offset-1 col-md-10 hidden-xs hidden-sm">
 						<ul class="nav navbar-nav navHeader col-md-12">
 							<li class="col-md-2 text-center liMenu dropdown">
-								<a href="index.php" title="Accueil" class="lienMenu active">Accueil</a>
+								<a href="index.php" title="Accueil" class="lienMenu">Accueil</a>
 									<ul class="dropdown-menu">
 										<li><a href="#">Presse</a></li>
 										<li><a href="#">Agenda</a></li>
