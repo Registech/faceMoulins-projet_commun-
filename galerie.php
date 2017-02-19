@@ -13,41 +13,7 @@
 	</head>
 	<body>
 		<div class="container-fluid" style="padding: 0">
-			<header class="container-fluid navbar-fixed-top">
-				<div class="row" id="headerContact">
-					
-				</div>
-				<div id="headerRecherche" class="row">
-					<img src="img/faceimg.png" alt="logo_face" id="logoFace" class="col-md-3" />
-					<div class="col-md-offset-8 hidden-xs hidden-sm" style="margin-top: 30px;" id="search">
-						<input type="search" name="recherche" id="recherche"  placeholder="recherche..."/><span class="glyphicon glyphicon-search"></span>
-					</div>
-					<img src="img/header_background.png" alt="fond entête" id="fondRecherche" />	
-				</div>
-				<div class="row Accueil">
-					<div class="col-md-offset-1 col-md-10 hidden-xs hidden-sm">
-						<ul class="nav navbar-nav navHeader col-md-12">
-							<li class="col-md-2 text-center liMenu"><a href="index.html" title="Accueil" class="lienMenu">Accueil</a></li>
-							<li class="col-md-2 text-center liMenu"><a href="#" title="Présentation" class="lienMenu">présentation</a></li>
-							<li class="col-md-2 text-center liMenu"><a href="galerie.html" title="Gallerie" class="lienMenu">galerie</a></li>
-							<li class="col-md-2 text-center liMenu"><a href="#" title="Partenariat" class="lienMenu">partenariat</a></li>
-							<li class="col-md-2 text-center liMenu"><a href="#" title="La Fabrik" class="lienMenu">La Fabrik</a></li>
-							<li class="col-md-2 text-center liMenu"><a href="#" title="Contact" class="lienMenu">Contact</a></li>
-						</ul>
-					</div>
-					<div class="dropdown visible-xs visible-sm col-xs-12">
-						<div class="Accueil dropdown-toggle text-center" id="MenuXS" data-toggle="dropdown">MENU</div>
-						<ul id="ulMenu" class="dropdown-menu">
-							<li class="Accueil col-md-2 text-center liMenu"><a href="index.html" title="Accueil" class="lienMenu">Accueil</a></li>
-							<li class="Accueil col-md-2 text-center liMenu2"><a href="#" title="Présentation" class="lienMenu">présentation</a></li>
-							<li class="Accueil col-md-2 text-center liMenu2"><a href="galerie.html" title="Gallerie" class="lienMenu">galerie</a></li>
-							<li class="Accueil col-md-2 text-center liMenu2"><a href="#" title="Partenariat" class="lienMenu">partenariat</a></li>
-							<li class="Accueil col-md-2 text-center liMenu2"><a href="#" title="La Fabrik" class="lienMenu">La Fabrik</a></li>
-							<li class="Accueil col-md-2 text-center liMenu2"><a href="#" title="Contact" class="lienMenu contact">Contact</a></li>
-						</ul>
-					</div>	
-				</div>
-			</header>
+			<?php include("header.php");?>
 			<div class="container" id='container1'>
 				<div id="carou">
 					    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
