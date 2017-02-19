@@ -440,30 +440,47 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 #fondation{
 	font-weight: bold;
 }
-#prenom{
+.onglet{
+	text-align: left;
+	position: relative;
+	width:210px;
+	height: 40px;
+}
+.prenom{
 	color: #FFFFFF;
-	padding: 12px;
-	top: 3px;
+	width: 15%;
+	line-height: 40px;
+	text-align: center;
 	border-radius: 5px 0px 0px 5Px;
 	background-color: #1e5d74;
 	cursor: pointer;
 }
-#prenom1{
+.prenom1{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 40px;
+	width: 85%;
 	background-color: #f8f8f8;
 	padding: 8px;
-	margin-bottom: 4px;
-	width: 300px;
 	color: #8e8e8e;
 	font-size: 13px;
-	outline: none;
 	border: 2px solid #1e5d74;
 	border-radius: 0px 5px 5px 0px;
 }
+.glyphicon {
+	top:0;
+}
+#onglet1{
+	position: relative;
+	width: 310px;
+	height: 200px;
+}
 #message1{
 	background-color: #f8f8f8;
-	padding: 8px;
-	margin-bottom: 4px;
-	width: 300px;
+	position: absolute;
+	top: 0;
+	width: 85%;
 	color: #8e8e8e;
 	font-size: 13px;
 	outline: none;
@@ -473,13 +490,12 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 #message{
 	color: #FFFFFF;
-	padding: 12px;
-	top: -78px;
+	width: 15%;
 	border-radius: 5px 0px 0px 5Px;
 	background-color: #1e5d74;
 	cursor: pointer;
-	height: 200px;
-	margin-bottom: -50px;
+	line-height: 200px;
+	text-align: center;
 }
 #envoyer{
 	background-color: #70C067;
@@ -499,6 +515,4 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 #champ{
 	color: red;
 }
-.onglet{
-	text-align: left;
-}
+

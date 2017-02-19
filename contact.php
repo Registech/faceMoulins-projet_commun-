@@ -13,7 +13,6 @@
 	</head>
 	<body>
 		<div class="container-fluid" style="padding: 0">
-			
 			<?php include("include/header.php"); ?>
 			<div class="container" style="margin-top: 220px;">
 				<div class="row">
@@ -32,43 +31,43 @@
     							<div class="form-group">
      	 							<label for="prenom">Prénom *</label>
      	 							<div class="onglet">
-     	 							<span id="prenom" class="glyphicon glyphicon-user"></span><input id="prenom1" type="prenom" name="prenom" placeholder="Prénom"/>
+     	 							<span class="prenom glyphicon glyphicon-user"></span><input class="prenom1" type="prenom" name="prenom" placeholder="Prénom"/>
      	 							</div>
     							</div>
     							<div class="form-group">
      	 							<label for="nom">Nom *</label>
      	 							<div class="onglet">
-     	 							<span id="prenom" class="glyphicon glyphicon-user"></span><input id="prenom1" type="nom" name="nom" placeholder="Nom"/>
+     	 							<span class="prenom glyphicon glyphicon-user"></span><input class="prenom1" type="nom" name="nom" placeholder="Nom"/>
      	 							</div>
     							</div>
     							<div class="form-group">
      	 							<label for="email">E-mail *</label>
      	 							<div class="onglet">
-     	 							<span id="prenom" class="glyphicon glyphicon-envelope"></span><input id="prenom1" type="email" name="recherche" id="recherche"  placeholder="Adresse e-mail"/>
+     	 							<span class="prenom glyphicon glyphicon-envelope"></span><input class="prenom1" type="email" name="recherche" id="recherche"  placeholder="Adresse e-mail"/>
      	 							</div>
     							</div>
     							<div class="form-group">
      	 							<label for="telephone">Téléphone *</label>
      	 							<div class="onglet">
-     	 							<span id="prenom" class="glyphicon glyphicon-earphone"></span><input id="prenom1" type="telephone" name="telephone" placeholder="Téléphone"/>
+     	 							<span class="prenom glyphicon glyphicon-earphone"></span><input class="prenom1" type="telephone" name="telephone" placeholder="Téléphone"/>
      	 							</div>
     							</div>
     							<div class="form-group">
      	 							<label for="sujet">Sujet *</label>
      	 							<div class="onglet">
-     	 							<span id="prenom" class="glyphicon glyphicon-info-sign"></span><input id="prenom1" type="sujet" name="sujet" placeholder="Sujet"/>
+     	 							<span class="prenom glyphicon glyphicon-info-sign"></span><input class="prenom1" type="sujet" name="sujet" placeholder="Sujet"/>
      	 							</div>
     							</div>
     							<div class="form-group">
      	 							<label for="message">Message *</label>
-     	 							<div class="onglet">
-     	 							<span id="message" class="glyphicon glyphicon-pencil"></span><input id="message1" type="message" name="message" placeholder="Message"/>
+     	 							<div id="onglet1">
+     	 							<span id="message" class="glyphicon glyphicon-pencil"></span><textarea id="message1" type="message" name="message" placeholder="Message"></textarea>
      	 							</div>
     							</div>
     								<div class="form-group">
      	 							<label for="code">Code de sécurité *</label>
      	 							<div class="onglet">
-     	 							<span id="prenom" class="glyphicon glyphicon-ok"></span><input id="prenom1" type="code" name="code" placeholder="Recopiez le code ci-dessous"/>
+     	 							<span class="prenom glyphicon glyphicon-ok"></span><input class="prenom1" type="code" name="code" placeholder="Recopiez le code ci-dessous"/>
      	 							</div>
      	 							<p id="code">Zert90Ba</p>
      	 							<p id="champ">*Champs obligatoire</p>
