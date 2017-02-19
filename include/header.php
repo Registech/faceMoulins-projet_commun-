@@ -22,7 +22,7 @@
 									</ul>
 							</li>
 							<li class="col-md-2 text-center liMenu dropdown">
-								<a href="#" title="Présentation" class="lienMenu">Présentation</a>
+								<a href="presentation.php" title="Présentation" class="lienMenu">Présentation</a>
 									<ul class="dropdown-menu">
 										<li><a href="#">Histoire</a></li>
 										<li><a href="#">Palmarès</a></li>
@@ -36,7 +36,7 @@
 									</ul>
 							</li>
 							<li class="col-md-2 text-center liMenu dropdown">
-								<a href="#" title="Partenariat" class="lienMenu">Partenariat</a>
+								<a href="partenariat.php" title="Partenariat" class="lienMenu">Partenariat</a>
 									<ul class="dropdown-menu">
 										<li><a href="#">Entreprises</a></li>
 										<li><a href="#">Associations</a></li>
@@ -45,7 +45,7 @@
 									</ul>
 							</li>
 							<li class="col-md-2 text-center liMenu dropdown">
-								<a href="#" title="Fabrik" class="lienMenu">La Fabrik</a>
+								<a href="laFabrik.php" title="Fabrik" class="lienMenu">La Fabrik</a>
 									<ul class="dropdown-menu">
 										<li><a href="#">Photos</a></li>
 										<li><a href="#">Projets</a></li>
