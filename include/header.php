@@ -1,7 +1,4 @@
 <header class="container-fluid navbar-fixed-top">
-				<div class="row" id="headerContact">
-					
-				</div>
 				<div id="headerRecherche" class="row">
 					<img src="img/faceimg.png" alt="logo_face" id="logoFace" class="col-md-3" />
 					<div class="col-md-offset-8 hidden-xs hidden-sm" style="margin-top: 30px;" id="search">
