@@ -33,6 +33,7 @@
 
 						<div class="col-md-6" style="text-align: center;">
 							<div class="round">
+								<img id="face-ecr" src="img/face_ecrit.png" alt="Objectifs de FACE">
 								<img id="round" src="img/round.png" alt="Objectifs de FACE" width="60%">
 							</div>
 						</div>

@@ -545,6 +545,16 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 		margin-top: 30px;
 		justify-content: center;
 		align-self: center;
+		align-items: center;
+		align-content: center;
+	}
+
+#face-ecr{
+	width: 20%;
+	height: 20%;
+	z-index: 99;
+	position: absolute;
+
 
 }
 
@@ -555,7 +565,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 #round{		
 		animation: round-roll 100s linear infinite;
-		position: absolute;
+
 	}
 
 @keyframes round-roll{
