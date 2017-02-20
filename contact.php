@@ -1,3 +1,22 @@
+<?php
+	session_start();
+	$captcha="";
+	$captchaString ="abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	$captchaString = str_split($captchaString);
+	shuffle($captchaString);
+	for($i=0; $i<5; $i++){
+		$captcha .= $captchaString[$i];
+	}
+	if(!isset($_POST["code"]) OR $_POST["code"] != $_SESSION["code"] OR $_POST["code"] == ""){
+		$_SESSION["code"] = $captcha;
+	}
+
+	if($_POST["code"] == $_SESSION["code"]){
+		session_destroy();
+		$_POST["code"] = "";
+		$connec = "Message Envoyé";
+	}
+?>	
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
@@ -16,18 +35,17 @@
 			<?php include("include/header.php"); ?>
 			<div class="container" style="margin-top: 220px;">
 				<div class="row">
-					<h1 id="planaccés"><i id="marker" class="fa fa-map-marker" aria-hidden="true"></i> Plan d'accés</h1>
-					<div id="map" class="col-md-12">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2743.1510913090165!2d3.333080415594653!3d46.564477379129414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f11c40ac979d1d%3A0xc6aed001b1b2a5e5!2s3+Rue+Berthelot%2C+03000+Moulins!5e0!3m2!1sfr!2sfr!4v1486916970162" width="1140" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<h1 id="planaccés"><i id="marker" class="fa fa-map-marker" aria-hidden="true"></i> Plan d'accés</h1>
+					<div id="map" classmd-12">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2743.1510913090165!2d3.333080415594653!3d46.564477379129414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f11c40ac979d1d%3A0xc6aed001b1b2a5e5!2s3+Rue+Berthelot%2C+03000+Moulins!5e0!3m2!1sfr!2sfr!4v1486916970162" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
 				<div class="row">
-					<h1 class="col-md-8"><i id="contactez" class="fa fa-address-book-o" aria-hidden="true"></i> Contactez-nous</h1>
-					<h1 class="col-md-4"><i id="info" class="fa fa-info-circle" aria-hidden="true"></i> Information</h1>
-
-						<div id="cadregauche" class="col-md-7">
+					<div class="col-md-7">
+						<h1 class="col-md-12"><i id="contactez" class="fa fa-address-book-o" aria-hidden="true"></i> Contactez-nous</h1>
+						<div id="cadregauche" class=" col-xs-12 col-sm-12 col-md-12">
 							<p>Pour nous écrire, merci de remplir ce formulaire.</p>
-							 <form>
+							 <form method="post" target="contact.php">
     							<div class="form-group">
      	 							<label for="prenom">Prénom *</label>
      	 							<div class="onglet">
@@ -61,7 +79,7 @@
     							<div class="form-group">
      	 							<label for="message">Message *</label>
      	 							<div id="onglet1">
-     	 							<span id="message" class="glyphicon glyphicon-pencil"></span><textarea id="message1" type="message" name="message" placeholder="Message"></textarea>
+     	 							<span id="message" class="glyphicon glyphicon-pencil"></span><textarea id="message1" type="message" name="message" placeholder="Message" style="width:70%"></textarea>
      	 							</div>
     							</div>
     								<div class="form-group">
@@ -69,8 +87,12 @@
      	 							<div class="onglet">
      	 							<span class="prenom glyphicon glyphicon-ok"></span><input class="prenom1" type="code" name="code" placeholder="Recopiez le code ci-dessous"/>
      	 							</div>
-     	 							<p id="code">Zert90Ba</p>
+     	 							<p id="code"><img src="include/captcha.php" alt="captcha"/></p>
      	 							<p id="champ">*Champs obligatoire</p>
+     	 							<?php if(isset($connec))
+     	 									echo $connec;
+     	 								else 
+     	 									echo "Erreur"; ?>
     							</div>
     							<div class="checkbox">
       								<label><input type="checkbox"> Remember me</label>
@@ -81,7 +103,11 @@
     							</div>
   							</form>
 						</div>
-						<div id="cadredroit" class="col-md-4 col-md-offset-1">
+					</div>	
+					<div class="col-md-4 col-md-offset-1">
+						<h1 class="col-md-12"><i id="info" class="fa fa-info-circle" aria-hidden="true"></i> Information</h1>
+
+						<div id="cadredroit" class="col-md-12">
 							<p id="fondation">Fondation Agire contre l'Exclusion</br>Face Territoire Bourbonnais</p>
 							<p><i class="fa fa-phone" aria-hidden="true"></i>  06 89 32 71 09</p>
 							<p><i class="fa fa-envelope" aria-hidden="true"></i> contact.territoirebourbonnais@fondation.org</p>
@@ -89,6 +115,7 @@
 							<p><i class="fa fa-calendar" aria-hidden="true"></i> Ouvert tout les jours</br>Du lundi au vendredi</br>De 9h à 19h</p>
 							<p><i class="fa fa-facebook-official" aria-hidden="true"></i> Vous pouvez nous contacter également sur Facebook</p>
 						</div>
+					</div>	
 				</div>
 
 			</div>
