@@ -8,11 +8,7 @@
 		$captcha .= $captchaString[$i];
 	}
 	if(!isset($_POST["code"]) OR $_POST["code"] != $_SESSION["code"] OR $_POST["code"] == ""){
-		$variable ='<div class="onglet"><span class="prenom glyphicon glyphicon-ok"></span><input class="prenom1"  type="code" name="code" placeholder="Recopiez le code ci-dessous"/>
-     	 							</div>
-     	 							<p id="code"><img src="include/captcha.php" alt="captcha"/></p>
-     	 							<p id="champ">*Champs obligatoire</p>';
-		$_SESSION["code"] = $captcha;
+			$_SESSION["code"] = $captcha;
 	}
 
 	if($_POST["code"] == $_SESSION["code"]){
@@ -89,9 +85,12 @@
     								<div class="form-group">
      	 							<label for="code">Code de sécurité *</label>
      	 							<?php 
-     	 								if(isset($variable)){
-     	 									echo $variable; 
-     	 									}
+     	 								if(!isset($_POST["code"])){?>
+     	 									<div class="onglet"><span class="prenom glyphicon 	glyphicon-ok"></span><input class="prenom1"  type="code" name="code" placeholder="Recopiez le code ci-dessous"/>
+     	 									</div>
+     	 									<p id="code"><img src="include/captcha.php" alt="captcha"/></p>
+     	 									<p id="champ">*Champs obligatoire</p>
+     	 									<?php }
      	     	 						if(isset($connec))
      	 									echo $connec;
      	 								else 
