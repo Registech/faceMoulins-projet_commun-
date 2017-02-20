@@ -539,3 +539,27 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	color: red;
 }
 
+/*////////// animation round start//////////*/
+.round{
+		display: flex;
+		margin-top: 30px;
+		justify-content: center;
+		align-self: center;
+
+}
+
+#container-roll{
+	display: flex;
+	flex-direction: row;
+}
+
+#round{		
+		animation: round-roll 100s linear infinite;
+		position: absolute;
+	}
+
+@keyframes round-roll{
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+/*////////// animation round fin //////////*/

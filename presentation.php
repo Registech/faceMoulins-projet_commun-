@@ -21,6 +21,7 @@
 					<h1 class="col-md-12 boxtitle"><i class="fa fa-info-circle" aria-hidden="true"></i>Présentation</h1>
 
 					<div class="col-md-12 box">
+					<div id="container-roll">
 						<div class="col-md-6">
 							<h3>FACE, c'est quoi ?</h3>
 							<hr />
@@ -31,7 +32,10 @@
 						</div>
 
 						<div class="col-md-6" style="text-align: center;">
-							<img src="img/objectifFACE.png" alt="Objectifs de FACE" width="60%">
+							<div class="round">
+								<img id="round" src="img/round.png" alt="Objectifs de FACE" width="60%">
+							</div>
+						</div>
 						</div>
 
 						<div class="col-md-12">

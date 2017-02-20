@@ -9,7 +9,9 @@
 		<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Gudea" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-		<link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
+		<link rel="icon" href="img/ico.png" type="image/x-icon">
+		<link rel="shortcut icon" href="img/ico.png" type="image/x-icon"> 
+
 		<title>Face-Moulins.fr</title>
 	</head>
 	<body>
