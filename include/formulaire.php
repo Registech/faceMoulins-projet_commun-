@@ -1,7 +1,6 @@
 <?php
 		function my_mail($user_mail, $pseudo,$message_sujet, $message_html){
 		require 'PHPMailer/PHPMailerAutoload.php';
-
 		$mail = new PHPMailer;
 
 		$mail->isSMTP();                                      // Set mailer to use SMTP
@@ -13,8 +12,8 @@
 		$mail->Port = 465;                                    // TCP port to connect to
 		$mail->setLanguage('fr', '/optional/path/to/language/directory/');
 
-		$mail->setFrom($_POST["mail"], $_POST["mail"]);
-		$mail->addAddress("PinkFloyd03Coding@gmail.com", 'Zone Membre');     
+		$mail->setFrom($user_mail, $pseudo);
+		$mail->addAddress('pinkfloyd03coding@gmail.com', $pseudo);
 		$mail->isHTML(true);                                  // Set email format to HTML
 
 		$mail->Subject = $message_sujet;
@@ -22,7 +21,7 @@
 		$mail->AltBody = $message_html;
 
 		if(!$mail->send()) {
-		    echo 'Message non envoyer.';
+		    echo 'Message non envoyé.';
 		    echo 'Mailer Error: ' . $mail->ErrorInfo;
 		}
 	}
