@@ -53,3 +53,16 @@ $(document).on('scroll', function(){
    		
 });
 
+function IsValidateEmail(email) {
+				      var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,6})$/;
+				      return reg.test(email);
+				}
+				document.getElementById('boxEnveloppe').addEventListener("click", function () {
+					if(IsValidateEmail(document.getElementById("mail").value)){
+					  		alert("C`est bon");
+					}
+					
+					else{
+				    	alert("ERRROR");
+					}
+				});

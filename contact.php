@@ -18,7 +18,7 @@
 			include('include/formulaire.php');
 			session_destroy();
 			$_POST["code"] = "";
-			$connec = "Message Envoyé";
+			header("location:index.php");
 		}else if ($_POST["code"] != "" AND $_POST["code"] != $_SESSION["code"]){
 			$connec = "Erreur";
 		}
