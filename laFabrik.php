@@ -19,7 +19,9 @@
 				<div class="row top">
 				<h1 class="col-md-12 boxtitle"><i class="fa fa-code" aria-hidden="true"></i>PRÉSENTATION</h1>
 					<div class="col-md-12 box">
-								contenu de regis
+					Nous sommes 23 élèves de l'école du numérique alias la Fabrik mis en place par Face Bourbonnais.
+    Notre formation dure 8 mois dont 2 mois de stage durant lesquels nous allons apprendre 
+    différents languages informatiques afin de réaliser des sites internets.
 					</div>
 				</div>
 				<div class="row">
