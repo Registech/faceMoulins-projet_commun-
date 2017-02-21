@@ -547,7 +547,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 #face-ecr{
 
-	z-index: 99;
+	z-index: -99;
 	position: absolute;
 	justify-content: center;
 	align-self: center;
