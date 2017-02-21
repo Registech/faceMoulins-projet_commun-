@@ -540,30 +540,32 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 /*////////// animation round start//////////*/
 .round{
-		display: flex;
-		margin-top: 30px;
-	}
-
-#face-ecr{
-
-	z-index: 99;
-	position: absolute;
+	display: flex;
 	justify-content: center;
+	}
+.face-ecr{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	align-self: center;
 	align-content: center;
-
 }
-
+#face-ecr{
+	z-index: 99;
+	position: absolute;
+}
 #container-roll{
 	display: flex;
 	flex-direction: row;
+	align-self: center;
+	align-content: center;
 }
-
 #round{		
 	animation: round-roll 100s linear infinite;
-
-	}
-
+	width: 60%;
+	height: 60%;
+}
 @keyframes round-roll{
   	from {transform: rotate(0deg);}
   	to {transform: rotate(360deg);}

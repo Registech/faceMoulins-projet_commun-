@@ -33,11 +33,11 @@
 
 						<div class="col-md-6">
 							<div class="face-ecr">
-								<img id="face-ecr" src="img/face_ecrit.png" alt="Objectifs de FACE">
+								<img id="face-ecr" width="20%" src="img/face_ecrit.png" alt="Objectifs de FACE">
 							
-							<div class="round">
-								<img id="round" src="img/round.png" alt="Objectifs de FACE" width="60%">
-							</div>
+								<div class="round">
+									<img id="round" src="img/round.png" alt="Objectifs de FACE">
+								</div>
 							</div>
 						</div>
 						</div>
