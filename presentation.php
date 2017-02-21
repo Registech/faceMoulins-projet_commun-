@@ -31,10 +31,13 @@
 							<p>FACE est présidée depuis <b>2008</b> par Gérard Mestrallet, Président d’Engie.</p>
 						</div>
 
-						<div class="col-md-6" style="text-align: center;">
-							<div class="round">
+						<div class="col-md-6">
+							<div class="face-ecr">
 								<img id="face-ecr" src="img/face_ecrit.png" alt="Objectifs de FACE">
+							
+							<div class="round">
 								<img id="round" src="img/round.png" alt="Objectifs de FACE" width="60%">
+							</div>
 							</div>
 						</div>
 						</div>
