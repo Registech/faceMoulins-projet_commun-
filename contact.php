@@ -7,15 +7,22 @@
 	for($i=0; $i<5; $i++){
 		$captcha .= $captchaString[$i];
 	}
-	if(!isset($_POST["code"]) OR $_POST["code"] != $_SESSION["code"] OR $_POST["code"] == ""){
+	if(!isset($_POST["code"])){
+		$_SESSION["code"] = $captcha;
+	}
+	else if($_POST["code"] != $_SESSION["code"] OR $_POST["code"] == ""){
 			$_SESSION["code"] = $captcha;
-	}
-
-	if($_POST["code"] == $_SESSION["code"]){
-		session_destroy();
-		$_POST["code"] = "";
-		$connec = "Message Envoyé";
-	}
+		}
+	if(isset($_POST["code"])){
+		if($_POST["code"] == $_SESSION["code"]){
+			include('include/formulaire.php');
+			session_destroy();
+			$_POST["code"] = "";
+			$connec = "Message Envoyé";
+		}else if ($_POST["code"] != "" AND $_POST["code"] != $_SESSION["code"]){
+			$connec = "Erreur";
+		}
+	}	
 ?>	
 <!DOCTYPE html>
 <html lang="fr">
@@ -61,7 +68,7 @@
     							<div class="form-group">
      	 							<label for="email">E-mail *</label>
      	 							<div class="onglet">
-     	 							<span class="prenom glyphicon glyphicon-envelope"></span><input class="prenom1" type="email" name="recherche" placeholder="Adresse e-mail"/>
+     	 							<span class="prenom glyphicon glyphicon-envelope"></span><input class="prenom1" type="email" name="mail" placeholder="Adresse e-mail"/>
      	 							</div>
     							</div>
     							<div class="form-group">
@@ -83,9 +90,9 @@
      	 							</div>
     							</div>
     								<div class="form-group">
-     	 							<label for="code">Code de sécurité *</label>
      	 							<?php 
-     	 								if(!isset($_POST["code"])){?>
+     	 								if(!isset($_POST["code"]) OR $_POST["code"] != $_SESSION["code"]){?>
+     	 									<label for="code">Code de sécurité *</label>
      	 									<div class="onglet"><span class="prenom glyphicon 	glyphicon-ok"></span><input class="prenom1"  type="code" name="code" placeholder="Recopiez le code ci-dessous"/>
      	 									</div>
      	 									<p id="code"><img src="include/captcha.php" alt="captcha"/></p>
@@ -93,8 +100,6 @@
      	 									<?php }
      	     	 						if(isset($connec))
      	 									echo $connec;
-     	 								else 
-     	 									echo "Erreur"; 
      	 							?>
     							</div>
     							<div class="checkbox">

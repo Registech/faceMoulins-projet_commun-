@@ -1,11 +1,7 @@
 <div id="footer" class="row">
 					<div class="col-md-offset-1 col-md-3">
-						<h3>Retrouvez nous sur </h3>
-
-						
+						<h3>Retrouvez nous sur </h3>						
 						<img src="img/facebookwidget.png" alt="faux Facebook" />
-
-
 					</div>
 					<div class="col-md-4">
 						<h3>Contactez nous</h3>
