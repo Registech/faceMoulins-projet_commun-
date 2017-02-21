@@ -512,10 +512,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	height: 200px;
 }
 #message{
-	color: #FFFFFF;
+	color: #FFFFFF;	
 	width: 15%;
-	border-radius: 5px 0px 0px 5Px;
-	background-color: #1e5d74;
+	border-radius: 5px 0px 0px 5Px;	
+	background-color: #1e5d74;	
 	cursor: pointer;
 	line-height: 200px;
 	text-align: center;
@@ -543,18 +543,15 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .round{
 		display: flex;
 		margin-top: 30px;
-		justify-content: center;
-		align-self: center;
-		align-items: center;
-		align-content: center;
 	}
 
 #face-ecr{
-	width: 20%;
-	height: 20%;
+
 	z-index: 99;
 	position: absolute;
-
+	justify-content: center;
+	align-self: center;
+	align-content: center;
 
 }
 
@@ -564,12 +561,13 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 #round{		
-		animation: round-roll 100s linear infinite;
+	animation: round-roll 100s linear infinite;
 
 	}
 
 @keyframes round-roll{
-  from {transform: rotate(0deg);}
-  to {transform: rotate(360deg);}
+  	from {transform: rotate(0deg);}
+  	to {transform: rotate(360deg);}
 }
 /*////////// animation round fin //////////*/
+

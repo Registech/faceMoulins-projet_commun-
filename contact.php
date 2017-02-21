@@ -79,7 +79,7 @@
     							<div class="form-group">
      	 							<label for="message">Message *</label>
      	 							<div id="onglet1">
-     	 							<span id="message" class="glyphicon glyphicon-pencil"></span><textarea id="message1" type="message" name="message" placeholder="Message" style="width:70%"></textarea>
+     	 							</span><textarea id="message1" type="message" name="message" placeholder="Message" style="width:70%; border-radius: 5px; "></textarea>
      	 							</div>
     							</div>
     								<div class="form-group">
