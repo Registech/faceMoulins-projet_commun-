@@ -17,9 +17,14 @@
 			<?php include("include/header.php"); ?>
 			<div class="container">
 				<div class="row top">
-				<h1 class="col-md-7 boxtitle apprenants"><i class="fa fa-users" aria-hidden="true"></i>LES 23 APPRENANTS</h1>
-				<h1 class="col-md-offset-1 col-md-4 boxtitle"><i class="fa fa-code" aria-hidden="true"></i>PRÉSENTATION</h1>
-					<div class="col-md-7 box">
+				<h1 class="col-md-12 boxtitle"><i class="fa fa-code" aria-hidden="true"></i>PRÉSENTATION</h1>
+					<div class="col-md-12 box">
+								contenu de regis
+					</div>
+				</div>
+				<div class="row">
+					<h1 class="col-md-12 boxtitle apprenants"><i class="fa fa-users" aria-hidden="true"></i>LES 23 APPRENANTS</h1>
+					<div class="col-md-12 box">
 						<ol>
 							<li>Stephane Bariller <a href="https://github.com/MrSnakie"> Github</a><a href=""> Linkedin</a></li>
 							<li>Kevin Martinez <a href="https://github.com/BobGizzmo"> Github</a><a href=""> Linkedin</a></li>
@@ -45,9 +50,6 @@
 							<li>Athony Favier <a href="https://github.com/aFAVIER"> Github</a><a href=""> Linkedin</a></li>
 							<li>Hasna Chaddou <a href="https://github.com/hasnachad"> Github</a><a href=""> Linkedin</a></li>
 						</ol>
-					</div>
-					<div class="col-md-offset-1 col-md-4 box">
-								sdgqsgq
 					</div>
 				</div>
 			</div>
