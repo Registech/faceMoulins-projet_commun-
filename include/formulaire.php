@@ -14,7 +14,7 @@
 
 		$mail->setFrom($user_mail, $pseudo);
 		$mail->addAddress('pinkfloyd03coding@gmail.com', $pseudo);
-		$mail->addReplyTo($user_mail, 'Information');
+		$mail->addReplyTo($user_mail, $pseudo);
 		$mail->isHTML(true);                                  // Set email format to HTML
 
 		$mail->Subject = $message_sujet;
