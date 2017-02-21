@@ -1,5 +1,5 @@
-<center>Entreprise PINK-FLOYD</center>
-======================================
+Entreprise PINK-FLOYD
+======================
 
 ### Membres: 
 
