@@ -56,19 +56,19 @@
     							<div class="form-group">
      	 							<label for="prenom">Prénom *</label>
      	 							<div class="onglet">
-     	 							<span class="prenom glyphicon glyphicon-user"></span><input class="prenom1" type="prenom" name="prenom" placeholder="Prénom"/>
+     	 							<span class="prenom glyphicon glyphicon-user"></span><input class="prenom1" type="prenom" name="prenom" placeholder="Prénom" required/>
      	 							</div>
     							</div>
     							<div class="form-group">
      	 							<label for="nom">Nom *</label>
      	 							<div class="onglet">
-     	 							<span class="prenom glyphicon glyphicon-user"></span><input class="prenom1" type="nom" name="nom" placeholder="Nom"/>
+     	 							<span class="prenom glyphicon glyphicon-user"></span><input class="prenom1" type="nom" name="nom" placeholder="Nom" required/>
      	 							</div>
     							</div>
     							<div class="form-group">
      	 							<label for="email">E-mail *</label>
      	 							<div class="onglet">
-     	 							<span class="prenom glyphicon glyphicon-envelope"></span><input class="prenom1" type="email" name="mail" placeholder="Adresse e-mail"/>
+     	 							<span class="prenom glyphicon glyphicon-envelope"></span><input class="prenom1" type="email" name="mail" placeholder="Adresse e-mail" required/>
      	 							</div>
     							</div>
     							<div class="form-group">
@@ -80,20 +80,20 @@
     							<div class="form-group">
      	 							<label for="sujet">Sujet *</label>
      	 							<div class="onglet">
-     	 							<span class="prenom glyphicon glyphicon-info-sign"></span><input class="prenom1" type="sujet" name="sujet" placeholder="Sujet"/>
+     	 							<span class="prenom glyphicon glyphicon-info-sign"></span><input class="prenom1" type="sujet" name="sujet" placeholder="Sujet" required/>
      	 							</div>
     							</div>
     							<div class="form-group">
      	 							<label for="message">Message *</label>
      	 							<div id="onglet1">
-     	 							<span id="message" class="glyphicon glyphicon-pencil"></span><textarea id="message1" type="message" name="message" placeholder="Message" style="width:70%"></textarea>
+     	 							<span id="message" class="glyphicon glyphicon-pencil"></span><textarea id="message1" type="message" name="message" placeholder="Message" style="width:70%" required></textarea>
      	 							</div>
     							</div>
     								<div class="form-group">
      	 							<?php 
      	 								if(!isset($_POST["code"]) OR $_POST["code"] != $_SESSION["code"]){?>
      	 									<label for="code">Code de sécurité *</label>
-     	 									<div class="onglet"><span class="prenom glyphicon 	glyphicon-ok"></span><input class="prenom1"  type="code" name="code" placeholder="Recopiez le code ci-dessous"/>
+     	 									<div class="onglet"><span class="prenom glyphicon 	glyphicon-ok"></span><input class="prenom1"  type="code" name="code" placeholder="Recopiez le code ci-dessous" required/>
      	 									</div>
      	 									<p id="code"><img src="include/captcha.php" alt="captcha"/></p>
      	 									<p id="champ">*Champs obligatoire</p>
@@ -101,9 +101,6 @@
      	     	 						if(isset($connec))
      	 									echo $connec;
      	 							?>
-    							</div>
-    							<div class="checkbox">
-      								<label><input type="checkbox"> Remember me</label>
     							</div>
     							<div class="row">
     								<button id="envoyer" type="submit" class="btn btn-default">Envoyer</button>
