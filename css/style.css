@@ -1,19 +1,25 @@
-body{
+html, body{
 	background-color: #E0E0E0;
+	padding-top: 200px;
+	overflow-x: hidden;
 }
-#headerRecherche{
-	position: relative;
-	margin-top: -10px;
 
+/*---------------------------------------------------------------------------------------*/
+/*                                     HEADER & NAVBAR                                   */
+/*---------------------------------------------------------------------------------------*/
+
+.navbar #top{ /* Fond de la zone logo & recherche */
+	background: url(../img/header_background.png);
+	background-position: 52% 100%;
+	background-size: cover;
 }
-#fondRecherche{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
+
+@media screen and (max-width: 768px){
+	.navbar #top{
+		background-position: 46% 50%;
+	}
 }
+
 #logoFace {
 	width: 300px;
 	margin-top: 15px;

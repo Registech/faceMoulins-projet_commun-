@@ -1,10 +1,9 @@
-<header class="container-fluid navbar-fixed-top">
-				<div id="headerRecherche" class="row">
+<header class="navbar navbar-fixed-top">
+				<div id="top" class="row">
 					<img src="img/faceimg.png" alt="logo_face" id="logoFace" class="col-md-3" />
 					<div class="col-md-offset-8 hidden-xs hidden-sm" style="margin-top: 30px;" id="search">
 						<input type="search" name="recherche" id="recherche"  placeholder="Recherche..."/><span class="glyphicon glyphicon-search"></span>
 					</div>
-					<img src="img/blocFB.png" alt="fond entête" id="fondRecherche">
 				</div>
 				<div class="row Accueil">
 					<div class="col-md-offset-1 col-md-10 hidden-xs hidden-sm">
