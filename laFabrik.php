@@ -27,36 +27,150 @@
 				<div class="row">
 					<h1 class="col-md-12 boxtitle apprenants"><i class="fa fa-users" aria-hidden="true"></i>LES 23 APPRENANTS</h1>
 					<div class="col-md-12 box">
-						<ol>
-							<li>Stephane Bariller 
-								<a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a>
-								<a href="https://github.com/MrSnakie"> Github <i class="fa fa-github" aria-hidden="true"></i></a>
-							</li>
-
-
-							<li>Kevin Martinez <a href="https://github.com/BobGizzmo"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href="https://www.linkedin.com/in/k%C3%A9vin-martinez-383650114/"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-							<li>Alexandre Leroux <a href="https://github.com/Darell82"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href="https://www.linkedin.com/in/alexandre-leroux-591190138/"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-							<li>William Le Gal <a href="https://github.com/will03000"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-							<li>Martin Dagostino <a href="https://github.com/Extreeeme"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-							<li>Emilie Leterne <a href="https://github.com/celebalane"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-							<li>Yves Charvis <a href="https://github.com/YvesCharvis"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-							<li>Eddy Huleu <a href="https://github.com/EddyHuleu"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-							<li>Aude Echer <a href="https://github.com/Tsukihub"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-							<li>Sopie Leber <a href="https://github.com/SophieElodie"><i class="fa fa-github" aria-hidden="true"></i><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-							<li>Andréa Lopez <a href="https://github.com/Andrealpz"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href="https://www.linkedin.com/in/andrea-lopez-11ba72138/"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-							<li>Regis Toupens <a href="https://github.com/Registech"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href="https://www.linkedin.com/in/regis-toupense-145891a8/"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-							<li>Gaël Truffard <a href="https://github.com/truffard"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-							<li>Thomas Millien <a href="https://github.com/ThomasMR03"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-							<li>Aymeric Lacoste <a href="https://github.com/aymeric-l"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-							<li>Vladislav Abbatchi <a href="https://github.com/Abbatchi"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href="https://www.linkedin.com/in/vladislav-legoshin-4b6a73138/"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-							<li>Vincent Chambonnier <a href="https://github.com/Vincent03"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href="https://www.linkedin.com/in/vincent-chambonnier-104a72138/"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-							<li>Quentin Grau <a href="https://github.com/Quentin777"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-							<li>Quentin Ansion <a href="https://github.com/Seizuko"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-							<li>Mickaël Durand <a href="https://github.com/Sethisfir"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-							<li>Sebastien Dutripon <a href="https://github.com/Sebastien03"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href="https://www.linkedin.com/in/sebastien-dutripon-748a71138/"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-							<li>Athony Favier <a href="https://github.com/aFAVIER"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href="https://www.linkedin.com/in/anthony-favier-00ab09138/"><i class="fa fa-linkedin" aria-hidden="true"></i>Linkedin</a></li>
-							<li>Hasna Chaddou <a href="https://github.com/hasnachad"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-						</ol>
+						<div id="liste_padding">
+						<table class="table table-striped">
+							<tbody>
+							<tr>
+							<th scope="row">1</th>
+							<td>Stephane Bariller</td>
+								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/MrSnakie"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">2</th>
+							<td>Kevin Martinez</td> 
+								<td><a href="https://www.linkedin.com/in/k%C3%A9vin-martinez-383650114/"> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/BobGizzmo"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">3</th>
+							<td>Alexandre Leroux</td> 
+								<td><a href="https://www.linkedin.com/in/alexandre-leroux-591190138/"> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/Darell82"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">4</th>
+							<td>William Le Gal</td> 
+								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/will03000"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">5</th>
+							<td>Martin Dagostino</td> 
+								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/Extreeeme"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">6</th>
+							<td>Emilie Leterne</td> 
+								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/celebalane"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">7</th>
+							<td>Yves Charvis</td> 
+								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/YvesCharvis"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">8</th>
+							<td>Eddy Huleu</td> 
+								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/EddyHuleu"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">9</th>
+							<td>Aude Echer</td> 
+								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/Tsukihub"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">10</th>
+							<td>Sopie Leber</td> 
+								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/SophieElodie"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">11</th>
+							<td>Andréa Lopez</td> 
+								<td><a href="https://www.linkedin.com/in/andrea-lopez-11ba72138/"> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/Andrealpz"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">12</th>
+							<td>Regis Toupens</td> 
+								<td><a href="https://www.linkedin.com/in/regis-toupense-145891a8/"> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/Registech"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">13</th>
+							<td>Gaël Truffard</td> 
+								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/truffard"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">14</th>
+							<td>Thomas Millien</td> 
+								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/ThomasMR03"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">15</th>
+							<td>Aymeric Lacoste</td> 
+								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/aymeric-l"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">16</th>
+							<td>Vladislav Legoshin</td> 
+								<td></a><a href="https://www.linkedin.com/in/vladislav-legoshin-4b6a73138/"> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/Abbatchi"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">17</th>
+							<td>Vincent Chambonnier</td> 
+								<td><a href="https://www.linkedin.com/in/vincent-chambonnier-104a72138/"> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/Vincent03"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">18</th>
+							<td>Quentin Grau</td> 
+								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/Quentin777"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">19</th>
+							<td>Quentin Ansion</td> 
+								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/Seizuko"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">20</th>
+							<td>Mickaël Durand</td> 
+								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/Sethisfir"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">21</th>
+							<td>Sebastien Dutripon</td> 
+								<td><a href="https://www.linkedin.com/in/sebastien-dutripon-748a71138/"> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/Sebastien03"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">22</th>
+							<td>Athony Favier</td> 
+								<td><a href="https://www.linkedin.com/in/anthony-favier-00ab09138/"> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/aFAVIER"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+							<th scope="row">23</th>
+							<td>Hasna Chaddou</td> 
+								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
+								<td><a href="https://github.com/hasnachad"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
+							</tr>
+    				</tbody>
+    				</table>
+    				</div>
 					</div>
 				</div>
 			</div>
