@@ -53,16 +53,54 @@ $(document).on('scroll', function(){
    		
 });
 
+///////////////////////////////////
+//---------Valid mail------------//
+///////////////////////////////////
+
 function IsValidateEmail(email) {
-				      var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,6})$/;
-				      return reg.test(email);
-				}
-				document.getElementById('boxEnveloppe').addEventListener("click", function () {
-					if(IsValidateEmail(document.getElementById("mail").value)){
-					  		alert("C`est bon");
-					}
-					
-					else{
-				    	alert("ERRROR");
-					}
-				});
+    var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,6})$/;
+    return reg.test(email);
+}
+
+//////////////////////////////////
+//-----------AJAX--------------//
+////////////////////////////////
+
+function getXHR(){
+	var xhr = null; 
+ 
+	if(window.XMLHttpRequest) // Firefox et autres
+	   xhr = new XMLHttpRequest(); 
+	else if(window.ActiveXObject){ // Internet Explorer 
+	   try {
+                xhr = new ActiveXObject("Msxml2.XMLHTTP");
+            } catch (e) {
+                xhr = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+	}
+	else { // XMLHttpRequest non supporté par le navigateur 
+	   alert("Votre navigateur ne supporte pas les objets XMLHTTPRequest..."); 
+	   xhr = false; 
+	} 
+	return xhr;
+}
+function goXHR(){
+	if(IsValidateEmail(document.getElementById("mailer").value)){
+		var xhr = getXHR();
+		xhr.onreadystatechange = function(){
+			// On ne fait quelque chose que si on a tout reçu et que le serveur est ok
+			if(xhr.readyState == 4 && xhr.status == 200){
+				alert("Inscription à la newsLetter effectué");
+			}
+		}
+		xhr.open("POST","include/newsLetter.php",true);
+		// ne pas oublier ça pour le post
+		xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+		// ne pas oublier de poster les arguments
+		mailer = document.getElementById('mailer').value;
+		xhr.send("email="+mailer);
+	}
+	else{
+		   	alert("Veuillez entrer un adresse mail valide");
+		}
+}

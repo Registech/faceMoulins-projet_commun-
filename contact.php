@@ -14,12 +14,12 @@
 			$_SESSION["code"] = $captcha;
 		}
 	if(isset($_POST["code"])){
-		if($_POST["code"] == $_SESSION["code"]){
+		if(htmlspecialchars($_POST["code"]) == $_SESSION["code"]){
 			include('include/formulaire.php');
 			session_destroy();
 			$_POST["code"] = "";
-			header("location:index.php");
-		}else if ($_POST["code"] != "" AND $_POST["code"] != $_SESSION["code"]){
+			header("location:mailgo.php");			
+		}else if (htmlspecialchars($_POST["code"]) != "" AND htmlspecialchars($_POST["code"]) != $_SESSION["code"]){
 			$connec = "Erreur";
 		}
 	}	
@@ -56,19 +56,19 @@
     							<div class="form-group">
      	 							<label for="prenom">Prénom *</label>
      	 							<div class="onglet">
-     	 							<span class="prenom glyphicon glyphicon-user"></span><input class="prenom1" type="prenom" name="prenom" placeholder="Prénom"/>
+     	 							<span class="prenom glyphicon glyphicon-user"></span><input class="prenom1" type="prenom" name="prenom" placeholder="Prénom" required/>
      	 							</div>
     							</div>
     							<div class="form-group">
      	 							<label for="nom">Nom *</label>
      	 							<div class="onglet">
-     	 							<span class="prenom glyphicon glyphicon-user"></span><input class="prenom1" type="nom" name="nom" placeholder="Nom"/>
+     	 							<span class="prenom glyphicon glyphicon-user"></span><input class="prenom1" type="nom" name="nom" placeholder="Nom" required/>
      	 							</div>
     							</div>
     							<div class="form-group">
      	 							<label for="email">E-mail *</label>
      	 							<div class="onglet">
-     	 							<span class="prenom glyphicon glyphicon-envelope"></span><input class="prenom1" type="email" name="mail" placeholder="Adresse e-mail"/>
+     	 							<span class="prenom glyphicon glyphicon-envelope"></span><input class="prenom1" type="email" name="mail" placeholder="Adresse e-mail" required/>
      	 							</div>
     							</div>
     							<div class="form-group">
@@ -80,20 +80,20 @@
     							<div class="form-group">
      	 							<label for="sujet">Sujet *</label>
      	 							<div class="onglet">
-     	 							<span class="prenom glyphicon glyphicon-info-sign"></span><input class="prenom1" type="sujet" name="sujet" placeholder="Sujet"/>
+     	 							<span class="prenom glyphicon glyphicon-info-sign"></span><input class="prenom1" type="sujet" name="sujet" placeholder="Sujet" required/>
      	 							</div>
     							</div>
     							<div class="form-group">
      	 							<label for="message">Message *</label>
      	 							<div id="onglet1">
-     	 							<span id="message" class="glyphicon glyphicon-pencil"></span><textarea id="message1" type="message" name="message" placeholder="Message" style="width:70%"></textarea>
+     	 							<span id="message" class="glyphicon glyphicon-pencil"></span><textarea id="message1" type="message" name="message" placeholder="Message" style="width:70%" required></textarea>
      	 							</div>
     							</div>
     								<div class="form-group">
      	 							<?php 
      	 								if(!isset($_POST["code"]) OR $_POST["code"] != $_SESSION["code"]){?>
      	 									<label for="code">Code de sécurité *</label>
-     	 									<div class="onglet"><span class="prenom glyphicon 	glyphicon-ok"></span><input class="prenom1"  type="code" name="code" placeholder="Recopiez le code ci-dessous"/>
+     	 									<div class="onglet"><span class="prenom glyphicon 	glyphicon-ok"></span><input class="prenom1"  type="code" name="code" placeholder="Recopiez le code ci-dessous" required/>
      	 									</div>
      	 									<p id="code"><img src="include/captcha.php" alt="captcha"/></p>
      	 									<p id="champ">*Champs obligatoire</p>
@@ -101,9 +101,6 @@
      	     	 						if(isset($connec))
      	 									echo $connec;
      	 							?>
-    							</div>
-    							<div class="checkbox">
-      								<label><input type="checkbox"> Remember me</label>
     							</div>
     							<div class="row">
     								<button id="envoyer" type="submit" class="btn btn-default">Envoyer</button>
@@ -118,7 +115,7 @@
 						<div id="cadredroit" class="col-md-12">
 							<p id="fondation">Fondation Agire contre l'Exclusion</br>Face Territoire Bourbonnais</p>
 							<p><i class="fa fa-phone" aria-hidden="true"></i>  06 89 32 71 09</p>
-							<p><i class="fa fa-envelope" aria-hidden="true"></i> contact.territoirebourbonnais@fondation.org</p>
+							<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:contact.territoirebourbonnais@fondation.org"> contact.territoirebourbonnais@fondation.org</a></p>
 							<p><i class="fa fa-home" aria-hidden="true"></i> 1-3 rue Bethelot</br>03000 MOULINS CEDEX</p>
 							<p><i class="fa fa-calendar" aria-hidden="true"></i> Ouvert tout les jours</br>Du lundi au vendredi</br>De 9h à 19h</p>
 							<p><i class="fa fa-facebook-official" aria-hidden="true"></i> Vous pouvez nous contacter également sur Facebook</p>
