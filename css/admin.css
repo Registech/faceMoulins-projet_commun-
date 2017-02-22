@@ -1,0 +1,32 @@
+.connexion{
+	width:400px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	margin:auto;
+}
+.connexion form{
+	display: flex;
+	flex-direction: column;
+}
+#navbar{
+	background-color: #C0C0C0;
+	color: #FFFFFF;
+	height: 1200px;
+}
+#navAdmin li a{
+	color: #FFFFFF;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+#navAdmin li a:hover{
+	text-decoration: none;
+}
+#navAdmin li {
+	text-align: center;
+	width: 100%;
+	border: 1px inset black;
+}

@@ -30,6 +30,7 @@
 					<ul id="listFooter" class="list-unstyled list-inline col-xs-offset-2 xol-xs-8  col-md-offset-2 col-md-4">
 						<li><a href="#">Accueil</a> |</li>
 						<li><a href="#">Contact</a> |</li>
-						<li><a href="#">Mentions Légales</a></li>
+						<li><a href="#">Mentions Légales</a> |</li>
+						<li><a href="admin.php">Se connecter</a></li>
 					</ul>	
 				</footer>
