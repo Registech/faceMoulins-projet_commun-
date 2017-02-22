@@ -20,30 +20,27 @@
 				<h1 class="col-md-12 boxtitle"><i class="fa fa-info-circle" aria-hidden="true"></i>Présentation</h1>
 
 				<div class="col-md-12 box">
-				<div id="container-roll">
-					<div class="col-md-6">
-						<h3>FACE, c'est quoi ?</h3>
-						<hr />
-						<p>Créée en <b>1993</b> à l’initiative de 13 grands groupes français réunis par Martine Aubry, ex-directrice adjointe du groupe <i>Pechiney</i>, FACE est reconnue d’Utilité Publique en <b>1994</b> et Fondation abritante en <b>2013</b>.</p>
-						<p>Elle œuvre en faveur de <b>l’engagement social et sociétal des entreprises</b> pour <b>lutter contre toutes les formes d’exclusion, de discriminations et de pauvreté</b>, par une approche globale et innovante de la Responsabilité Sociale/Sociétale des Entreprises (RSE).</p>
-						<p>Organisée en Réseau, <b>FACE rassemble des entreprises de toutes tailles</b> et travaille en collaboration avec l’ensemble des parties prenantes concernées par sa mission d’utilité publique (institutions, associations, personnalités qualifiées, chercheurs, etc).</p>
-						<p>FACE est présidée depuis <b>2008</b> par Gérard Mestrallet, Président d’Engie.</p>
-					</div>
+					<div id="container-roll">
+						<div class="col-md-6">
+							<h3>FACE, c'est quoi ?</h3>
+							<hr />
+							<p>Créée en <b>1993</b> à l’initiative de 13 grands groupes français réunis par Martine Aubry, ex-directrice adjointe du groupe <i>Pechiney</i>, FACE est reconnue d’Utilité Publique en <b>1994</b> et Fondation abritante en <b>2013</b>.</p>
+							<p>Elle œuvre en faveur de <b>l’engagement social et sociétal des entreprises</b> pour <b>lutter contre toutes les formes d’exclusion, de discriminations et de pauvreté</b>, par une approche globale et innovante de la Responsabilité Sociale/Sociétale des Entreprises (RSE).</p>
+							<p>Organisée en Réseau, <b>FACE rassemble des entreprises de toutes tailles</b> et travaille en collaboration avec l’ensemble des parties prenantes concernées par sa mission d’utilité publique (institutions, associations, personnalités qualifiées, chercheurs, etc).</p>
+							<p>FACE est présidée depuis <b>2008</b> par Gérard Mestrallet, Président d’Engie.</p>
+						</div>
 
 
 						<div class="col-md-6">
 							<div class="face-ecr">
 								<img id="face-ecr" width="20%" src="img/face_ecrit.png" alt="Objectifs de FACE">
-							
 								<div class="round">
 									<img id="round" src="img/round.png" alt="Objectifs de FACE">
 								</div>
 							</div>
 						</div>
 
-						</div>
 					</div>
-				</div>
 
 					<div class="col-md-12">
 						<h3>FACE Territoire Bourbonnais</h3>

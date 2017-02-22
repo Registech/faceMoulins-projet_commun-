@@ -11,9 +11,11 @@ html, body{
 	background: url(../img/header_background.png);
 	background-position: 52% 100%;
 	background-size: cover;
-	padding: 15px;
+	padding: 15px 35px;
 	display: flex;
 	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .navbar #top img {
@@ -21,42 +23,38 @@ html, body{
 	height: 111px;
 }
 
-/*@media screen and (max-width: 768px){
-	.navbar #top{
-		background-position: 46% 50%;
-	}
-}*/
+.navbar #top .search{
+	position: relative;
+	width: auto;
+	display: table;
+}
 
-#recherche{
+.navbar #top .search input{
 	background-color: #f8f8f8;
-	height: 40px;
+	display: table-cell;
+	width: 250px;
 	padding: 8px;
-	width: 20%;
-	color: #8e8e8e;
+	color: #333333;
+	line-height: 0px;
 	font-size: 13px;
 	outline: none;
 	border: 2px solid #1e5d74;
-	border-radius: 5px 0 0 5px;
+	border-radius: 5px 0px 0px 5px;
 }
-#search{
-	width: 320px;
-	height: 20px;
-	position: relative;
-	top: 35px;
-}
-#search span{
+
+.navbar #top .search span{
+	display: table-cell;
+	width: 20%;
 	color: #FFFFFF;
-	display: inline-block;
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 12%;
-	line-height: 40px;
+	line-height: 0px;
 	text-align: center;
-	border-radius: 0 5px 5px 0;
+	padding: 8px;
+	border-radius: 0px 5px 5px 0px;
 	background-color: #1e5d74;
 	cursor: pointer;
 }
+
+
 .Accueil{
 	background-color: #E79063;
 	border-bottom: 3px solid #8b563c;
@@ -111,26 +109,53 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	color: white;
 
 }
+
+@media screen and (max-width: 1024px){
+	.navbar #top{
+		background-position: 50% 50%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.navbar #top{
+		background-position: 47% 50%;
+	}
+}
+
+@media screen and (max-width: 425px){
+	.navbar #top{
+		background-position: 46% 50%;
+	}
+}
+
+@media screen and (max-width: 425px){
+	.navbar #top{
+		padding: 15px 0px;
+		justify-content: center;
+	}
+}
+
 /*---------------------------------------------------------------------------------------*/
 /*                                         CONTENU                                       */
 /*---------------------------------------------------------------------------------------*/
-.container { /* Premier bloc de la page */
-	margin-top: 230px;
+
+.container{
+	margin-top: 210px;
 }
-.container .row {
+.container .row{
 	margin-bottom: 20px;
 	margin-right: auto;
 	margin-left: auto;
 }
-.container .row .boxtitle .fa { /* Icônes des sections*/
+.container .row .boxtitle .fa{ /* Icônes des sections*/
 	color: #C93F5E;
 	margin-right: 10px;
 }
-.container .row .boxtitle {
+.container .row .boxtitle{
 	padding-right: 0px;
 	padding-left: 0px;
 }
-.container .row .box { /* Style par défaut des blocs */
+.container .row .box{ /* Style par défaut des blocs */
 	background-color: white;
 	border: 1px solid #1693A5; 
 	border-top: 6px solid #1693A5;

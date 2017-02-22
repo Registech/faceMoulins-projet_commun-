@@ -45,10 +45,10 @@ else if (document.location.href.indexOf("contact.php") != -1)
 ///////////////////////////////////		
 $(document).on('scroll', function(){	
 
-	if ($(this).scrollTop()>1) {
-		$('#headerRecherche').slideUp();
+	if ($(this).scrollTop()>115) {
+		$('#top').slideUp();
 	}else{
-		$('#headerRecherche').slideDown();
+		$('#top').slideDown();
 	}	
    		
 });

@@ -3,8 +3,10 @@
 				<!-- Zone logo & recherche -->
 				<div id="top">
 					<img src="img/faceimg.png" alt="logo_face" />
-					<input type="search" name="recherche" class="hidden-xs" id="recherche"  placeholder="Recherche..." />
-					<span class="glyphicon glyphicon-search"></span>
+					<div class="search hidden-xs">
+						<input type="text" name="search" placeholder="Recherche...">
+						<span><i class="fa fa-search"></i></span>
+					</div>
 				</div>
 
 				<div class="row Accueil">
