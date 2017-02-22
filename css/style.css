@@ -1,6 +1,5 @@
 html, body{
 	background-color: #E0E0E0;
-	padding-top: 100px;
 	overflow-x: hidden;
 }
 
@@ -115,7 +114,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 /*---------------------------------------------------------------------------------------*/
 /*                                         CONTENU                                       */
 /*---------------------------------------------------------------------------------------*/
-.container .top { /* Premier bloc de la page */
+.container { /* Premier bloc de la page */
 	margin-top: 230px;
 }
 .container .row {
