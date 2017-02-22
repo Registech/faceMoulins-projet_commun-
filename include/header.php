@@ -44,7 +44,7 @@
 							<li class="col-md-2 text-center liMenu dropdown">
 								<a href="laFabrik.php" title="Fabrik" class="lienMenu">La Fabrik</a>
 									<ul class="dropdown-menu">
-										<li><a href="#">Photos</a></li>
+										<li><a href="laFabrik_galery.php">Photos</a></li>
 										<li><a href="#">Projets</a></li>
 										<li><a href="#">Actualités</a></li>
 										<li><a href="#">Présentation</a></li>
