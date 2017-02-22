@@ -25,19 +25,19 @@ $('#articleTrois').on('click',function(e){
 ///////////////////////////////////
 //---------Active Menu-----------//
 ///////////////////////////////////
-var lienMenu = document.getElementsByClassName("lienMenu");
+var active = document.getElementsByClassName("active");
 if(document.location.href.indexOf("index.php") != -1)
-	lienMenu[0].id = "active";
+	active[0].id = "active";
 else if(document.location.href.indexOf("presentation.php") != -1)
-	lienMenu[1].id = "active";
+	active[1].id = "active";
 else if (document.location.href.indexOf("galerie.php") != -1)
-	lienMenu[2].id = "active";
+	active[2].id = "active";
 else if (document.location.href.indexOf("partenariat.php") != -1)
-	lienMenu[3].id = "active";
+	active[3].id = "active";
 else if (document.location.href.indexOf("laFabrik.php") != -1)
-	lienMenu[4].id = "active";
+	active[4].id = "active";
 else if (document.location.href.indexOf("contact.php") != -1)
-	lienMenu[5].id = "active";
+	active[5].id = "active";
 
 
 ///////////////////////////////////		
