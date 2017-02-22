@@ -28,7 +28,12 @@
 					<h1 class="col-md-12 boxtitle apprenants"><i class="fa fa-users" aria-hidden="true"></i>LES 23 APPRENANTS</h1>
 					<div class="col-md-12 box">
 						<ol>
-							<li>Stephane Bariller <a href="https://github.com/MrSnakie"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
+							<li>Stephane Bariller 
+								<a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+								<a href="https://github.com/MrSnakie"> Github <i class="fa fa-github" aria-hidden="true"></i></a>
+							</li>
+
+
 							<li>Kevin Martinez <a href="https://github.com/BobGizzmo"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href="https://www.linkedin.com/in/k%C3%A9vin-martinez-383650114/"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
 							<li>Alexandre Leroux <a href="https://github.com/Darell82"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href="https://www.linkedin.com/in/alexandre-leroux-591190138/"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
 							<li>William Le Gal <a href="https://github.com/will03000"><i class="fa fa-github" aria-hidden="true"></i> Github</a><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>

@@ -12,7 +12,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 		<link rel="icon" href="img/ico.png" type="image/x-icon">
 		<link rel="shortcut icon" href="img/ico.png" type="image/x-icon"> 
-
+		<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
 		<title>administration_Face-Moulins.fr</title>
 	</head>
 	<body class="container-fluid" style="margin-left:auto; margin-right: auto;">
@@ -42,14 +42,16 @@
 					</nav>		
 					<section id="sectionAdmin" class="col-md-11">
 						<script>
-							document.getElementById("changePassword").addEventListener("click", function(){
-								<?php include("include/changePassword.php"); ?>
+							$("#changePassword").on("click", function(e){
+								e.preventDefault();
+								go("password");
 							});
 						</script>	
 					</section>
 			<?php } 
 			}?>		
 
-
+		<script type="text/javascript" src="js/admin.js"></script>
 	</body>
 </html>
+
