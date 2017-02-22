@@ -413,11 +413,13 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
   #carou{
   	margin-bottom: 70px;
   }
+
 }
 @media screen and (min-width: 768px) {
   #carou {
      padding: 1.5em 0;
   }
+
 }
 @media screen and (min-width: 992px) {
   #container1 {
@@ -555,8 +557,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	align-content: center;
 }
 #face-ecr{
-	top: 133px;
-	left: 212px;
+
 	position: absolute;
 }
 #container-roll{
