@@ -77,7 +77,7 @@ html, body{
 }
 
 .navbar #bottom .container .nav{ /* Boîte contenu des liens */
-	width: 100%
+	width: 100%;
 }
 
 .navbar #bottom .container .nav #active { /* Lien actuel */
@@ -87,6 +87,7 @@ html, body{
 .navbar #bottom .container .nav a{ /* Texte des liens */
 	color: #FFFFFF;
 	text-transform: uppercase;
+	transition: 300ms cubic-bezier(0.4, 0, 1, 1);
 }
 
 .navbar #bottom .container .nav > li > a:hover { /* Texte des liens au survol */
@@ -112,6 +113,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu { /* Affichage du menu au survol */
 
 .dropdown-menu li a { /* Texte des liens */
 	color: white;
+	font-size: 16px;
 }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{ /* Texte des liens au survol */
@@ -128,6 +130,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu { /* Affichage du menu au survol */
 	width: 100%;
 }
 
+/* ----- PARAMÈTRES RESPONSIVE ----- */
 @media screen and (max-width: 1024px){
 	.navbar #top{
 		background-position: 50% 50%;

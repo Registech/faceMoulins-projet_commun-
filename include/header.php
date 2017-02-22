@@ -4,8 +4,8 @@
 				<!-- Logo & recherche -->
 				<div id="top">
 					<img src="img/faceimg.png" alt="logo_face" />
-					<div class="search hidden-xs">
-						<input type="text" name="search" placeholder="Recherche...">
+					<div class="search hidden-xs hidden-sm">
+						<input type="text" name="search" placeholder="Recherche..." id="search">
 						<span><i class="fa fa-search"></i></span>
 					</div>
 				</div>

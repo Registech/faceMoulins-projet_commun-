@@ -39,6 +39,15 @@ else if (document.location.href.indexOf("laFabrik.php") != -1)
 else if (document.location.href.indexOf("contact.php") != -1)
 	active[5].id = "active";
 
+///////////////////////////////////
+//-------Limite recherche--------//
+///////////////////////////////////
+document.getElementById('search').addEventListener('input',function(){
+	if(document.getElementById('search').value.length > 11){
+		alert('Vous avez entrez trop de caractères.');
+		document.getElementById('search').value.length --;
+	}
+})
 
 ///////////////////////////////////		
 //----------Cache header---------//		
