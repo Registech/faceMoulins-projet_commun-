@@ -1,10 +1,20 @@
 
 
 <div id="footer" class="row">
-					<div class="col-md-offset-1 col-md-3">
+				<div id="footer-left" style="text-align: center;">
+					<div class="col-md-offset-1 col-md-3" style="text-align: center;">
 						<h3>Retrouvez nous sur </h3>						
-						<img src="img/facebookwidget.png" alt="faux Facebook" />
+						<div id="content">
+							<div class="menu2">
+								<ul class="primary-menu">
+									<li class="facebook"><a class="social-item" href="https://www.facebook.com/faceterritoirebourbonnais" target="_blank">f</a><span class="social-span">Facebook</span></li>
+									<li class="twitter"><a class="social-item" href="https://twitter.com/mcbourbonnais1?lang=fr" target="_blank">t</a><span class="social-span">Twitter</span></li>
+									<li class="rss"><a class="social-item" href="#" target="_blank">a</a><span class="social-span">RSS</span></li>
+								</ul>
+							</div>
+						</div>
 					</div>
+				</div>
 					<div class="col-md-4">
 						<h3>Contactez nous</h3>
 						<p class="titreContact">Par téléphone </p>
@@ -17,8 +27,8 @@
 					<div class="col-md-4">
 						<h3>NewsLetter</h3>
 						<p>Inscrivez vous à notre newsletter pour recevoir mensuellement les dernières actualités de Face Territoire Bourbonnais</p>
-						<div  id="mailDiv">
-							<input type="email" name="mail" id="mail" placeholder="Entrez votre mail"/><p id="boxEnveloppe"><i class="glyphicon glyphicon-envelope" id="enveloppe"></i></p>		
+						<div id="mailDiv">
+							<input type="email" name="email" id="mailer" placeholder="Entrez votre mail"/><p id="boxEnveloppe" onclick="goXHR()"><i class="glyphicon glyphicon-envelope" id="enveloppe"></i></p>		
 						</div>
 						<p id="texteEtoile">
 							* Les données personnelles que vous avez enregistrées seront utilisées afin de pouvoir vous envoyer cette newsletter. Ces données ne seront pas partagées avec des tiers.

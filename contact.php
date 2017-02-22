@@ -14,12 +14,12 @@
 			$_SESSION["code"] = $captcha;
 		}
 	if(isset($_POST["code"])){
-		if($_POST["code"] == $_SESSION["code"]){
+		if(htmlspecialchars($_POST["code"]) == $_SESSION["code"]){
 			include('include/formulaire.php');
 			session_destroy();
 			$_POST["code"] = "";
-			header("location:index.php");
-		}else if ($_POST["code"] != "" AND $_POST["code"] != $_SESSION["code"]){
+			header("location:mailgo.php");			
+		}else if (htmlspecialchars($_POST["code"]) != "" AND htmlspecialchars($_POST["code"]) != $_SESSION["code"]){
 			$connec = "Erreur";
 		}
 	}	

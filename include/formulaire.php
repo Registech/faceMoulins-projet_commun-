@@ -12,14 +12,14 @@
 		$mail->Port = 465;                                    // TCP port to connect to
 		$mail->setLanguage('fr', '/optional/path/to/language/directory/');
 
-		$mail->setFrom($user_mail, $pseudo);
+		$mail->setFrom($user_mail, "FACE_Territoire_Bourbonnais");
 		$mail->addAddress('pinkfloyd03coding@gmail.com', $pseudo);
 		$mail->addReplyTo($user_mail, $pseudo);
 		$mail->isHTML(true);                                  // Set email format to HTML
 
-		$mail->Subject = $message_sujet;
-		$mail->Body    = $message_html;
-		$mail->AltBody = $message_html;
+		$mail->Subject = htmlspecialchars($message_sujet);
+		$mail->Body    = htmlspecialchars($message_html);
+		$mail->AltBody = htmlspecialchars($message_html);
 
 		if(!$mail->send()) {
 		    echo 'Message non envoyé.';
