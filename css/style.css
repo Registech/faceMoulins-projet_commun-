@@ -220,14 +220,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 	bottom: -5px;
 	right: 5px;
 }
-#contenuFacebook{
-	width: 90%;
-	height: 200px;
-	background: url(../img/fb.png) no-repeat;
-	background-size: 200%;
-	margin: 0 0 20px 10px;
-	border: 2px inset black;
-	
+
+.fb-page{
+	margin-left: -45px;
+
 }
 
 
@@ -625,7 +621,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     display:inline-block;
     width:50px;
     height:50px;
-    padding-top:8px;
+    padding-top:0.2em;
     color:#fff;
     border:3px solid #fff;
     
@@ -667,13 +663,14 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 #content .menu2 .primary-menu li span.social-span {
+	z-index: 99;
     font-family:Arial;
     font-size:11px;
     position:absolute;
     width:100px;
     top:45px;
     left:-45%;
-    background:rgba(51, 186, 218, 50%);
+    background: #1F5D74;
     padding:5px;
     border:1px solid #B8B8B8;
     opacity:0;
