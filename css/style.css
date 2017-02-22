@@ -1,6 +1,6 @@
 html, body{
 	background-color: #E0E0E0;
-	padding-top: 200px;
+	padding-top: 100px;
 	overflow-x: hidden;
 }
 
@@ -12,18 +12,32 @@ html, body{
 	background: url(../img/header_background.png);
 	background-position: 52% 100%;
 	background-size: cover;
+	padding: 15px;
+	display: flex;
+	flex-direction: row;
 }
 
-@media screen and (max-width: 768px){
+.navbar #top img {
+	width: 300px;
+	height: 111px;
+}
+
+/*@media screen and (max-width: 768px){
 	.navbar #top{
 		background-position: 46% 50%;
 	}
-}
+}*/
 
-#logoFace {
-	width: 300px;
-	margin-top: 15px;
-	margin-bottom: 15px;
+#recherche{
+	background-color: #f8f8f8;
+	height: 40px;
+	padding: 8px;
+	width: 20%;
+	color: #8e8e8e;
+	font-size: 13px;
+	outline: none;
+	border: 2px solid #1e5d74;
+	border-radius: 5px 0 0 5px;
 }
 #search{
 	width: 320px;
@@ -43,20 +57,6 @@ html, body{
 	border-radius: 0 5px 5px 0;
 	background-color: #1e5d74;
 	cursor: pointer;
-}
-#recherche{
-	background-color: #f8f8f8;
-	position: absolute;
-	display: inline-block;
-	height: 40px;
-	top: 0;
-	padding: 8px;
-	width: 88%;
-	color: #8e8e8e;
-	font-size: 13px;
-	outline: none;
-	border: 2px solid #1e5d74;
-	border-radius: 5px 0 0 5px;
 }
 .Accueil{
 	background-color: #E79063;
