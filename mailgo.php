@@ -15,7 +15,7 @@
 		<?php include("include/header.php"); ?>
 		<section style="height: 500px;" class="container">
 			<div id="mailenvoyé" class="text-center">
-				<h2 style="line-height: 600px;">Votre message à a bien été envoyé</h2>
+				<h2 style="line-height: 600px;">Votre message a bien été envoyé</h2>
 			</div>
 		</section>		
 
