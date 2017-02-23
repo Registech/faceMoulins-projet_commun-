@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
@@ -29,26 +28,46 @@
 			<?php
 				}
 			else if(isset($_POST["login"])){
-				if($_POST["login"] == "admin" AND $_POST["password"] == "admin"){?>
-					<nav id="navbar" class="col-md-3">
-						<ul id="navAdmin" class="list-unstyled">
-							<li><a href="#">Newsletter</a></li>
-							<li><a href="#">Partenaire</a></li>
-							<li><a href="#">Articles</a></li>
-							<li><a href="#">Gallerie</a></li>
-							<li><a href="#">Fabrik</a></li>
-							<li><a href="#" id="changePassword">AdminPassword</a></li>
-						</ul>
-					</nav>		
-					<section id="sectionAdmin" class="col-md-11">
-						<script>
-							$("#changePassword").on("click", function(e){
-								e.preventDefault();
-								go("password");
-							});
-						</script>	
-					</section>
-			<?php } 
+				session_start();
+				$_SESSION["login"] = htmlspecialchars($_POST["login"]);
+				$_SESSION["password"] = htmlspecialchars($_POST["password"]);
+				if($_SESSION["login"] == "admin" AND $_SESSION["password"] == "admin"){?>
+					<div class="row">
+						<nav id="navbar" class="col-md-3">
+							<ul id="navAdmin" class="list-unstyled">
+								<li><a href="#">Newsletter</a></li>
+								<li><a href="#">Partenaire</a></li>
+								<li><a href="#" id="changeImage">Articles</a></li>
+								<li><a href="#">Gallerie</a></li>
+								<li><a href="#">Fabrik</a></li>
+								<li><a href="#" id="changePassword">AdminPassword</a></li>
+							</ul>
+						</nav>		
+						<section id="sectionAdmin" class="col-md-9 text-center" >
+							<script>
+								$("#changePassword").on("click", function(e){
+									e.preventDefault();
+									go("password");
+								});
+								$("#changeImage").on("click", function(e){
+									e.preventDefault();
+									go("imageArticle");
+								});
+							</script>	
+						</section>
+					</div>	
+			<?php }
+			else{?>
+				<div class="connexion text-center">
+					<h3>Veuillez vous connecter pour poursuivre</h3>
+					<form method="POST" target="admin.php" >
+						<input type="mail" name="login" class="login" placeholder="Login" required />
+						<input type="password" name="password" class="password" placeholder="Mot de passe" required />
+						<button type="submit">Se connecter</button>
+					</form>		
+				</div>
+			<?php
+				} 
 			}?>		
 
 		<script type="text/javascript" src="js/admin.js"></script>

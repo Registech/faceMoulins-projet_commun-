@@ -90,7 +90,7 @@ function goXHR(){
 		xhr.onreadystatechange = function(){
 			// On ne fait quelque chose que si on a tout reçu et que le serveur est ok
 			if(xhr.readyState == 4 && xhr.status == 200){
-				alert("Inscription à la newsLetter effectué");
+				alert(xhr.response);
 			}
 		}
 		xhr.open("POST","include/newsLetter.php",true);

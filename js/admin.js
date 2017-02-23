@@ -26,6 +26,9 @@ function go(page){
 	}
 	if(page=="password")
 		xhr.open("GET","include/changePassword.php",true);
+	else if(page=="imageArticle")
+		xhr.open("GET","include/ajoutArticle.php",true);
+
 		
 		xhr.send(null);
 }

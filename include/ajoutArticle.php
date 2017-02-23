@@ -1,8 +1,9 @@
-<h3>Ajout article</h3>
 <div class= "connexion">
-	<form>
-		<input type="file" name="fichier" accept="image/gif" /><br/><input type="submit" value="Go !!!!" />
-		<input type="texte" name="texte" id= "Titre article" placeholder="Titre de l'article">
-		<textarea placeholder="Texte de l'article"></textarea>
+	<h3>Ajouter article</h3>
+	<form method="POST" target="include/ajoutArticle.php">
+		<input class="admin" type="file" name="fichier" id="fichier" accept="image/*" />
+		<input class="admin" type="texte" name="texte" id= "TitreArticle" placeholder="Titre de l'article">
+		<textarea class="admin" placeholder="Texte de l'article"></textarea>
+		<input class="admin" type="submit" value="Valider" />
 	</form>
 </div>
