@@ -717,8 +717,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 /* social buttons fin*/
 
 #back_gal{
-	background-image: url(../img/fabrik/back.jpg);
+	background-image: url(../img/fabrik/back4.jpg);
 	background-repeat: no-repeat;
-	overflow: hidden;
-
+	overflow: hidden;	
 }
