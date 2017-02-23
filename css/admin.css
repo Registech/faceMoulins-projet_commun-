@@ -7,6 +7,7 @@
 	align-content: center;
 	align-items: center;
 	margin:auto;
+	padding-top: 100px;
 }
 .connexion form{
 	display: flex;
@@ -32,4 +33,24 @@
 }
 .admin{
 	margin: 10px;
+}
+#sectionAdmin{
+	padding: 50px;
+}
+#visualisation{
+}
+#paragraphe{
+	min-width: 100px;
+	max-width: 500px;
+	min-height: 100px;
+	max-height: 500px;
+}
+#paragrapheVisuel{
+	max-width:500px;
+	min-height: 100px;
+	max-height: 500px;
+	word-wrap: break-word;
+	overflow-y: scroll;
+	background-color: transparent;
+	margin: auto;
 }

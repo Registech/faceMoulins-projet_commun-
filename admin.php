@@ -16,18 +16,7 @@
 	</head>
 	<body class="container-fluid" style="margin-left:auto; margin-right: auto;">
 		<?php
-			if(!isset($_POST["password"]) OR !isset($_POST["login"])){?>
-				<div class="connexion text-center">
-					<h3>Veuillez vous connecter pour poursuivre</h3>
-					<form method="POST" target="admin.php" >
-						<input type="mail" name="login" class="login" placeholder="Login" required />
-						<input type="password" name="password" class="password" placeholder="Mot de passe" required />
-						<button type="submit">Se connecter</button>
-					</form>		
-				</div>
-			<?php
-				}
-			else if(isset($_POST["login"])){
+		if(isset($_POST["login"])){
 				session_start();
 				$_SESSION["login"] = htmlspecialchars($_POST["login"]);
 				$_SESSION["password"] = htmlspecialchars($_POST["password"]);
@@ -38,12 +27,13 @@
 								<li><a href="#">Newsletter</a></li>
 								<li><a href="#">Partenaire</a></li>
 								<li><a href="#" id="changeImage">Articles</a></li>
-								<li><a href="#">Gallerie</a></li>
+								<li><a href="#" id="ajoutImage">Gallerie</a></li>
 								<li><a href="#">Fabrik</a></li>
 								<li><a href="#" id="changePassword">AdminPassword</a></li>
 							</ul>
 						</nav>		
 						<section id="sectionAdmin" class="col-md-9 text-center" >
+							<img src="" />
 							<script>
 								$("#changePassword").on("click", function(e){
 									e.preventDefault();
@@ -53,10 +43,30 @@
 									e.preventDefault();
 									go("imageArticle");
 								});
+								$("#ajoutImage").on("click", function(e){
+									e.preventDefault();
+									go("ajoutImage");
+								});
+								$("#validArticle").on("click", function(e){
+									e.preventDefault();
+									go("article");
+								});
 							</script>	
 						</section>
 					</div>	
 			<?php }
+		}
+		else if(!isset($_POST["password"]) OR !isset($_POST["login"]) OR !isset($_SESSION["password"]) OR !isset($_SESSION["login"]) OR $_SESSION["password"] = "" OR $_SESSION["login"] == ""){?>
+				<div class="connexion text-center">
+					<h3>Veuillez vous connecter pour poursuivre</h3>
+					<form method="POST" target="admin.php" >
+						<input type="mail" name="login" class="login" placeholder="Login" required />
+						<input type="password" name="password" class="password" placeholder="Mot de passe" required />
+						<button type="submit">Se connecter</button>
+					</form>		
+				</div>
+			<?php
+				}
 			else{?>
 				<div class="connexion text-center">
 					<h3>Veuillez vous connecter pour poursuivre</h3>
@@ -68,7 +78,7 @@
 				</div>
 			<?php
 				} 
-			}?>		
+			?>		
 
 		<script type="text/javascript" src="js/admin.js"></script>
 	</body>
