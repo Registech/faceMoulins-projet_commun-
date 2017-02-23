@@ -715,3 +715,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 /* social buttons fin*/
+
+#back_gal{
+	background-image: url(../img/fabrik/back.jpg);
+	background-repeat: no-repeat;
+	overflow: hidden;
+
+}

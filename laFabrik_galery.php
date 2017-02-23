@@ -12,7 +12,7 @@
 		<link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
 		<title>Face-Moulins.fr</title>
 	</head>
-	<body>
+	<body style="background-color: #E0E0E0">
 		<div class="container-fluid" style="padding: 0">
 			<?php include("include/header.php"); ?>
 			<div class="container">
@@ -20,7 +20,7 @@
 				<h1 class="col-md-12 boxtitle"><i class="fa fa-code" aria-hidden="true"></i>PHOTOS</h1>
 				</div>
 				<div class="row">
-					<div class="col-md-12 box">
+					<div class="col-md-12 box" id="back_gal">
 						<?php include("demo.php"); ?>
 					</div>
 				</div>
