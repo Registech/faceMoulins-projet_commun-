@@ -556,8 +556,48 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 #liste_padding{
 	padding-top: 2em;
-	 
 }
+/* --------------PAGE PARTENARIAT----------------- */
+
+h1{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#fondation{
+	text-align:justify;
+	font-weight: bold; 
+	margin-bottom: 80px;
+}
+#toppartenariat{
+	margin-top: 250px;
+}
+#partenariat1{
+	display: none;
+}
+#partenariat2{
+	display: none;
+}
+#partenariat3{
+	display: none;
+}
+#img-r li{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+	background-color: #FFFFFF;
+	padding: 10px;
+	border: 1px solid silver;
+	border-radius: 5px;
+	border-top: 6px solid #1693A5;
+}
+.boutton{
+	height: 70px;
+	border-radius: 5px;
+	border: 1px solid silver;
+	font-weight: bold;
+}
+
 
 /*////////// animation round start//////////*/
 .round{
