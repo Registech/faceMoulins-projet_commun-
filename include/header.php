@@ -66,7 +66,7 @@
 			<span class="text">Navigation</span>
 			<div class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bars"></i></div>
 				<ul class="dropdown-menu">
-					<li class="text-center"><a href="index.php" title="Accueil" class="lienMenu">Accueil</a></li>
+					<li><a href="index.php" title="Accueil">Accueil</a></li>
 				</ul>
 			</div>
 		</div>

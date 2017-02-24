@@ -26,7 +26,7 @@ html, body{
 	justify-content: space-between;
 }
 
-.navbar #top img { /* Logo FACE */
+.navbar #top img{ /* Logo FACE */
 	width: 300px;
 	height: 111px;
 }
@@ -80,7 +80,7 @@ html, body{
 	width: 100%;
 }
 
-.navbar #bottom .container .nav #active { /* Lien actuel */
+.navbar #bottom .container .nav #active{ /* Lien actuel */
 	background-color: #8b563c;
 }
 
@@ -96,6 +96,10 @@ html, body{
 
 .navbar #bottom .container .nav > li > a:focus { /* Texte des liens au clic */
 	background-color: #8b563c;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus{
+	background-color: #D5855C;
 }
 
 .dropdown-menu { /* Menu déroulant */
