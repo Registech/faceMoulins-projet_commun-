@@ -14,9 +14,10 @@ body{
 
 #gallery{
 	/* The pics container */
-	width:900px;
+	width:90%;
 	height:580px;
 	position:relative;
+	float: left;
 }
 
 .pic, .pic a{
@@ -132,7 +133,7 @@ hr{
 
 #main{
 	/* The main container */
-	width:780px;
+	width:1000px;
 	margin:30px auto;
 }
 

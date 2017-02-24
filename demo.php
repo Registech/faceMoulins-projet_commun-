@@ -12,7 +12,7 @@ error_reporting(E_ALL^E_NOTICE);
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>galery face</title>
 
-<link rel="stylesheet" type="text/css" href="demo.css" />
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
 <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/ui-darkness/jquery-ui.css" type="text/css" media="all" />
 
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -26,7 +26,7 @@ error_reporting(E_ALL^E_NOTICE);
 
 <div id="main">
 	
-	<div id="gallery">
+	<div id="gallery" style="display: block">
     
 <?php
 
