@@ -70,6 +70,16 @@ function go(page){
 		pomme.push(titre); pomme.push(image); pomme.push(para);
 		xhr.send("pomme="+pomme);
 	}
+	else if(page=="newsLetter"){
+		xhr.open("GET","include/envoisMail.php", true)
+		xhr.send(null);
+	}
+	else if(page=="envoyerMails"){
+		xhr.open("POST","include/envoisMails.php", true)
+		xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+		texte = document.getElementById("envoisMailing").value;
+		xhr.send("envoisMailing="+texte);
+	}
 
 		
 }
