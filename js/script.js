@@ -281,3 +281,23 @@ $(document).ready(function(){
 });
 
 /////////////////
+
+//////////////////////////////////////////////////////////////////
+//------------------------PARTENARIAT---------------------------//
+//////////////////////////////////////////////////////////////////
+
+$("#boutton1").on("click", function(){
+	$("#partenariat3").css("display", "none");
+	$("#partenariat2").css("display", "none");
+	$("#partenariat1").slideToggle("slow");
+});
+$("#boutton2").on("click", function(){
+	$("#partenariat3").css("display", "none");
+	$("#partenariat1").css("display", "none");
+	$("#partenariat2").slideToggle("slow");
+});
+$("#boutton3").on("click", function(){
+	$("#partenariat1").css("display", "none");
+	$("#partenariat2").css("display", "none");
+	$("#partenariat3").slideToggle("slow");
+});

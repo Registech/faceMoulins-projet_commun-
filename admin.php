@@ -24,7 +24,7 @@
 					<div class="row">
 						<nav id="navbar" class="col-md-3">
 							<ul id="navAdmin" class="list-unstyled">
-								<li><a href="#">Newsletter</a></li>
+								<li><a href="#" id="newsLetter">Newsletter</a></li>
 								<li><a href="#">Partenaire</a></li>
 								<li><a href="#" id="changeImage">Articles</a></li>
 								<li><a href="#" id="ajoutImage">Gallerie</a></li>
@@ -50,6 +50,10 @@
 								$("#validArticle").on("click", function(e){
 									e.preventDefault();
 									go("article");
+								});
+								$("#newsLetter").on("click", function(e){
+									e.preventDefault();
+									go("newsLetter");
 								});
 							</script>	
 						</section>

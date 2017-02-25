@@ -27,7 +27,7 @@
 			<div class="container">
 			 	<button id="boutton1" style="background-color: #F9D298; color: #E79063;" class="col-md-4 boutton" type="button" class="btn btn-outline-primary">PARTENAIRES INSTITUTIONNELS</button>
 			 	<button id="boutton2" style="background-color: #91C3D2; color: #1E5A70;" class="col-md-4 boutton" type="button" class="btn btn-outline-primary">PATENAIRES ENTREPRISES</button>
-			 	<button id="boutton3kjg" style="background-color: #B3DED0; color: #00A5AA;"  class="col-md-4 boutton" type="button" class="btn btn-outline-primary">PARTENAIRES ASSIOCIATIFS</button>
+			 	<button id="boutton3" style="background-color: #B3DED0; color: #00A5AA;"  class="col-md-4 boutton" type="button" class="btn btn-outline-primary">PARTENAIRES ASSIOCIATIFS</button>
 			</div>
 				<div id="partenariat1">
 				<ol id="img-r" class="container">
@@ -214,6 +214,7 @@
 						<img class="alignright size-full wp-image-536" src="http://www.fondationface.org/wp-content/uploads/2013/11/laposte.jpg" alt="laposte" width="150" height="128">
 					</li>
 				</ol>	
+				</div>
 				<div id="partenariat3">
 				<ol id="img-r" class="container">
 					<li class="col-md-12">
