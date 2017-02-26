@@ -76,8 +76,14 @@ html, body{
 	margin-top: 0px;
 }
 
-.navbar #bottom .container .nav{ /* Boîte contenu des liens */
+.navbar #bottom .container .navbar-nav { /* Sous-boite des liens */
 	width: 100%;
+	text-align: center;
+}
+
+.navbar #bottom .container .navbar-nav > li { /* Centrer les li */
+	float: none;
+	display: inline-block;
 }
 
 .navbar #bottom .container .nav #active{ /* Lien actuel */
@@ -88,6 +94,7 @@ html, body{
 	color: #FFFFFF;
 	text-transform: uppercase;
 	transition: 300ms cubic-bezier(0.4, 0, 1, 1);
+	padding: 10px 30px;
 }
 
 .navbar #bottom .container .nav > li > a:hover { /* Texte des liens au survol */
@@ -106,13 +113,7 @@ html, body{
 	background-color: #8b563c;
 	text-align: center;
 	border: 0px;
-	margin-left:calc(50% - 80px);
-	margin-right:calc(50% - 80px);
-}
-
-ul.nav li.dropdown:hover ul.dropdown-menu { /* Affichage du menu au survol */
-    display: block;
-    font-size: 17px;
+	min-width: auto;
 }
 
 .dropdown-menu li a { /* Texte des liens */
@@ -120,12 +121,17 @@ ul.nav li.dropdown:hover ul.dropdown-menu { /* Affichage du menu au survol */
 	font-size: 16px;
 }
 
+.navbar-nav > li > .dropdown-menu{
+	left: 0;
+	right: 0;
+}
+
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{ /* Texte des liens au survol */
 	background-color: #D5855C;
 }
 
 /* ---------- MOBILE FIRST --------- */
-.navbar #bottom .container .dropdown-toggle{
+.navbar #bottom .container .bars{
 	background-color: transparent;
 	border: 1px solid white;
 	border-radius: 5px;
@@ -143,8 +149,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu { /* Affichage du menu au survol */
 	font-size: 30px;
 	text-transform: uppercase;
 	color: white;
-	margin-bottom: 6px;
-	margin-top: 14px;
+	top: 5px;
+	margin-bottom: 0px;
+	margin-top: 0px;
 	float: left;
 }
 
@@ -155,9 +162,18 @@ ul.nav li.dropdown:hover ul.dropdown-menu { /* Affichage du menu au survol */
 	}
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
 	.navbar #top{
 		background-position: 47% 50%;
+	}
+
+	.navbar #bottom .container .navbar-nav {
+		text-align: left;
+	}
+
+	.navbar #bottom .container .navbar-nav > li {
+		float: none;
+		display: block;
 	}
 }
 
