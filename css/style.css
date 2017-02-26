@@ -399,7 +399,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .carousel-control.right {
   background-image: none;
 }
-
+.item img{
+	width: auto;
+	height: auto;
+}
 
 /* --------------RESPONSIVE----------------- */
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img,
