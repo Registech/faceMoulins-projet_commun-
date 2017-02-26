@@ -1,3 +1,11 @@
+function escapeHtml(text) {
+  return text
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+}
   ///////////////////////////////////
  //----------CHANGE IMG-----------//
 ///////////////////////////////////
@@ -52,7 +60,20 @@ $(document).on('scroll', function(){
 	}	
    		
 });
+///////////////////////////////////////
+//----------IMG ou VIDEO------------//
+//////////////////////////////////////
 
+$("#galerieIMG").on("click", function(e){
+	e.preventDefault();
+	document.location.href = "galerie.php"
+	$("#container1").css("display", "block");
+	$("#container2").css("display", "none");
+});
+$("#galerieVideo").on("click", function(){
+	$("#container2").css("display", "block");
+	$("#container1").css("display", "none");
+});
 ///////////////////////////////////
 //---------Valid mail------------//
 ///////////////////////////////////
@@ -90,7 +111,7 @@ function goXHR(){
 		xhr.onreadystatechange = function(){
 			// On ne fait quelque chose que si on a tout reçu et que le serveur est ok
 			if(xhr.readyState == 4 && xhr.status == 200){
-				alert(xhr.response);
+				document.getElementById("mailer").value = xhr.response;
 			}
 		}
 		xhr.open("POST","include/newsLetter.php",true);
@@ -101,7 +122,7 @@ function goXHR(){
 		xhr.send("email="+mailer);
 	}
 	else{
-		   	alert("Veuillez entrer un adresse mail valide");
+		   	document.getElementById("mailer").value = "Veuillez entrer un adresse mail valide";
 		}
 }
 

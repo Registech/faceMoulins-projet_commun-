@@ -34,7 +34,6 @@ function readURL(input) {
         .width(150)
         .height(200);
         data =e.target.result;
-        console.log(data);
     };
     reader.readAsDataURL(input.files[0]);
 
@@ -61,14 +60,25 @@ function go(page){
 		xhr.send(null);
 	}
 	else if(page=="article"){
+		var texte = "";
 		xhr.open("POST","include/AjouteArticle.php",true);
 		xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
 		image = data;
 		para = document.getElementById("paragraphe").value;
+		for(i=0;i<para.length;i++){
+			if(para[i]==",")
+				texte += "@.";
+			else
+				texte += para[i];
+		}
 		titre = document.getElementById("TitreArticle").value;
-		pomme = new Array;
-		pomme.push(titre); pomme.push(image); pomme.push(para);
-		xhr.send("pomme="+pomme);
+		articleBdd = new Array;
+		articleBdd.push(titre); articleBdd.push(image); articleBdd.push(texte);
+		xhr.send("contentArticle="+articleBdd);
+	}
+	else if(page=="afficherArticle"){
+		xhr.open("GET", "include/afficheArticle.php", true);
+		xhr.send(null);
 	}
 	else if(page=="newsLetter"){
 		xhr.open("GET","include/envoisMail.php", true)
@@ -88,7 +98,7 @@ function visual(){
 		document.getElementById("titre").innerHTML = "<h1>"+escapeHtml(document.getElementById("TitreArticle").value)+"</h1>";
 	});
 	document.getElementById("fichier").addEventListener("blur", function(){
-		document.getElementById("image").innerHTML == "<img src='"+document.getElementById("fichier").value+"/>";
+		document.getElementById("image").innerHTML == "<img src='"+document.getElementById("fichier").value+"'/>";
 	});
 	document.getElementById("paragraphe").addEventListener("input", function(){
 		document.getElementById("paragrapheVisuel").innerHTML = "<p>"+escapeHtml(document.getElementById("paragraphe").value)+"</p>";

@@ -1,31 +1,44 @@
 <?php
-	$pomme = $_POST["pomme"];
-	$pomme = explode(",", $pomme);
+	$contentArticle = $_POST["contentArticle"];
+	$contentArticle = explode(",", $contentArticle);
 	$imagecode="";
-	for($i=0; $i<strlen($pomme[1]); $i++){
-		if($pomme[1][$i] != " "){
-			$imagecode .= $pomme[1][$i];
+	$texte="";
+	for($i=0; $i<strlen($contentArticle[1]); $i++){
+		if($contentArticle[1][$i] != " "){
+			$imagecode .= $contentArticle[1][$i];
 		}else
 			$imagecode .="+";
 	}
 	$imagecode.=",";
-	for($i=0; $i<strlen($pomme[2]); $i++){
-		if($pomme[2][$i] != " "){
-			$imagecode .= $pomme[2][$i];
+	for($i=0; $i<strlen($contentArticle[2]); $i++){
+		if($contentArticle[2][$i] != " "){
+			$imagecode .= $contentArticle[2][$i];
 		}else
 			$imagecode .="+";
 	}
-	if(isset($pomme[0]) AND isset($pomme[1]) AND isset($pomme[2])){
+	for($i=0;$i<strlen($contentArticle[3]);$i++){
+		if($contentArticle[3][$i] == "@" AND $contentArticle[3][$i+1] == ".")
+			$texte .= ",";
+		elseif($contentArticle[3][$i] == "." AND $contentArticle[3][$i-1] == "@")
+			$texte .= " ";
+		else
+			$texte .= $contentArticle[3][$i];
+	}
+	if(isset($contentArticle[0]) AND isset($contentArticle[1]) AND isset($contentArticle[2])){
 		$bdd = new PDO('mysql:host=localhost;dbname=faceMoulins;charset=utf8', 'faceMoulins', 'Mysteria666');
 		$req = $bdd->prepare('INSERT INTO Articles SET titre=?, img=?, texte=?');
-		$req->execute(array($pomme[0], $imagecode, $pomme[3]));
+		$req->execute(array($contentArticle[0], $imagecode, $texte));
 		$req->closeCursor();
 		echo "L'article à bien été créé";
 		$req=$bdd->prepare('SELECT * FROM Articles');
 		$req->execute();
+		echo '<section id="sectionArticle">';
 		while($donnees = $req->fetch()){
-			echo '<h1>'.$donnees["titre"].'</h1><br/><br/>';
+			echo '<div id="articleAdmin">';
+			echo '<h1 class="h1ArticleAdmin">'.$donnees["titre"].'</h1><br/><br/>';
 			echo '<img src="'.$donnees["img"].'" alt="'.$donnees["titre"].'" />';
 			echo '<p>'.$donnees["texte"].'</p>';
+			echo '</div>';
 		}
+		echo '</section>';
 	}

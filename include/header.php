@@ -28,18 +28,12 @@
 							<li class="col-md-2 text-center liMenu dropdown">
 								<a href="galerie.php" title="Galerie" class="lienMenu">Galerie</a>
 									<ul class="dropdown-menu">
-										<li><a href="#">Photos</a></li>
-										<li><a href="#">Médias</a></li>
+										<li><a href="galerie.php">Photos</a></li>
+										<li><a href="galerieVideo.php">Médias</a></li>
 									</ul>
 							</li>
-							<li class="col-md-2 text-center liMenu dropdown">
+							<li class="col-md-2 text-center liMenu">
 								<a href="partenariat.php" title="Partenariat" class="lienMenu">Partenariat</a>
-									<ul class="dropdown-menu">
-										<li><a href="#">Entreprises</a></li>
-										<li><a href="#">Associations</a></li>
-										<li><a href="#">Particuliers</a></li>
-										<li><a href="#">Institutions</a></li>
-									</ul>
 							</li>
 							<li class="col-md-2 text-center liMenu dropdown">
 								<a href="laFabrik.php" title="Fabrik" class="lienMenu">La Fabrik</a>
@@ -57,11 +51,11 @@
 						<div class="Accueil dropdown-toggle text-center" id="MenuXS" data-toggle="dropdown">MENU</div>
 						<ul id="ulMenu" class="dropdown-menu">
 							<li class="Accueil col-md-2 text-center liMenu"><a href="index.php" title="Accueil" class="lienMenu">Accueil</a></li>
-							<li class="Accueil col-md-2 text-center liMenu2"><a href="#" title="Présentation" class="lienMenu">présentation</a></li>
+							<li class="Accueil col-md-2 text-center liMenu2"><a href="presentation.php" title="Présentation" class="lienMenu">présentation</a></li>
 							<li class="Accueil col-md-2 text-center liMenu2"><a href="galerie.php" title="Gallerie" class="lienMenu">galerie</a></li>
-							<li class="Accueil col-md-2 text-center liMenu2"><a href="#" title="Partenariat" class="lienMenu">partenariat</a></li>
-							<li class="Accueil col-md-2 text-center liMenu2"><a href="#" title="La Fabrik" class="lienMenu">La Fabrik</a></li>
-							<li class="Accueil col-md-2 text-center liMenu2"><a href="#" title="Contact" class="lienMenu contact">Contact</a></li>
+							<li class="Accueil col-md-2 text-center liMenu2"><a href="partenariat.php" title="Partenariat" class="lienMenu">partenariat</a></li>
+							<li class="Accueil col-md-2 text-center liMenu2"><a href="laFabrik.php" title="La Fabrik" class="lienMenu">La Fabrik</a></li>
+							<li class="Accueil col-md-2 text-center liMenu2"><a href="contact.php" title="Contact" class="lienMenu contact">Contact</a></li>
 						</ul>
 					</div>	
 				</div>

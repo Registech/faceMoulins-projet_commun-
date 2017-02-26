@@ -1,3 +1,7 @@
+<?php 
+	if(isset($_SESSION))
+		session_destroy(); 
+?>
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
@@ -30,10 +34,10 @@
 								<li><a href="#" id="ajoutImage">Gallerie</a></li>
 								<li><a href="#">Fabrik</a></li>
 								<li><a href="#" id="changePassword">AdminPassword</a></li>
+								<li><a href="#" id="exits">Se déconnecter</a></li>
 							</ul>
 						</nav>		
 						<section id="sectionAdmin" class="col-md-9 text-center" >
-							<img src="" />
 							<script>
 								$("#changePassword").on("click", function(e){
 									e.preventDefault();
@@ -67,7 +71,8 @@
 						<input type="mail" name="login" class="login" placeholder="Login" required />
 						<input type="password" name="password" class="password" placeholder="Mot de passe" required />
 						<button type="submit">Se connecter</button>
-					</form>		
+					</form>	
+					<a href="index.php"> Retour sur le site</a>	
 				</div>
 			<?php
 				}
@@ -78,13 +83,19 @@
 						<input type="mail" name="login" class="login" placeholder="Login" required />
 						<input type="password" name="password" class="password" placeholder="Mot de passe" required />
 						<button type="submit">Se connecter</button>
-					</form>		
+					</form>						
+					<a href="index.php"> Retour sur le site</a>	
 				</div>
 			<?php
 				} 
 			?>		
 
 		<script type="text/javascript" src="js/admin.js"></script>
+		<script>
+			$("#exits").on("click", function(){
+				document.location.href="admin.php";
+			});
+		</script>
 	</body>
 </html>
 
