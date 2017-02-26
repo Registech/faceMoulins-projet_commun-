@@ -80,13 +80,13 @@
 							</tr>
 							<tr>
 							<th scope="row">9</th>
-							<td>Aude Echer</td> 
+							<td>Aude Eccher</td> 
 								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
 								<td><a href="https://github.com/Tsukihub"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
 							</tr>
 							<tr>
 							<th scope="row">10</th>
-							<td>Sopie Leber</td> 
+							<td>Sopie Leberre</td> 
 								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
 								<td><a href="https://github.com/SophieElodie"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
 							</tr>
