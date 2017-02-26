@@ -90,6 +90,34 @@ function go(page){
 		texte = document.getElementById("envoisMailing").value;
 		xhr.send("envoisMailing="+texte);
 	}
+	else if(page=="modifPass"){
+		xhr.open("POST", "include/passAllChange.php", true);
+		xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+		pass1 = document.getElementById("new1").value;
+		pass2 = document.getElementById("new2").value;
+		pass3 = document.getElementById("old1").value;
+		if(pass1 == pass2){
+			var passAge = [pass1, pass3];
+			xhr.send("retour1="+passAge);
+		}
+		else
+			alert("les essais ne correspondent pas");
+	}
+	else if(page=="adminFabrik"){
+		xhr.open("GET", "include/adminFabrik.php", true);
+		xhr.send(null);
+	}
+	else if(page=="ajoutEleve"){
+		xhr.open("POST", "include/ajoutEleve.php", true);
+		xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+		nomEleve = document.getElementById("nomPrenom").value;
+		lienLinkedIn = document.getElementById("profilLinkedIn").value;
+		lienGithub = document.getElementById("profilGithub").value;
+		if(nomEleve != "" || nomPrenom != " "){
+			var tab = [nomEleve, lienLinkedIn, lienGithub];
+			xhr.send("eleve="+tab);
+		}
+	}
 
 		
 }

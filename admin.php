@@ -1,4 +1,6 @@
 <?php 
+$admin ="";
+$password="";
 	if(isset($_SESSION))
 		session_destroy(); 
 ?>
@@ -24,7 +26,15 @@
 				session_start();
 				$_SESSION["login"] = htmlspecialchars($_POST["login"]);
 				$_SESSION["password"] = htmlspecialchars($_POST["password"]);
-				if($_SESSION["login"] == "admin" AND $_SESSION["password"] == "admin"){?>
+				$bdd = new PDO('mysql:host=localhost;dbname=faceMoulins;charset=utf8', 'faceMoulins', 'Mysteria666');
+					$req = $bdd->prepare('SELECT * FROM idUsers LIMIT 1');
+					$req -> execute();
+					while($donnees = $req->fetch()){
+						$admin = $donnees["adminName"];
+						$password = $donnees["adminPassword"];
+					}
+				if($_SESSION["login"] == $admin AND $_SESSION["password"] == $password){
+					?>
 					<div class="row">
 						<nav id="navbar" class="col-md-3">
 							<ul id="navAdmin" class="list-unstyled">
@@ -32,7 +42,7 @@
 								<li><a href="#">Partenaire</a></li>
 								<li><a href="#" id="changeImage">Articles</a></li>
 								<li><a href="#" id="ajoutImage">Gallerie</a></li>
-								<li><a href="#">Fabrik</a></li>
+								<li><a href="#" id="adminFabrik">Fabrik</a></li>
 								<li><a href="#" id="changePassword">AdminPassword</a></li>
 								<li><a href="#" id="exits">Se déconnecter</a></li>
 							</ul>
@@ -59,12 +69,17 @@
 									e.preventDefault();
 									go("newsLetter");
 								});
+								$("#adminFabrik").on("click", function(e){
+									e.preventDefault();
+									go("adminFabrik");
+								});
 							</script>	
 						</section>
 					</div>	
 			<?php }
 		}
-		else if(!isset($_POST["password"]) OR !isset($_POST["login"]) OR !isset($_SESSION["password"]) OR !isset($_SESSION["login"]) OR $_SESSION["password"] = "" OR $_SESSION["login"] == ""){?>
+		else if(!isset($_POST["password"]) OR !isset($_POST["login"]) OR !isset($_SESSION["password"]) OR !isset($_SESSION["login"]) OR $_SESSION["password"] = "" OR $_SESSION["login"] == "" OR $_SESSION["password"] != $password OR $_SESSION["login"] != $admin){
+				?>
 				<div class="connexion text-center">
 					<h3>Veuillez vous connecter pour poursuivre</h3>
 					<form method="POST" target="admin.php" >

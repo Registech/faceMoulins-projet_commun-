@@ -30,144 +30,20 @@
 						<div id="liste_padding">
 						<table class="table table-striped">
 							<tbody>
-							<tr>
-							<th scope="row">1</th>
-							<td>Stephane Bariller</td>
-								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/MrSnakie"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">2</th>
-							<td>Kevin Martinez</td> 
-								<td><a href="https://www.linkedin.com/in/k%C3%A9vin-martinez-383650114/"> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/BobGizzmo"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">3</th>
-							<td>Alexandre Leroux</td> 
-								<td><a href="https://www.linkedin.com/in/alexandre-leroux-591190138/"> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/Darell82"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">4</th>
-							<td>William Le Gal</td> 
-								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/will03000"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">5</th>
-							<td>Martin Dagostino</td> 
-								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/Extreeeme"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">6</th>
-							<td>Emilie Leterne</td> 
-								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/celebalane"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">7</th>
-							<td>Yves Charvis</td> 
-								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/YvesCharvis"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">8</th>
-							<td>Eddy Huleu</td> 
-								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/EddyHuleu"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">9</th>
-							<td>Aude Eccher</td> 
-								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/Tsukihub"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">10</th>
-							<td>Sopie Leberre</td> 
-								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/SophieElodie"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">11</th>
-							<td>Andréa Lopez</td> 
-								<td><a href="https://www.linkedin.com/in/andrea-lopez-11ba72138/"> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/Andrealpz"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">12</th>
-							<td>Regis Toupens</td> 
-								<td><a href="https://www.linkedin.com/in/regis-toupense-145891a8/"> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/Registech"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">13</th>
-							<td>Gaël Truffard</td> 
-								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/truffard"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">14</th>
-							<td>Thomas Millien</td> 
-								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/ThomasMR03"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">15</th>
-							<td>Aymeric Lacoste</td> 
-								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/aymeric-l"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">16</th>
-							<td>Vladislav Legoshin</td> 
-								<td></a><a href="https://www.linkedin.com/in/vladislav-legoshin-4b6a73138/"> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/Abbatchi"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">17</th>
-							<td>Vincent Chambonnier</td> 
-								<td><a href="https://www.linkedin.com/in/vincent-chambonnier-104a72138/"> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/Vincent03"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">18</th>
-							<td>Quentin Grau</td> 
-								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/Quentin777"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">19</th>
-							<td>Quentin Ansion</td> 
-								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/Seizuko"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">20</th>
-							<td>Mickaël Durand</td> 
-								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/Sethisfir"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">21</th>
-							<td>Sebastien Dutripon</td> 
-								<td><a href="https://www.linkedin.com/in/sebastien-dutripon-748a71138/"> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/Sebastien03"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">22</th>
-							<td>Athony Favier</td> 
-								<td><a href="https://www.linkedin.com/in/anthony-favier-00ab09138/"> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/aFAVIER"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
-							<tr>
-							<th scope="row">23</th>
-							<td>Hasna Chaddou</td> 
-								<td><a href=""> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>
-								<td><a href="https://github.com/hasnachad"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>
-							</tr>
+							<?php 
+								$bdd = new PDO('mysql:host=localhost;dbname=faceMoulins;charset=utf8', 'faceMoulins', 'Mysteria666');
+								$req = $bdd->prepare('SELECT * FROM EleveFabrik');
+								$req->execute();
+								while($data = $req->fetch()){
+									echo '<tr>';
+									echo '<th scope="row">'.$data["id"].'</th>';
+									echo '<td>'.$data["nomPrenom"].'</td>' ;
+									echo '<td><a href="'.$data["linkedIn"].'"> Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a></td>';
+									echo '<td><a href="'.$data["gitHub"].'"> Github <i class="fa fa-github" aria-hidden="true"></i></a></td>';
+									echo '</tr>';
+								}
+								
+								?>
     				</tbody>
     				</table>
     				</div>
