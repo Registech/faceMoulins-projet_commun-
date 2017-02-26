@@ -33,30 +33,39 @@ $('#articleTrois').on('click',function(e){
 ///////////////////////////////////
 //---------Active Menu-----------//
 ///////////////////////////////////
-var lienMenu = document.getElementsByClassName("lienMenu");
+var active = document.getElementsByClassName("active");
 if(document.location.href.indexOf("index.php") != -1)
-	lienMenu[0].id = "active";
+	active[0].id = "active";
 else if(document.location.href.indexOf("presentation.php") != -1)
-	lienMenu[1].id = "active";
+	active[1].id = "active";
 else if (document.location.href.indexOf("galerie.php") != -1)
-	lienMenu[2].id = "active";
+	active[2].id = "active";
 else if (document.location.href.indexOf("partenariat.php") != -1)
-	lienMenu[3].id = "active";
+	active[3].id = "active";
 else if (document.location.href.indexOf("laFabrik.php") != -1)
-	lienMenu[4].id = "active";
+	active[4].id = "active";
 else if (document.location.href.indexOf("contact.php") != -1)
-	lienMenu[5].id = "active";
+	active[5].id = "active";
 
+///////////////////////////////////
+//-------Limite recherche--------//
+///////////////////////////////////
+document.getElementById('search').addEventListener('input',function(){
+	if(document.getElementById('search').value.length > 11){
+		alert('Vous avez entrez trop de caractères.');
+		document.getElementById('search').value.length --;
+	}
+})
 
 ///////////////////////////////////		
 //----------Cache header---------//		
 ///////////////////////////////////		
 $(document).on('scroll', function(){	
 
-	if ($(this).scrollTop()>1) {
-		$('#headerRecherche').slideUp();
+	if ($(this).scrollTop()>115) {
+		$('#top').slideUp();
 	}else{
-		$('#headerRecherche').slideDown();
+		$('#top').slideDown();
 	}	
    		
 });
@@ -74,6 +83,23 @@ $("#galerieVideo").on("click", function(){
 	$("#container2").css("display", "block");
 	$("#container1").css("display", "none");
 });
+///////////////////////////////////
+//-------Menu slide down---------//
+///////////////////////////////////
+
+$(document).ready(function(){
+	$(".dropdown").hover(
+		function() {
+			$('.dropdown-menu', this).not('.in .dropdown-menu').stop( true, true ).slideDown(300);
+			$(this).toggleClass('open');
+		},
+		function() {
+			$('.dropdown-menu', this).not('.in .dropdown-menu').stop( true, true ).slideUp(300);
+			$(this).toggleClass('open');
+		}
+	);
+});
+
 ///////////////////////////////////
 //---------Valid mail------------//
 ///////////////////////////////////
