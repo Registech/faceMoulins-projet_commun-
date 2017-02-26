@@ -230,7 +230,6 @@ html, body{
 }
 /*---------------------------------------------------------------------------------------*/
 #section1{
-	margin-top: 290px;
 	margin-right: auto;
 	margin-left: auto;
 	background-color: white;
@@ -446,7 +445,6 @@ html, body{
 /*---------------------------------------------------------------------------------------*/
 
 #carou{
-	margin-top: 240px;
 	margin-bottom: 100px;
    	color: #555;
    	border: 1px solid black;
