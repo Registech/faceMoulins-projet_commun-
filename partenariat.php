@@ -224,7 +224,7 @@
 
 							Partenariat axé sur la formation des entreprises FACE aux projets de mécénat.
 						</p>
-							<img class="alignright size-full wp-image-524" src="http://www.fondationface.org/wp-content/uploads/2013/11/admical.jpg" alt="admical" width="150" height="50">
+							<a href="http://www.admical.org/"><img class="alignright size-full wp-image-524" src="http://www.fondationface.org/wp-content/uploads/2013/11/admical.jpg" alt="admical" width="150" height="50"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -232,7 +232,7 @@
 
 							L’AFMD est le partenaire de FACE sur l’accompagnement d’organismes (ministères, entreprises…) au Label Diversité : « les Ateliers Label FACE/AFMD ».
 						</p>
-							<img class="alignright size-full wp-image-517" src="http://www.fondationface.org/wp-content/uploads/2013/11/afmd1.jpg" alt="afmd" width="150" height="49">
+							<a href="http://www.afmd.fr/"><img class="alignright size-full wp-image-517" src="http://www.fondationface.org/wp-content/uploads/2013/11/afmd1.jpg" alt="afmd" width="150" height="49"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -240,7 +240,7 @@
 
 							Le partenariat FACE-APELS a pour objectif de faire reconnaître la pratique sportive comme un véritable outil éducatif, de favoriser le soutien aux personnes en difficulté et d’encourager la mixité.
 						</p>
-						<img class="alignright  wp-image-518" src="http://www.fondationface.org/wp-content/uploads/2013/11/APELS.jpg" alt="APELS" width="105" height="155">
+							<a href="http://www.apels.org/"><img class="alignright  wp-image-518" src="http://www.fondationface.org/wp-content/uploads/2013/11/APELS.jpg" alt="APELS" width="105" height="155"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -248,7 +248,7 @@
 
 							L’APF (Association des Paralysés de France) est partenaire de FACE sur des actions entreprise ; formation et sensibilisation des entreprises FACE autour du thème « Handicap et Travail » création d’évènements, expérimentation, innovation…
 						</p>
-						<img class="alignright size-full wp-image-519" src="http://www.fondationface.org/wp-content/uploads/2013/11/apf1.jpg" alt="apf" width="150" height="108">
+							<a href="http://www.apf.asso.fr/"><img class="alignright size-full wp-image-519" src="http://www.fondationface.org/wp-content/uploads/2013/11/apf1.jpg" alt="apf" width="150" height="108"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -256,7 +256,7 @@
 
 							FACE Accompagne les entreprises signataires de la Charte.
 						</p>
-						<img class="alignright size-full wp-image-527" src="http://www.fondationface.org/wp-content/uploads/2013/11/diversite1.jpg" alt="diversite" width="150" height="102" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/diversite1-88x60.jpg 88w, http://www.fondationface.org/wp-content/uploads/2013/11/diversite1.jpg 150w" sizes="(max-width: 150px) 100vw, 150px">
+							<a href="http://www.charte-diversite.com/"><img class="alignright size-full wp-image-527" src="http://www.fondationface.org/wp-content/uploads/2013/11/diversite1.jpg" alt="diversite" width="150" height="102" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/diversite1-88x60.jpg 88w, http://www.fondationface.org/wp-content/uploads/2013/11/diversite1.jpg 150w" sizes="(max-width: 150px) 100vw, 150px"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -264,7 +264,7 @@
 
 							FACE et le CJD (Centre des Jeunes Dirigeants d’Entreprise) s’engagent à promouvoir des actions visant à valoriser une Responsabilité Sociale et Sociétale des Entreprises membres des deux structures.
 						</p>
-						<img class="alignright size-full wp-image-526" src="http://www.fondationface.org/wp-content/uploads/2013/11/CJD.jpg" alt="CJD" width="150" height="101" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/CJD-89x60.jpg 89w, http://www.fondationface.org/wp-content/uploads/2013/11/CJD.jpg 150w" sizes="(max-width: 150px) 100vw, 150px">
+							<a href="http://www.cjd.net/"><img class="alignright size-full wp-image-526" src="http://www.fondationface.org/wp-content/uploads/2013/11/CJD.jpg" alt="CJD" width="150" height="101" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/CJD-89x60.jpg 89w, http://www.fondationface.org/wp-content/uploads/2013/11/CJD.jpg 150w" sizes="(max-width: 150px) 100vw, 150px"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -272,7 +272,7 @@
 
 							Collaboration notamment dans les Points Services aux Particuliers sur des sujets de maîtrise de budget…
 						</p>
-						<img class="alignright size-full wp-image-528" src="http://www.fondationface.org/wp-content/uploads/2013/11/fp.jpg" alt="fp" width="150" height="26">
+							<a href="http://www.finances-pedagogie.fr/"><img class="alignright size-full wp-image-528" src="http://www.fondationface.org/wp-content/uploads/2013/11/fp.jpg" alt="fp" width="150" height="26"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -280,7 +280,7 @@
 
 							Partenaire de FACE dans le cadre du festival Regards Croisés, premier festival de courts-métrages réalisés par des travailleurs en situation de handicap.
 						</p>
-						<img class="alignright size-full wp-image-521" src="http://www.fondationface.org/wp-content/uploads/2013/11/hippo.jpg" alt="hippo" width="150" height="151" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/hippo-149x150.jpg 149w, http://www.fondationface.org/wp-content/uploads/2013/11/hippo.jpg 150w" sizes="(max-width: 150px) 100vw, 150px">
+							<a href="http://www.hippocampe-culture.fr/"><img class="alignright size-full wp-image-521" src="http://www.fondationface.org/wp-content/uploads/2013/11/hippo.jpg" alt="hippo" width="150" height="151" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/hippo-149x150.jpg 149w, http://www.fondationface.org/wp-content/uploads/2013/11/hippo.jpg 150w" sizes="(max-width: 150px) 100vw, 150px"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -288,7 +288,7 @@
 
 							Dans le cadre du partenariat établi avec L’Agence D’Outre-mer pour la Mobilité (LADOM), FACE Chambéry a accueilli 5 jeunes martiniquais-e-s en Savoie. Le Club leur a assuré une formation afin de préparer leur intégration en entreprise.
 						</p>
-						<img class="alignright size-full wp-image-525" src="http://www.fondationface.org/wp-content/uploads/2013/11/ladom.jpg" alt="ladom" width="150" height="46">
+							<a href="http://www.ladom.fr/"><img class="alignright size-full wp-image-525" src="http://www.fondationface.org/wp-content/uploads/2013/11/ladom.jpg" alt="ladom" width="150" height="46"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -296,7 +296,7 @@
 
 							FACE et le CNAM (Conservatoire National des Arts et Métiers) travaillent en collaboration sur un projet de formation d’ « encadrant de médiation sociale », en lien avec les acteurs de la médiation sociale en France (FACE, France médiation, pimms, femmes relais, correspondant de nuit).
 						</p>
-						<img class="alignright size-full wp-image-520" src="http://www.fondationface.org/wp-content/uploads/2013/11/cnam1.jpg" alt="cnam" width="150" height="39">
+							<a href="http://www.cnam.fr/"><img class="alignright size-full wp-image-520" src="http://www.fondationface.org/wp-content/uploads/2013/11/cnam1.jpg" alt="cnam" width="150" height="39"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -304,7 +304,7 @@
 
 							Partenariat sur des actions communes tel le parrainage.
 						</p>
-						<img class="alignright size-full wp-image-529" src="http://www.fondationface.org/wp-content/uploads/2013/11/nqt.jpg" alt="nqt" width="150" height="30">
+							<a href="http://www.nqt.fr/"><img class="alignright size-full wp-image-529" src="http://www.fondationface.org/wp-content/uploads/2013/11/nqt.jpg" alt="nqt" width="150" height="30"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -312,7 +312,7 @@
 
 							Partenariat autour des problématiques liées à l’emploi des personnes en situation de handicap. Charte COLIN MAILLARD.
 						</p>
-						<img class="alignright size-full wp-image-522" src="http://www.fondationface.org/wp-content/uploads/2013/11/unadev.jpg" alt="unadev" width="150" height="150" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/unadev.jpg 150w, http://www.fondationface.org/wp-content/uploads/2013/11/unadev-125x125.jpg 125w, http://www.fondationface.org/wp-content/uploads/2013/11/unadev-80x80.jpg 80w, http://www.fondationface.org/wp-content/uploads/2013/11/unadev-60x60.jpg 60w" sizes="(max-width: 150px) 100vw, 150px">
+							<a href="http://www.unadev.com/"><img class="alignright size-full wp-image-522" src="http://www.fondationface.org/wp-content/uploads/2013/11/unadev.jpg" alt="unadev" width="150" height="150" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/unadev.jpg 150w, http://www.fondationface.org/wp-content/uploads/2013/11/unadev-125x125.jpg 125w, http://www.fondationface.org/wp-content/uploads/2013/11/unadev-80x80.jpg 80w, http://www.fondationface.org/wp-content/uploads/2013/11/unadev-60x60.jpg 60w" sizes="(max-width: 150px) 100vw, 150px"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -320,7 +320,7 @@
 
 							FACE et l’USGERES entendent au travers leur partenariat accompagner, renforcer et encourager de nouvelles bonnes pratiques RH en prenant en compte l’égalité de traitement, et de travailler à la diffusion d’une « culture des diversités » au sein des entreprises de l’économie sociale.
 						</p>
-						<img class="alignright size-full wp-image-523" src="http://www.fondationface.org/wp-content/uploads/2013/11/usgeres.jpg" alt="usgeres" width="150" height="130">
+							<a href="http://www.udes.fr/"><img class="alignright size-full wp-image-523" src="http://www.fondationface.org/wp-content/uploads/2013/11/usgeres.jpg" alt="usgeres" width="150" height="130"></a>
 					</li>
 				</ol>	
 				</div>
