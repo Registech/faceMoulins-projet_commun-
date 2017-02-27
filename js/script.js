@@ -50,10 +50,15 @@ else if (document.location.href.indexOf("contact.php") != -1)
 ///////////////////////////////////
 //-------Limite recherche--------//
 ///////////////////////////////////
+
 document.getElementById('search').addEventListener('input',function(){
-	if(document.getElementById('search').value.length > 11){
-		alert('Vous avez entrez trop de caractères.');
-		document.getElementById('search').value.length --;
+	if(document.getElementById('search').value.length >= 100){
+		setTimeout(function() {
+			$('#error').fadeIn(800).css('display','table-caption');
+		}, 1000);
+		setTimeout(function() {
+			$('#error').fadeOut(800);
+		}, 6000);
 	}
 })
 

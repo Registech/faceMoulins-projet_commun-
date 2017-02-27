@@ -73,6 +73,15 @@ html, body{
 	cursor: pointer;
 }
 
+.navbar #top .search p#error{ /* Message d'erreur bloc de recherche */
+	display: none;
+	caption-side: bottom;
+	color: #1e5d74;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
 .navbar #bottom{ /* Zone menu & navigation */
 	background-color: #E79063;
 	border-bottom: 3px solid #8b563c;

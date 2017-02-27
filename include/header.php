@@ -5,8 +5,9 @@
 	<div id="top">
 		<img src="img/faceimg.png" alt="logo_face" />
 		<div class="search hidden-xs hidden-sm">
-			<input type="text" name="search" placeholder="Recherche..." id="search">
+			<input type="text" name="search" placeholder="Recherche..." id="search" maxlength="100">
 			<span><i class="fa fa-search"></i></span>
+			<p id="error"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Limite de caractère atteint.</p>
 		</div>
 	</div>
 
