@@ -155,7 +155,7 @@
 
 							Membre fondateur, partenaire sur de nombreuses actions, notamment dans le champ « emploi » et « Quotidien ». Le PDG de ENGIE, Gérard Mestrallet, est Président de FACE.
 						</p>
-						<img class=" wp-image-2567 size-full alignright" src="http://www.fondationface.org/wp-content/uploads/2015/06/Engie-e1457520734809.jpg" alt="" width="150" height="75">
+							<a href="https://particuliers.engie.fr/"><img class=" wp-image-2567 size-full alignright" src="http://www.fondationface.org/wp-content/uploads/2015/06/Engie-e1457520734809.jpg" alt="" width="150" height="75"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -163,7 +163,7 @@
 
 							Membre fondateur, partenaire sur des actions à destination des seniors et éducation budgétaire.
 						</p>
-						<img class="alignright size-full wp-image-540" src="http://www.fondationface.org/wp-content/uploads/2013/11/ag2r.jpg" alt="ag2r" width="150" height="66" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/ag2r-136x60.jpg 136w, http://www.fondationface.org/wp-content/uploads/2013/11/ag2r.jpg 150w" sizes="(max-width: 150px) 100vw, 150px">
+							<a href="http://www.ag2rlamondiale.fr/"><img class="alignright size-full wp-image-540" src="http://www.fondationface.org/wp-content/uploads/2013/11/ag2r.jpg" alt="ag2r" width="150" height="66" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/ag2r-136x60.jpg 136w, http://www.fondationface.org/wp-content/uploads/2013/11/ag2r.jpg 150w" sizes="(max-width: 150px) 100vw, 150px"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -171,7 +171,7 @@
 
 							Membre fondateur. Le PDG de la RATP, Pierre Mongin, est vice-président de FACE.
 						</p>
-						<img class="alignright  wp-image-538" src="http://www.fondationface.org/wp-content/uploads/2013/11/ratp.jpg" alt="ratp" width="105" height="127">
+							<a href="http://www.ratp.fr/"><img class="alignright  wp-image-538" src="http://www.fondationface.org/wp-content/uploads/2013/11/ratp.jpg" alt="ratp" width="105" height="127"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -179,7 +179,7 @@
 
 							FACE et ses Clubs forment et accompagnent l’entreprise dans la gestion des clauses sociales.
 						</p>
-						<img class="alignright size-full wp-image-534" src="http://www.fondationface.org/wp-content/uploads/2013/11/bouygues.jpg" alt="bouygues" width="150" height="98">
+							<a href="http://www.bouygues-construction.com/"><img class="alignright size-full wp-image-534" src="http://www.fondationface.org/wp-content/uploads/2013/11/bouygues.jpg" alt="bouygues" width="150" height="98"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -188,7 +188,7 @@
 
 							Partenaire historique de FACE, la Fondation Cetelem a orienté ses actions sur la prévention de l’exclusion bancaire en mettant en place un programme d’éducation budgétaire. FACE a été choisi comme partenaire national pour déployer cet outil sur les territoires au bénéfice des publics vulnérables. Plus de 2250 personnes ont été impactées en 2012.
 						</p>
-						<img class="alignright  wp-image-535" src="http://www.fondationface.org/wp-content/uploads/2013/11/cetelem.png" alt="cetelem" width="161" height="105" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/cetelem-92x60.png 92w, http://www.fondationface.org/wp-content/uploads/2013/11/cetelem.png 201w" sizes="(max-width: 161px) 100vw, 161px">
+							<a href="http://fondation.cetelem.com/"><img class="alignright  wp-image-535" src="http://www.fondationface.org/wp-content/uploads/2013/11/cetelem.png" alt="cetelem" width="161" height="105" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/cetelem-92x60.png 92w, http://www.fondationface.org/wp-content/uploads/2013/11/cetelem.png 201w" sizes="(max-width: 161px) 100vw, 161px"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -196,7 +196,7 @@
 
 							DELL s’est engagé aux côtés de FACE sur des projets « École ». Dans le cadre du projet Dell youthconnect, les Clubs FACE Hérault et Seine-Saint-Denis ont créé l’action « Tremplin 3ème, pour une orientation choisie ».
 						</p>
-						<img class="alignright  wp-image-541" src="http://www.fondationface.org/wp-content/uploads/2013/11/dell.jpg" alt="dell" width="120" height="120" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/dell.jpg 150w, http://www.fondationface.org/wp-content/uploads/2013/11/dell-125x125.jpg 125w, http://www.fondationface.org/wp-content/uploads/2013/11/dell-80x80.jpg 80w, http://www.fondationface.org/wp-content/uploads/2013/11/dell-60x60.jpg 60w" sizes="(max-width: 120px) 100vw, 120px">
+							<a href="http://www.dell.fr/"><img class="alignright  wp-image-541" src="http://www.fondationface.org/wp-content/uploads/2013/11/dell.jpg" alt="dell" width="120" height="120" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/dell.jpg 150w, http://www.fondationface.org/wp-content/uploads/2013/11/dell-125x125.jpg 125w, http://www.fondationface.org/wp-content/uploads/2013/11/dell-80x80.jpg 80w, http://www.fondationface.org/wp-content/uploads/2013/11/dell-60x60.jpg 60w" sizes="(max-width: 120px) 100vw, 120px"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -204,7 +204,7 @@
 
 							Partenaire sur l’action « Un But pour l’Emploi », le Festival Regards Croisés et pour l’accompagnement des seniors.
 						</p>
-						<img class="alignright size-full wp-image-537" src="http://www.fondationface.org/wp-content/uploads/2013/11/randstad.jpg" alt="randstad" width="150" height="91">
+							<a href="https://www.randstad.fr/"><img class="alignright size-full wp-image-537" src="http://www.fondationface.org/wp-content/uploads/2013/11/randstad.jpg" alt="randstad" width="150" height="91"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -212,7 +212,7 @@
 
 							Partenariat avec l’Enseigne du groupe La Poste pour accompagner les clientèles vulnérables au sein des bureaux de poste, situés en Zones Urbaines Sensibles, depuis 2011.
 						</p>
-						<img class="alignright size-full wp-image-536" src="http://www.fondationface.org/wp-content/uploads/2013/11/laposte.jpg" alt="laposte" width="150" height="128">
+							<a href="http://www.laposte.fr/particulier"><img class="alignright size-full wp-image-536" src="http://www.fondationface.org/wp-content/uploads/2013/11/laposte.jpg" alt="laposte" width="150" height="128"></a>
 					</li>
 				</ol>	
 				</div>
