@@ -18,13 +18,14 @@
 			<div id="toppartenariat" class="container">
 			<div class="col-md-12">
 				<h1>La politique partenariale de FACE</h1>
-				<p id="fondation">
+				<p id="fondation" style="text-indent: 20px;">
 					La Fondation FACE s’est engagée dès sa création dans un dialogue nourri et une démarche de co construction systématique avec l’ensemble des parties prenantes : c’est cet « ADN » qui préside depuis 1994 à la création des Clubs FACE et de ses autres structures de médiation et d’insertion, toujours nés d’une volonté commune des entreprises, des collectivités, et de l’ensemble des acteurs territoriaux.
-
+					</p>
+					<p id="fondation" style="text-indent: 20px; margin-top: -50px;">
 					Cette volonté de maillage avec nos partenaires institutionnels, entreprises ou associations, est la clé de la conception et de la réalisation de nos projets, tant les politiques de lutte contre l’exclusion, les discriminations et la pauvreté nécessitent -au-delà d’une association systématique des bénéficiaires (salariés, habitants, jeunes en contrats d’alternance, services civiques…etc…)- l’implication de tous les acteurs.
 				</p>
 			</div>
-			<div class="container">
+			<div class="container" align="center">
 			 	<button id="boutton1" style="background-color: #F9D298; color: #E79063;" class="col-md-4 boutton" type="button" class="btn btn-outline-primary">PARTENAIRES INSTITUTIONNELS</button>
 			 	<button id="boutton2" style="background-color: #91C3D2; color: #1E5A70;" class="col-md-4 boutton" type="button" class="btn btn-outline-primary">PATENAIRES ENTREPRISES</button>
 			 	<button id="boutton3" style="background-color: #B3DED0; color: #00A5AA;"  class="col-md-4 boutton" type="button" class="btn btn-outline-primary">PARTENAIRES ASSIOCIATIFS</button>
@@ -36,23 +37,23 @@
 							La Commission Européenne
 							La Commission Européenne finance la fondation via le FSE et le programme Leonardo, pour des projets tels le « Certificat Européen de Compétences Foot & Entreprises » ou plus récemment « serendipité », projet d’innovation sociale pour favoriser l’égalité professionnelle femme-homme.
 						</p>
-							<img class="wp-image-493 alignright" src="http://www.fondationface.org/wp-content/uploads/2013/11/FSE-300x210.gif" alt="FSE" width="144" height="101" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/FSE-300x210.gif 300w, http://www.fondationface.org/wp-content/uploads/2013/11/FSE-1024x717.gif 1024w, http://www.fondationface.org/wp-content/uploads/2013/11/FSE-150x105.gif 150w" sizes="(max-width: 144px) 100vw, 144px">
+							<a href="http://www.europe-en-france.gouv.fr/L-Europe-s-engage"><img class="wp-image-493 alignright" src="http://www.fondationface.org/wp-content/uploads/2013/11/FSE-300x210.gif" alt="FSE" width="144" height="101" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/FSE-300x210.gif 300w, http://www.fondationface.org/wp-content/uploads/2013/11/FSE-1024x717.gif 1024w, http://www.fondationface.org/wp-content/uploads/2013/11/FSE-150x105.gif 150w" sizes="(max-width: 144px) 100vw, 144px"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
-							La Plateforme Nationale RSElogo-rse2_0
+							La Plateforme Nationale RSE
 
 							Créée  en juin 2013 par le Premier ministre sur sollicitation des parties prenantes, la Plateforme nationale RSE est une instance permanente de concertation de France Stratégie, cadre permanent de dialogue sur la responsabilité sociétale des entreprises (RSE). FACE est un membre titulaire de cette Plateforme où elle s’implique notamment sur les questions de RSE et de compétitivité en particulier pour les TPE-PME-ETI, d’initiatives et expérimentations territoriales et sectorielles, d’engagements et de pratiques d’entreprises responsables, d’innovation sociale et sociétale…
 						</p>
-							<img class="wp-image-3925 alignright" src="http://www.fondationface.org/wp-content/uploads/Logo-RSE2_0.jpg" alt="logo-rse2_0" width="229" height="109" data-id="3925">
+							<a href="http://www.strategie.gouv.fr/plateforme-rse"><img class="wp-image-3925 alignright" src="http://www.fondationface.org/wp-content/uploads/Logo-RSE2_0.jpg" alt="logo-rse2_0" width="229" height="109" data-id="3925"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
-							L’Agence du Service CiviqueInformations_service_civique_avril_2010
+							L’Agence du Service Civique
 
 							FACE a été agréée le 4 juillet 2011 par l’Agence du Service Civique. La Fondation peut accueillir des jeunes volontaires sur une mission de solidarité pour « accompagner les habitants dans leurs problématiques quotidiennes, notamment en luttant contre la précarité énergétique ».
 						</p>
-							<img class="wp-image-502 alignright" style="margin-left: 10px; margin-right: 10px;" src="http://www.fondationface.org/wp-content/uploads/2013/11/service_civique-300x118.jpg" alt="Informations_service_civique_avril_2010" width="131" height="52" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/service_civique-151x60.jpg 151w, http://www.fondationface.org/wp-content/uploads/2013/11/service_civique.jpg 1033w" sizes="(max-width: 131px) 100vw, 131px"> 
+							<a href="http://www.service-civique.gouv.fr/"><img class="wp-image-502 alignright" style="margin-left: 10px; margin-right: 10px;" src="http://www.fondationface.org/wp-content/uploads/2013/11/service_civique-300x118.jpg" alt="Informations_service_civique_avril_2010" width="131" height="52" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/service_civique-151x60.jpg 151w, http://www.fondationface.org/wp-content/uploads/2013/11/service_civique.jpg 1033w" sizes="(max-width: 131px) 100vw, 131px"></a> 
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -60,7 +61,7 @@
 
 							« S’engager pour les quartiers » est un projet initié par FACE et l’ANRU qui récompense des projets développés dans les quartiers prioritaires de la ville.
 						</p>
-							<img class="alignright wp-image-496" style="margin-left: 10px; margin-right: 10px;" src="http://www.fondationface.org/wp-content/uploads/2013/11/Logo-ANRU-Quadri-300x155.gif" alt="Logo-ANRU-Quadri" width="144" height="74">
+							<a href="http://www.anru.fr/"><img class="alignright wp-image-496" style="margin-left: 10px; margin-right: 10px;" src="http://www.fondationface.org/wp-content/uploads/2013/11/Logo-ANRU-Quadri-300x155.gif" alt="Logo-ANRU-Quadri" width="144" height="74"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -68,7 +69,7 @@
 
 							Plusieurs champs de coopération structurent le partenariat entre FACE et Alliance Villes Emploi; valorisation des politiques territoriales de l’emploi, travaux de recherche, échanges de bonnes pratiques…
 						</p>
-							<img class="alignright wp-image-491" style="margin-left: 10px; margin-right: 10px;" src="http://www.fondationface.org/wp-content/uploads/2013/11/alliance-villes-emploi-300x226.jpg" alt="alliance villes emploi" width="126" height="95" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/alliance-villes-emploi-300x226.jpg 300w, http://www.fondationface.org/wp-content/uploads/2013/11/alliance-villes-emploi-150x113.jpg 150w, http://www.fondationface.org/wp-content/uploads/2013/11/alliance-villes-emploi.jpg 311w" sizes="(max-width: 126px) 100vw, 126px">
+							<a href="https://www.ville-emploi.asso.fr/"><img class="alignright wp-image-491" style="margin-left: 10px; margin-right: 10px;" src="http://www.fondationface.org/wp-content/uploads/2013/11/alliance-villes-emploi-300x226.jpg" alt="alliance villes emploi" width="126" height="95" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/alliance-villes-emploi-300x226.jpg 300w, http://www.fondationface.org/wp-content/uploads/2013/11/alliance-villes-emploi-150x113.jpg 150w, http://www.fondationface.org/wp-content/uploads/2013/11/alliance-villes-emploi.jpg 311w" sizes="(max-width: 126px) 100vw, 126px"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -76,7 +77,7 @@
 
 							Partenaire au plan national du concours « S’engager pour les quartiers »
 						</p>
-							<img class="alignright wp-image-1503" src="http://www.fondationface.org/wp-content/uploads/2013/11/CGET.png" alt="CGET" width="150" height="105" data-id="1503" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/CGET-150x105.png 150w, http://www.fondationface.org/wp-content/uploads/2013/11/CGET.png 210w" sizes="(max-width: 150px) 100vw, 150px">
+							<a href="http://www.cget.gouv.fr/"><img class="alignright wp-image-1503" src="http://www.fondationface.org/wp-content/uploads/2013/11/CGET.png" alt="CGET" width="150" height="105" data-id="1503" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/CGET-150x105.png 150w, http://www.fondationface.org/wp-content/uploads/2013/11/CGET.png 210w" sizes="(max-width: 150px) 100vw, 150px"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -84,7 +85,7 @@
 
 							Partenariat axé sur l’accompagnement à l’emploi et à l’intégration professionnelle, notamment pour les migrants primo-arrivants.
 						</p>
-							<img class="alignright wp-image-497" style="margin-left: 10px; margin-right: 10px;" src="http://www.fondationface.org/wp-content/uploads/2013/11/logo-DAIC-233x300.gif" alt="logo-DAIC" width="112" height="144">
+							<a href="http://www.immigration.interieur.gouv.fr/"><img class="alignright wp-image-497" style="margin-left: 10px; margin-right: 10px;" src="http://www.fondationface.org/wp-content/uploads/2013/11/logo-DAIC-233x300.gif" alt="logo-DAIC" width="112" height="144"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -92,7 +93,7 @@
 
 							Collaboration entre la Halde puis le Défenseur des Droits et la Fondation FACE (questions de prévention de l’homophobie à FACE Hérault, collaboration aux publications FACE…)
 						</p>
-							<img class="alignright wp-image-492" style="margin-left: 10px; margin-right: 10px;" src="http://www.fondationface.org/wp-content/uploads/2013/11/DefenseurDroits-300x300.gif" alt="DefenseurDroits" width="155" height="155" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/DefenseurDroits-150x150.gif 150w, http://www.fondationface.org/wp-content/uploads/2013/11/DefenseurDroits-300x300.gif 300w, http://www.fondationface.org/wp-content/uploads/2013/11/DefenseurDroits-125x125.gif 125w, http://www.fondationface.org/wp-content/uploads/2013/11/DefenseurDroits-80x80.gif 80w, http://www.fondationface.org/wp-content/uploads/2013/11/DefenseurDroits-60x60.gif 60w" sizes="(max-width: 155px) 100vw, 155px">
+							<a href="http://www.defenseurdesdroits.fr/"><img class="alignright wp-image-492" style="margin-left: 10px; margin-right: 10px;" src="http://www.fondationface.org/wp-content/uploads/2013/11/DefenseurDroits-300x300.gif" alt="DefenseurDroits" width="155" height="155" srcset="http://www.fondationface.org/wp-content/uploads/2013/11/DefenseurDroits-150x150.gif 150w, http://www.fondationface.org/wp-content/uploads/2013/11/DefenseurDroits-300x300.gif 300w, http://www.fondationface.org/wp-content/uploads/2013/11/DefenseurDroits-125x125.gif 125w, http://www.fondationface.org/wp-content/uploads/2013/11/DefenseurDroits-80x80.gif 80w, http://www.fondationface.org/wp-content/uploads/2013/11/DefenseurDroits-60x60.gif 60w" sizes="(max-width: 155px) 100vw, 155px"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -100,7 +101,7 @@
 
 							En lien avec la DAAEN, le Fonds européen d’intégration (FEI) finance pour 2013-2014 l’accompagnement à l’emploi de personnes primo-arrivantes, l’aide en termes d’accès aux droits et à l’information ainsi que l’expérimentation d’un accompagnement global (retour à l’emploi et suivi social).
 						</p>
-							<img class="alignright size-full wp-image-1273" title="Logo-FEI" src="http://www.fondationface.org/wp-content/uploads/2014/04/Logo-FEI.gif" alt="" width="230" height="73">
+							<a href="http://www.immigration.interieur.gouv.fr/Info-ressources/Fonds-europeens/Le-Fonds-europeen-d-integration-FEI"><img class="alignright size-full wp-image-1273" title="Logo-FEI" src="http://www.fondationface.org/wp-content/uploads/2014/04/Logo-FEI.gif" alt="" width="230" height="73"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -108,7 +109,7 @@
 
 							Membre de droit du Conseil d’Administration (représenté par son Ministère délégué chargé des Personnes handicapées et de la Lutte contre l’exclusion)
 						</p>
-							<img class="alignright wp-image-510" style="margin-left: 10px; margin-right: 10px;" src="http://www.fondationface.org/wp-content/uploads/2013/11/Affaires_Sociales.png" alt="Affaires_Sociales" width="123" height="122">
+							<a href="http://social-sante.gouv.fr/"><img class="alignright wp-image-510" style="margin-left: 10px; margin-right: 10px;" src="http://www.fondationface.org/wp-content/uploads/2013/11/Affaires_Sociales.png" alt="Affaires_Sociales" width="123" height="122"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -116,7 +117,7 @@
 
 							Membre de droit du Conseil d’Administration
 						</p>
-							<img class="alignright wp-image-512" style="margin-left: 10px; margin-right: 10px;" src="http://www.fondationface.org/wp-content/uploads/2013/11/Ministere-de-l-Egalite-des-Territoires-et-du-Logement-234x300.jpg" alt="Ministere-de-l-Egalite-des-Territoires-et-du-Logement" width="112" height="144">
+							<a href="https://www.data.gouv.fr/fr/organizations/ministere-de-l-egalite-des-territoires-et-du-logement/"><img class="alignright wp-image-512" style="margin-left: 10px; margin-right: 10px;" src="http://www.fondationface.org/wp-content/uploads/2013/11/Ministere-de-l-Egalite-des-Territoires-et-du-Logement-234x300.jpg" alt="Ministere-de-l-Egalite-des-Territoires-et-du-Logement" width="112" height="144"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -125,7 +126,7 @@
 							Dans le cadre de la Convention de partenariat entre FACE et le Ministère de la Ville, le SGCIV soutient l’engagement du Réseau FACE dans les territoires prioritaires.
 							Le Secrétariat Général du Comité Interministériel des Villes soutient ainsi 18 actions mises en œuvre par la Fondation dans 7 champs prioritaires du Ministre de la Ville.
 						</p>
-							<img class="alignright wp-image-495" style="margin-left: 10px; margin-right: 10px;" src="http://www.fondationface.org/wp-content/uploads/2013/11/logo_cg-civ-220x300.gif" alt="logo_cg-civ" width="119" height="162">
+							<a href="http://www.ville.gouv.fr/?organisation-du-cget"><img class="alignright wp-image-495" style="margin-left: 10px; margin-right: 10px;" src="http://www.fondationface.org/wp-content/uploads/2013/11/logo_cg-civ-220x300.gif" alt="logo_cg-civ" width="119" height="162"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -133,7 +134,7 @@
 
 							Membre de droit du Conseil d’Administration
 						</p>
-							<img class="alignright wp-image-501" style="margin-left: 10px; margin-right: 10px;" src="http://www.fondationface.org/wp-content/uploads/2013/11/minstere_emploi-260x300.gif" alt="minstere_emploi" width="109" height="126">
+							<a href="http://travail-emploi.gouv.fr/"><img class="alignright wp-image-501" style="margin-left: 10px; margin-right: 10px;" src="http://www.fondationface.org/wp-content/uploads/2013/11/minstere_emploi-260x300.gif" alt="minstere_emploi" width="109" height="126"></a>
 					</li>
 					<li class="col-md-12">
 						<p>
@@ -141,7 +142,7 @@
 
 							Membre de droit du Conseil d’Administration
 						</p>
-							<img class="alignright wp-image-514" style="margin-left: 10px; margin-right: 10px;" src="http://www.fondationface.org/wp-content/uploads/2013/11/Ministere_interieur.jpg" alt="Ministere_interieur" width="113" height="135">
+							<a href="http://www.interieur.gouv.fr/"><img class="alignright wp-image-514" style="margin-left: 10px; margin-right: 10px;" src="http://www.fondationface.org/wp-content/uploads/2013/11/Ministere_interieur.jpg" alt="Ministere_interieur" width="113" height="135"></a>
 					</li>
 				</ol>
 				</div>
