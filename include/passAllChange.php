@@ -4,7 +4,7 @@
 		for($i=0;$i<strlen($_POST["retour1"]);$i++){
 			$allPass = explode(",", $_POST["retour1"]);
 		}
-		$bdd = new PDO('mysql:host=localhost;dbname=faceMoulins;charset=utf8', 'faceMoulins', 'Mysteria666');
+		$bdd=new PDO('mysql:host=localhost;dbname=c2c5aa0474;charset=utf8', 'root', '');
 		$req = $bdd->prepare('SELECT * FROM idUsers LIMIT 1');
 		$req -> execute();
 		while($donnees = $req->fetch()){

@@ -2,7 +2,7 @@
 	if(isset($_POST["email"])){
 		$k=0;
 		$newMail = $_POST["email"];
-		$bdd = new PDO('mysql:host=localhost;dbname=faceMoulins;charset=utf8', 'faceMoulins', 'Mysteria666');
+		$bdd=new PDO('mysql:host=localhost;dbname=c2c5aa0474;charset=utf8', 'root', '');
 		$req=$bdd->prepare('SELECT * FROM Mail');
 		$req->execute();
 		while($donnee = $req->fetch()){
