@@ -25,7 +25,7 @@
 					Cette volonté de maillage avec nos partenaires institutionnels, entreprises ou associations, est la clé de la conception et de la réalisation de nos projets, tant les politiques de lutte contre l’exclusion, les discriminations et la pauvreté nécessitent -au-delà d’une association systématique des bénéficiaires (salariés, habitants, jeunes en contrats d’alternance, services civiques…etc…)- l’implication de tous les acteurs.
 				</p>
 			</div>
-			<div class="container" align="center">
+			<div class="container" id="divButton">
 			 	<button id="boutton1" style="background-color: #F9D298; color: #E79063;" class="col-md-4 boutton" type="button" class="btn btn-outline-primary">PARTENAIRES INSTITUTIONNELS</button>
 			 	<button id="boutton2" style="background-color: #91C3D2; color: #1E5A70;" class="col-md-4 boutton" type="button" class="btn btn-outline-primary">PATENAIRES ENTREPRISES</button>
 			 	<button id="boutton3" style="background-color: #B3DED0; color: #00A5AA;"  class="col-md-4 boutton" type="button" class="btn btn-outline-primary">PARTENAIRES ASSIOCIATIFS</button>
