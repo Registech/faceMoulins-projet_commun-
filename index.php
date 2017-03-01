@@ -68,7 +68,7 @@
 				</section>
 			</div>
 			<?php include("include/footer.php"); ?>
-			<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Cliquer pour revenir en haut" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
+			<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Cliquer pour revenir en haut" data-toggle="tooltip" data-placement="left"><i class="fa fa-chevron-up"></i></a>
 		</div>			
 		<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
