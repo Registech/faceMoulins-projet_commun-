@@ -17,7 +17,7 @@
 			<iframe width="500" height="500" src="https://www.youtube.com/embed/5Bj1752rKNk" frameborder="0" allowfullscreen></iframe> 
 		</div>
 		<?php include("include/footer.php");?>
-
+		<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Cliquer pour revenir en haut" data-toggle="tooltip" data-placement="left"><i class="fa fa-chevron-up"></i></a>
 		<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
