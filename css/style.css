@@ -23,13 +23,13 @@ html, body{
 }
 
 .back-to-top { /* Bouton scroll-to-top */
-    cursor: pointer;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display:none;
-    line-height: 1.5;
-    border-radius: 100%;
+	cursor: pointer;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display:none;
+	line-height: 1.5;
+	border-radius: 100%;
 }
 
 .back-to-top.btn-primary{ /* Style bouton scroll-to-top */
@@ -42,6 +42,25 @@ html, body{
 	color: white;
 	background-color: #CF8B68;
 	border-color: #B27F65;
+}
+
+.back-to-top.btn-primary:hover i{
+	animation: pulse linear 1s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+	50% {
+		-webkit-transform: scale3d(1.5, 1.5, 1.5);
+		transform: scale3d(1.5, 1.5, 1.5);
+	}
+	100% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
 }
 
 /*---------------------------------------------------------------------------------------*/
@@ -303,9 +322,9 @@ html, body{
 	background: url(../img/blocFB.png) center;
 	border: 1px solid black;
 	-webkit-box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
-    -moz-box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
-    box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
-    font-family: 'Fjalla One', sans-serif;
+	-moz-box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
+	box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
+	font-family: 'Fjalla One', sans-serif;
 }
 #divFacebook div, #divPresse div{
 	padding-left: 25px;
@@ -344,9 +363,9 @@ html, body{
 	color: white;
 	border: 1px solid black;
 	-webkit-box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
-    -moz-box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
-    box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
-    font-family: 'Fjalla One', sans-serif;
+	-moz-box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
+	box-shadow: -1px 16px 20px 0px rgba(0,0,0,0.28);
+	font-family: 'Fjalla One', sans-serif;
 }
 #contenuPresse{
 	background: url(https://scontent-cdg2-1.xx.fbcdn.net/v/t31.0-8/15042044_285895341805192_8464025097125481141_o.jpg?oh=bfa99e49b58da973e9a241e47cd186c5&oe=59467C74) center;
@@ -477,9 +496,9 @@ html, body{
 
 #carou{
 	margin-bottom: 100px;
-   	color: #555;
-   	border: 1px solid black;
-   	background-color: white;
+	color: #555;
+	border: 1px solid black;
+	background-color: white;
    }
 /* -----------------DESIGN---------------- */
 .carousel-caption {
@@ -532,66 +551,66 @@ html, body{
 
 @media screen and (max-width: 768px){
   #section1 {
-   	margin-top: 40px;
-   	padding-left: 0;
+	margin-top: 40px;
+	padding-left: 0;
   }
   #section2{
-  	display: flex;
-  	flex-direction: column;
-  	justify-content : center;
-  	align-content: center;
-  	align-items: center;
-  	padding-right: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content : center;
+	align-content: center;
+	align-items: center;
+	padding-right: 0;
   }
   #articles{
-  	margin-left: -30px;
+	margin-left: -30px;
   }
   #articles h2{
 	margin-left: 0;
   }
   #articles a{
-  	text-align: center;
+	text-align: center;
   }
   #articles p{
-  	text-align: center;
+	text-align: center;
   }
   #divPresse{
-  	margin-top: 15px;
-  	margin-left: 0;
+	margin-top: 15px;
+	margin-left: 0;
   }
   #divPresse div{
-  	padding-left: 0;
+	padding-left: 0;
   }
   #carou{
-  	margin-bottom: 70px;
-  	margin-top: 40px;
+	margin-bottom: 70px;
+	margin-top: 40px;
   }
   #container2{
-  	height: 250px;
+	height: 250px;
   }
   #divFacebook{
-  	margin-left: 0;
+	margin-left: 0;
   }
   .fb-page{
-  	width: 100%;
+	width: 100%;
   }
   #footer{
-  	text-align: center;
+	text-align: center;
   }
   #mailDiv{
-  	margin: auto;
+	margin: auto;
   }
 
 }
 @media screen and (min-width: 768px) {
   #carou {
-     padding: 1.5em 0;
+	 padding: 1.5em 0;
   }
 
 }
 @media screen and (min-width: 992px) {
   #container1 {
-    max-width: 930px;
+	max-width: 930px;
   }
 }
 
@@ -795,8 +814,8 @@ h1{
 	height: 60%;
 }
 @keyframes round-roll{
-  	from {transform: rotate(0deg);}
-  	to {transform: rotate(360deg);}
+	from {transform: rotate(0deg);}
+	to {transform: rotate(360deg);}
 }
 /*////////// animation round fin //////////*/
 
@@ -809,55 +828,55 @@ h1{
 }
 
 #content .menu2 {
-    text-align:center;
-    padding-top:30px;
+	text-align:center;
+	padding-top:30px;
 }
 
 #content .menu2 .primary-menu {
-    list-style-type:none;
-    position:relative;
+	list-style-type:none;
+	position:relative;
 }
 
 #content .menu2 .primary-menu li {
-    display:inline;
-    text-align:center;
-    margin:0 10px;
-    position:relative;
+	display:inline;
+	text-align:center;
+	margin:0 10px;
+	position:relative;
 }
 
 #content .menu2 .primary-menu li a {
-    position:relative;
-    text-decoration:none;
-    font-family: 'Social' !important;
-    font-size:25px;
-    background:#d9d9d9;
-    display:inline-block;
-    width:50px;
-    height:50px;
-    padding-top:0.2em;
-    color:#fff;
-    border:3px solid #fff;
-    
-    -webkit-border-radius:100px;
-    -moz-border-radius:100px;
-    -o-border-radius:100px;
-    -ms-border-radius:100px;
-    -khtml-border-radius:100px;
-    border-radius:100px;
-    
-    -webkit-box-shadow:0 0 1px 1px #afafaf;
-    -moz-box-shadow:0 0 1px 1px #afafaf;
-    -o-box-shadow: 0 0 1px 1px #afafaf;
-    -ms-box-shadow: 0 0 1px 1px #afafaf;
-    -khtml-box-shadow:0 0 1px 1px #afafaf;
-    box-shadow:0 0 1px 1px #afafaf;
-    
-    -webkit-transition:all 1s;
-    -moz-transition:all 1s;
-    -o-transition:all 1s;
-    -ms-transition:all 1s;
-    -khtml-transition:all 1s;
-    transition:all 1s;
+	position:relative;
+	text-decoration:none;
+	font-family: 'Social' !important;
+	font-size:25px;
+	background:#d9d9d9;
+	display:inline-block;
+	width:50px;
+	height:50px;
+	padding-top:0.2em;
+	color:#fff;
+	border:3px solid #fff;
+	
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	-o-border-radius:100px;
+	-ms-border-radius:100px;
+	-khtml-border-radius:100px;
+	border-radius:100px;
+	
+	-webkit-box-shadow:0 0 1px 1px #afafaf;
+	-moz-box-shadow:0 0 1px 1px #afafaf;
+	-o-box-shadow: 0 0 1px 1px #afafaf;
+	-ms-box-shadow: 0 0 1px 1px #afafaf;
+	-khtml-box-shadow:0 0 1px 1px #afafaf;
+	box-shadow:0 0 1px 1px #afafaf;
+	
+	-webkit-transition:all 1s;
+	-moz-transition:all 1s;
+	-o-transition:all 1s;
+	-ms-transition:all 1s;
+	-khtml-transition:all 1s;
+	transition:all 1s;
 }
 
 #content .menu2 .primary-menu li.facebook a:hover { background:#00438f;}
@@ -867,56 +886,56 @@ h1{
 #content .menu2 .primary-menu li.mail a:hover { background:#1d1d1d;}
 
 #content .menu2 .primary-menu li a:hover {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -khtml-transform: rotate(360deg);
-    transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-khtml-transform: rotate(360deg);
+	transform: rotate(360deg);
 }
 
 #content .menu2 .primary-menu li span.social-span {
 	z-index: 99;
-    font-family:Arial;
-    font-size:11px;
-    position:absolute;
-    width:100px;
-    top:45px;
-    left:-45%;
-    background: #1F5D74;
-    padding:5px;
-    border:1px solid #B8B8B8;
-    opacity:0;
-    
-    -webkit-border-radius:10px;
-    -moz-border-radius:10px;
-    -o-border-radius:10px;
-    -ms-border-radius:10px;
-    -khtml-border-radius:10px;
-    border-radius:10px;
-    
-    -webkit-transition:opacity 1s ease-in-out;
-    -moz-transition:opacity 1s ease-in-out;
-    -o-transition:opacity 1s ease-in-out;
-    -ms-transition:opacity 1s ease-in-out;
-    -khtml-transition:opacity: 1s ease-in-out;
-    transition:opacity 1s ease-in-out;
+	font-family:Arial;
+	font-size:11px;
+	position:absolute;
+	width:100px;
+	top:45px;
+	left:-45%;
+	background: #1F5D74;
+	padding:5px;
+	border:1px solid #B8B8B8;
+	opacity:0;
+	
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	-ms-border-radius:10px;
+	-khtml-border-radius:10px;
+	border-radius:10px;
+	
+	-webkit-transition:opacity 1s ease-in-out;
+	-moz-transition:opacity 1s ease-in-out;
+	-o-transition:opacity 1s ease-in-out;
+	-ms-transition:opacity 1s ease-in-out;
+	-khtml-transition:opacity: 1s ease-in-out;
+	transition:opacity 1s ease-in-out;
 }
 
 #content .menu2 .primary-menu li a:hover ~ span.social-span {
-    opacity:1;
+	opacity:1;
 }
 
 #content .menu2 .primary-menu li span.social-span:after {
-    content:"";
-    position:absolute;
-    border-color:#fff transparent;
-    display:block;
-    top:-7px;
-    left:40%;
-    width:0;
-    border-width:0 7px 7px;
-    border-style:solid;
+	content:"";
+	position:absolute;
+	border-color:#fff transparent;
+	display:block;
+	top:-7px;
+	left:40%;
+	width:0;
+	border-width:0 7px 7px;
+	border-style:solid;
 }
 
 /* social buttons fin*/
