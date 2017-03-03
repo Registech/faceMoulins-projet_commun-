@@ -32,12 +32,11 @@ body {
   -moz-box-shadow: 2px 2px 3px #333333;
   -webkit-box-shadow: 2px 2px 3px #333333;
   box-shadow: 2px 2px 3px #333333; }
-
-.pic a {
-  /* Specific styles for the hyperlinks */
-  text-indent: -999px;
-  display: block;
-  /* Setting display to block enables advanced styling for links */ }
+  .pic a {
+    /* Specific styles for the hyperlinks */
+    text-indent: -999px;
+    display: block;
+    /* Setting display to block enables advanced styling for links */ }
 
 .drop-box {
   /* The share box */
@@ -48,10 +47,9 @@ body {
   right: 0;
   z-index: -1;
   background: url(img/drop_box.png) no-repeat; }
-
-.drop-box.active {
-  /* The active style is in effect when there is a pic hovering above the box */
-  background-position: bottom left; }
+  .drop-box .active {
+    /* The active style is in effect when there is a pic hovering above the box */
+    background-position: bottom left; }
 
 label, input {
   /* The modal dialog URL field */
@@ -129,5 +127,3 @@ a:hover {
   text-align: center;
   padding: 10px;
   margin-top: 70px; }
-
-/*# sourceMappingURL=demo.css.map */

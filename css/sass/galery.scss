@@ -13,38 +13,37 @@ overflow:hidden;
 }
 
 .pic{
-position:absolute;
-border:5px solid #EEEEEE;
-border-bottom:18px solid #eeeeee;
+	position:absolute;
+	border:5px solid #EEEEEE;
+	border-bottom:18px solid #eeeeee;
 
-/* CSS3 тень */
--moz-box-shadow:2px 2px 3px #333333;
--webkit-box-shadow:2px 2px 3px #333333;
-box-shadow:2px 2px 3px #333333;
-}
-
-.pic a{
-/* Стили для ссылок */
-text-indent:-999px;
-display:block;
-/* Setting display to block enables advanced styling for links */
+	/* CSS3 тень */
+	-moz-box-shadow:2px 2px 3px #333333;
+	-webkit-box-shadow:2px 2px 3px #333333;
+	box-shadow:2px 2px 3px #333333;
+	a{
+		/* Стили для ссылок */
+		text-indent:-999px;
+		display:block;
+		/* Setting display to block enables advanced styling for links */
+	}
 }
 
 .drop-box{
 /* Ячейка распространения */
-width:240px;
-height:130px;
-position:absolute;
-bottom:0;
-right:0;
-z-index:-1;
+	width:240px;
+	height:130px;
+	position:absolute;
+	bottom:0;
+	right:0;
+	z-index:-1;
 
-background:url(img/drop_box.png) no-repeat;
-}
+	background:url(img/drop_box.png) no-repeat;
 
-.drop-box.active{
-/* стиль active вступает в силу при наведении мышки */
-background-position:bottom left;
+	.active{
+		/* стиль active вступает в силу при наведении мышки */
+		background-position:bottom left;
+	}
 }
 
 label, input{

@@ -1,3 +1,10 @@
+$blanc:#FFFFFF;
+$miniLarge:100px;
+$miniHauteu:100px;
+@mixin maxDimension{
+	max-height: 500px;
+	max-width: 500px;
+}
 .connexion{
 	width:400px;
 	height: 400px;
@@ -8,28 +15,31 @@
 	align-items: center;
 	margin:auto;
 	padding-top: 100px;
-}
-.connexion form{
-	display: flex;
-	flex-direction: column;
+
+	form{
+		display: flex;
+		flex-direction: column;
+	}
 }
 #navbar{
 	background-color: #C0C0C0;
-	color: #FFFFFF;
+	color: $blanc;
 	height: 1200px;
-}
-#navAdmin li a{
-	color: #FFFFFF;
-	line-height: 50px;
-	text-transform: uppercase;
-}
-#navAdmin li a:hover{
-	text-decoration: none;
 }
 #navAdmin li {
 	text-align: center;
 	width: 100%;
 	border: 1px inset black;
+
+	a{
+		color: $blanc;
+		line-height: 50px;
+		text-transform: uppercase;
+
+		&:hover{
+			text-decoration: none;
+		}
+	}
 }
 .admin{
 	margin: 10px;
@@ -41,15 +51,13 @@
 	margin-top: 100px;
 }
 #paragraphe{
-	min-width: 100px;
-	max-width: 500px;
-	min-height: 100px;
-	max-height: 500px;
+	min-width: $miniLarge;
+	min-height: $miniHauteu;
+	@include maxDimension;
 }
 #paragrapheVisuel{
-	max-width:500px;
-	min-height: 100px;
-	max-height: 500px;
+	min-height: $miniHauteu;
+	@include maxDimension;
 	word-wrap: break-word;
 	overflow-y: scroll;
 	background-color: transparent;
@@ -64,10 +72,12 @@
 	height: 300px;
 	overflow-y: scroll;
 	border:1px solid black;
-}
-#articleAdmin img{
-	width: 80%;
-}
-#articleAdmin p{
-	margin-top: 20px;
+
+	img{
+		width: 80%;
+	}
+
+	p{
+		margin-top: 20px;
+	}
 }

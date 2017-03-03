@@ -37,13 +37,13 @@ body{
 	-moz-box-shadow:2px 2px 3px #333333;
 	-webkit-box-shadow:2px 2px 3px #333333;
 	box-shadow:2px 2px 3px #333333;
-}
 
-.pic a{
-	/* Specific styles for the hyperlinks */
-	text-indent:-999px;
-	display:block;
-	/* Setting display to block enables advanced styling for links */
+	a{
+		/* Specific styles for the hyperlinks */
+		text-indent:-999px;
+		display:block;
+		/* Setting display to block enables advanced styling for links */
+	}
 }
 
 .drop-box{
@@ -56,11 +56,11 @@ body{
 	z-index:-1;
 	
 	background:url(img/drop_box.png) no-repeat;
-}
 
-.drop-box.active{
-	/* The active style is in effect when there is a pic hovering above the box */
-	background-position:bottom left;
+	.active{
+		/* The active style is in effect when there is a pic hovering above the box */
+		background-position:bottom left;
+	}
 }
 
 label, input{
@@ -89,16 +89,20 @@ fieldset{
 h1{
 	/* The title of the page */
 	color:white;
-	font-family:"MyRiad Pro",Arial,Helvetica,sans-serif;
-	font-size:38px;
-	font-weight:normal;
+	font:{
+		family:"MyRiad Pro",Arial,Helvetica,sans-serif;
+		size:38px;
+		weight:normal;
+	}
 }
 
 h2{
 	/* The subtitle */
-	font-family:"MyRiad Pro","Arial Narrow",Arial,Helvetica,sans-serif;
-	font-size:16px;
-	font-weight:normal;
+	font:{
+		family:"MyRiad Pro","Arial Narrow",Arial,Helvetica,sans-serif;
+		size:16px;
+		weight:normal;
+	}
 	letter-spacing:1px;
 	padding-left:2px;
 	text-transform:uppercase;
@@ -108,8 +112,10 @@ h2{
 
 #orig{
 	/* The link that is positioned above the title */
-	font-family:"MyRiad Pro",Arial;
-	font-size:10px;
+	font:{
+		family:"MyRiad Pro",Arial;
+		size:10px;
+	}
 	letter-spacing:1px;
 	padding-bottom:15px;
 	text-transform:uppercase;

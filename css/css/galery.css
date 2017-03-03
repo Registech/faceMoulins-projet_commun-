@@ -19,12 +19,11 @@
   -moz-box-shadow: 2px 2px 3px #333333;
   -webkit-box-shadow: 2px 2px 3px #333333;
   box-shadow: 2px 2px 3px #333333; }
-
-.pic a {
-  /* Стили для ссылок */
-  text-indent: -999px;
-  display: block;
-  /* Setting display to block enables advanced styling for links */ }
+  .pic a {
+    /* Стили для ссылок */
+    text-indent: -999px;
+    display: block;
+    /* Setting display to block enables advanced styling for links */ }
 
 .drop-box {
   /* Ячейка распространения */
@@ -35,10 +34,9 @@
   right: 0;
   z-index: -1;
   background: url(img/drop_box.png) no-repeat; }
-
-.drop-box.active {
-  /* стиль active вступает в силу при наведении мышки */
-  background-position: bottom left; }
+  .drop-box .active {
+    /* стиль active вступает в силу при наведении мышки */
+    background-position: bottom left; }
 
 label, input {
   /* Поля для УРЛ в модальном окне */
@@ -55,5 +53,3 @@ fieldset {
 #url {
   /* Поле УРЛ */
   width: 240px; }
-
-/*# sourceMappingURL=galery.css.map */

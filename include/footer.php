@@ -44,3 +44,10 @@
 						<li><a href="admin.php">Se connecter</a></li>
 					</ul>	
 				</footer>
+				<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Cliquer pour revenir en haut" data-toggle="tooltip" data-placement="left"><i class="fa fa-chevron-up"></i></a>
+		</div>		
+		<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
