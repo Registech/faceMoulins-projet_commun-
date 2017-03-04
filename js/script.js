@@ -295,3 +295,13 @@ $("#boutton3").on("click", function(){
 	$("#partenariat2").css("display", "none");
 	$("#partenariat3").slideToggle("slow");
 });
+
+////////////////////// Lien responsive /////////////////////////////
+
+if(innerWidth < 480){
+	document.getElementById("mailContact").innerHTML = "Cliquer pour envoyer un mail";
+	document.getElementById("mailContact").addEventListener("click", function(){
+		alert("contact.territoirebourbonnais@fondation.org");
+	})
+}
+else{document.getElementById("mailContact").innerHTML = "contact.territoirebourbonnais@fondation.org";}

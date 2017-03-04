@@ -100,7 +100,7 @@
 						<div id="cadredroit" class="col-md-12">
 							<p id="fondation">Fondation Agire contre l'Exclusion</br>Face Territoire Bourbonnais</p>
 							<p><i class="fa fa-phone" aria-hidden="true"></i>  06 89 32 71 09</p>
-							<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:contact.territoirebourbonnais@fondation.org"> contact.territoirebourbonnais@fondation.org</a></p>
+							<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:contact.territoirebourbonnais@fondation.org" id="mailContact"> contact.territoirebourbonnais@fondation.org</a></p>
 							<p><i class="fa fa-home" aria-hidden="true"></i> 1-3 rue Bethelot</br>03000 MOULINS CEDEX</p>
 							<p><i class="fa fa-calendar" aria-hidden="true"></i> Ouvert tout les jours</br>Du lundi au vendredi</br>De 9h à 19h</p>
 							<p><i class="fa fa-facebook-official" aria-hidden="true"></i> Vous pouvez nous contacter également sur Facebook</p>

@@ -642,6 +642,12 @@ html, body {
 #champ {
   color: red; }
 
+@media screen and (max-width: 500px) {
+  #cadregauche form {
+    width: 100%; }
+
+  #onglet1 {
+    width: 100%; } }
 #liste_padding {
   padding-top: 2em; }
 
