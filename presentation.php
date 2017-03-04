@@ -7,6 +7,12 @@
 
 				<div class="col-md-12 box">
 					<div id="container-roll">
+						<div class="face-ecr">
+							<img id="face-ecr" width="20%" src="img/face_ecrit.png" alt="Objectifs de FACE">
+							<div class="round">
+								<img id="round" src="img/round.png" alt="Objectifs de FACE">
+							</div>
+						</div>
 						<div class="col-md-6">
 							<h3>FACE, c'est quoi ?</h3>
 							<hr />
@@ -14,16 +20,6 @@
 							<p>Elle œuvre en faveur de <b>l’engagement social et sociétal des entreprises</b> pour <b>lutter contre toutes les formes d’exclusion, de discriminations et de pauvreté</b>, par une approche globale et innovante de la Responsabilité Sociale/Sociétale des Entreprises (RSE).</p>
 							<p>Organisée en Réseau, <b>FACE rassemble des entreprises de toutes tailles</b> et travaille en collaboration avec l’ensemble des parties prenantes concernées par sa mission d’utilité publique (institutions, associations, personnalités qualifiées, chercheurs, etc).</p>
 							<p>FACE est présidée depuis <b>2008</b> par Gérard Mestrallet, Président d’Engie.</p>
-						</div>
-
-
-						<div class="col-md-6">
-							<div class="face-ecr">
-								<img id="face-ecr" width="20%" src="img/face_ecrit.png" alt="Objectifs de FACE">
-								<div class="round">
-									<img id="round" src="img/round.png" alt="Objectifs de FACE">
-								</div>
-							</div>
 						</div>
 
 					</div>
@@ -42,25 +38,27 @@
 			</div>
 
 			<div class="row" id="histoire">
-				<h1 class="col-md-7 boxtitle"><i class="fa fa-history" aria-hidden="true"></i>Histoire</h1>
-				<h1 class="col-md-4 col-md-offset-1 boxtitle"><i class="fa fa-bars" aria-hidden="true"></i>Navigation</h1>
-
-				<div class="col-md-7 box">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-
-				<div class="col-md-4 col-md-offset-1 box">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div class="col-md-7">
+					<h1 class="boxtitle"><i class="fa fa-history" aria-hidden="true"></i>Histoire</h1>
+					<div class="box">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>	
+				<div class="col-md-4 col-md-offset-1">
+					<h1 class="boxtitle"><i class="fa fa-bars" aria-hidden="true"></i>Navigation</h1>
+					<div class="box">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
 				</div>
 			</div>
 
@@ -76,8 +74,6 @@
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<button type="button" class="btn btn-info" style="float: right;">En savoir plus...</button>
 					</div>
 
 					<div class="col-md-4">

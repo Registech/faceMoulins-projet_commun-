@@ -27,7 +27,7 @@
 			<?php include("include/header.php"); ?>
 			<div class="container" style="margin-top: 220px;">
 				<div class="row">
-				<h1 id="planaccés"><i id="marker" class="fa fa-map-marker" aria-hidden="true"></i> Plan d'accés</h1>
+				<h1 id="planacces"><i id="marker" class="fa fa-map-marker" aria-hidden="true"></i> Plan d'accés</h1>
 					<div id="map" classmd-12">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2743.1510913090165!2d3.333080415594653!3d46.564477379129414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f11c40ac979d1d%3A0xc6aed001b1b2a5e5!2s3+Rue+Berthelot%2C+03000+Moulins!5e0!3m2!1sfr!2sfr!4v1486916970162" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
