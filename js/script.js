@@ -121,12 +121,10 @@ $("#galerieVideo").on("click", function(){
 $(document).ready(function(){
 	$(".dropdown").hover(
 		function() {
-			$('.dropdown-menu', this).not('.in .dropdown-menu').stop( true, true ).slideDown(300);
-			$(this).toggleClass('open');
+			$(this).find('.dropdown-menu').first().stop(true, true).slideDown(150);
 		},
 		function() {
-			$('.dropdown-menu', this).not('.in .dropdown-menu').stop( true, true ).slideUp(300);
-			$(this).toggleClass('open');
+			$(this).find('.dropdown-menu').first().stop(true, true).slideUp(105);
 		}
 	);
 });
