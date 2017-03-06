@@ -25,7 +25,7 @@
 			$texte .= $contentArticle[3][$i];
 	}
 	if(isset($contentArticle[0]) AND isset($contentArticle[1]) AND isset($contentArticle[2])){
-		$bdd=new PDO('mysql:host=localhost;dbname=c2c5aa0474;charset=utf8', 'root', '');
+		$bdd=new PDO();
 		$req = $bdd->prepare('INSERT INTO Articles SET titre=?, img=?, texte=?');
 		$req->execute(array($contentArticle[0], $imagecode, $texte));
 		$req->closeCursor();

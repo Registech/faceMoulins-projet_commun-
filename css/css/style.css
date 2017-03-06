@@ -454,12 +454,10 @@ html, body {
   text-align: left; }
 
 .carousel-inner {
-  height: 500px;
   display: flex;
   justify-content: center;
   align-content: center;
-  align-items: center;
-  overflow: hidden; }
+  align-items: center; }
 
 .carousel-indicators {
   position: absolute;

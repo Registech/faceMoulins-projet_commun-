@@ -520,9 +520,7 @@ html, body{
   text-align: left;
 }
 .carousel-inner{
-	height: 500px;
 	@include centreFlex;
-	overflow: hidden;
 }
 .carousel-indicators {
   position: absolute;

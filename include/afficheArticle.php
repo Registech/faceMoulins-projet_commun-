@@ -1,5 +1,5 @@
 <?php
-		$bdd=new PDO('mysql:host=localhost;dbname=c2c5aa0474;charset=utf8', 'root', '');
+		$bdd=new PDO();
 		$req=$bdd->prepare('SELECT * FROM Articles');
 		$req->execute();
 		echo '<section id="sectionArticle">';
