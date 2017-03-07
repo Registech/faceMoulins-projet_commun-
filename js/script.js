@@ -129,6 +129,17 @@ $(document).ready(function(){
 	);
 });
 
+//////////////////////////////////////////
+///////--------Redirection--------------//
+//////////////////////////////////////////
+function admin(page){
+	switch(page){
+		case "ajoutArt":
+			document.location="include/ajoutArticle.php";
+			break;
+	}
+}
+
 ///////////////////////////////////
 //---------Valid mail------------//
 ///////////////////////////////////

@@ -31,8 +31,8 @@ function readURL(input) {
     reader.onload = function (e) {
       $('#image')
         .attr('src', e.target.result)
-        .width(150)
-        .height(200);
+        .width(650)
+        .height(400);
         data =e.target.result;
     };
     reader.readAsDataURL(input.files[0]);
@@ -44,7 +44,7 @@ function go(page){
 	xhr.onreadystatechange = function(){
 		if(xhr.readyState == 4 && xhr.status == 200){
 			var reponse = xhr.response;
-			document.getElementById("sectionAdmin").innerHTML = reponse;
+			document.getElementById("container").innerHTML = reponse;
 		}
 	}
 	if(page=="password"){
@@ -61,7 +61,7 @@ function go(page){
 	}
 	else if(page=="article"){
 		var texte = "";
-		xhr.open("POST","include/AjouteArticle.php",true);
+		xhr.open("POST", "AjouteArticle.php",true);
 		xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
 		image = data;
 		para = document.getElementById("paragraphe").value;
@@ -77,7 +77,7 @@ function go(page){
 		xhr.send("contentArticle="+articleBdd);
 	}
 	else if(page=="afficherArticle"){
-		xhr.open("GET", "include/afficheArticle.php", true);
+		xhr.open("GET", "afficheArticle.php", true);
 		xhr.send(null);
 	}
 	else if(page=="newsLetter"){
@@ -129,6 +129,6 @@ function visual(){
 		document.getElementById("image").innerHTML == "<img src='"+document.getElementById("fichier").value+"'/>";
 	});
 	document.getElementById("paragraphe").addEventListener("input", function(){
-		document.getElementById("paragrapheVisuel").innerHTML = "<p>"+escapeHtml(document.getElementById("paragraphe").value)+"</p>";
+		document.getElementById("paragrapheVisuel").innerHTML = "<p>"+document.getElementById("paragraphe").value+"</p>";
 	});
 }

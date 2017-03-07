@@ -1,5 +1,4 @@
 
-
 <div id="footer" class="row">
 				<div id="footer-left" style="text-align: center;">
 					<div class="col-md-offset-1 col-md-3" style="text-align: center;">
@@ -41,7 +40,12 @@
 						<li><a href="#">Accueil</a> |</li>
 						<li><a href="#">Contact</a> |</li>
 						<li><a href="#">Mentions Légales</a> |</li>
-						<li><a href="admin.php">Se connecter</a></li>
+						<?php
+							if($_SESSION["connexion"] == "se déconnecter"){
+								echo '<li><a href="admin.php?bye=@+">'.$_SESSION["connexion"].'</a></li>';
+							}else	
+								echo '<li><a href="admin.php">'.$_SESSION["connexion"].'</a></li>';
+						?>			
 					</ul>	
 				</footer>
 				<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Cliquer pour revenir en haut" data-toggle="tooltip" data-placement="left"><i class="fa fa-chevron-up"></i></a>

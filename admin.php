@@ -1,8 +1,11 @@
 <?php 
-$admin ="";
-$password="";
-	if(isset($_SESSION))
-		session_destroy(); 
+	session_start();
+	$admin ="";
+	$password="";
+	session_destroy(); 
+	if(isset($_GET["bye"])){
+		header("location:index.php");
+	}
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -23,19 +26,20 @@ $password="";
 	<body class="container-fluid" style="margin-left:auto; margin-right: auto;">
 		<?php
 		if(isset($_POST["login"])){
-				session_start();
-				$_SESSION["login"] = htmlspecialchars($_POST["login"]);
-				$_SESSION["password"] = htmlspecialchars($_POST["password"]);
-				$bdd = new PDO();
+				$bdd = new PDO('mysql:host=localhost;dbname=faceMoulins;charset=utf8', 'faceMoulins', 'Mysteria666');
 					$req = $bdd->prepare('SELECT * FROM idUsers LIMIT 1');
 					$req -> execute();
 					while($donnees = $req->fetch()){
 						$admin = $donnees["adminName"];
 						$password = $donnees["adminPassword"];
 					}
-				if($_SESSION["login"] == $admin AND $_SESSION["password"] == $password){
+				if($_POST["login"] == $admin AND $_POST["password"] == $password){
+					session_start();
+					$_SESSION["login"] = htmlspecialchars($_POST["login"]);
+					$_SESSION["password"] = htmlspecialchars($_POST["password"]);
+					header("location:index.php");
 					?>
-					<div class="row">
+					<!-- <div class="row">
 						<nav id="navbar" class="col-md-3">
 							<ul id="navAdmin" class="list-unstyled">
 								<li><a href="#" id="newsLetter">Newsletter</a></li>
@@ -75,10 +79,10 @@ $password="";
 								});
 							</script>	
 						</section>
-					</div>	
+					</div>	 -->
 			<?php }
 		}
-		else if(!isset($_POST["password"]) OR !isset($_POST["login"]) OR !isset($_SESSION["password"]) OR !isset($_SESSION["login"]) OR $_SESSION["password"] = "" OR $_SESSION["login"] == "" OR $_SESSION["password"] != $password OR $_SESSION["login"] != $admin){
+		else if(!isset($_POST["password"]) OR !isset($_POST["login"]) OR !isset($_SESSION["password"]) OR !isset($_SESSION["login"]) OR $_SESSION["password"] = "" OR $_SESSION["login"] == "" OR $_SESSION["password"] != $password OR $_SESSION["login"] != $admin ){
 				?>
 				<div class="connexion text-center">
 					<h3>Veuillez vous connecter pour poursuivre</h3>
@@ -91,17 +95,9 @@ $password="";
 				</div>
 			<?php
 				}
-			else{?>
-				<div class="connexion text-center">
-					<h3>Veuillez vous connecter pour poursuivre</h3>
-					<form method="POST" target="" >
-						<input type="mail" name="login" class="login" placeholder="Login" required />
-						<input type="password" name="password" class="password" placeholder="Mot de passe" required />
-						<button type="submit">Se connecter</button>
-					</form>						
-					<a href="index.php"> Retour sur le site</a>	
-				</div>
-			<?php
+			else
+				{
+					header('location:index.php');
 				} 
 			?>		
 

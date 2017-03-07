@@ -1,5 +1,7 @@
 
-			<?php include("include/header.php"); ?>
+			<?php
+		session_start();
+		 include("include/header.php"); ?>
 			<div id="toppartenariat" class="container">
 			<div class="col-md-12">
 				<h1>La politique partenariale de FACE</h1>

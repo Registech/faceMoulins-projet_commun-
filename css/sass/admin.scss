@@ -5,6 +5,7 @@ $miniHauteu:100px;
 	max-height: 500px;
 	max-width: 500px;
 }
+#container{ display: flex;}
 .connexion{
 	width:400px;
 	height: 400px;
@@ -13,8 +14,9 @@ $miniHauteu:100px;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	margin:auto;
 	padding-top: 100px;
+	text-align: center;
+	margin:auto;
 
 	form{
 		display: flex;
@@ -49,6 +51,8 @@ $miniHauteu:100px;
 }
 #visualisation{
 	margin-top: 100px;
+	text-align: center;
+	width: 50%;
 }
 #paragraphe{
 	min-width: $miniLarge;
@@ -72,9 +76,10 @@ $miniHauteu:100px;
 	height: 300px;
 	overflow-y: scroll;
 	border:1px solid black;
+	text-align: center;
 
 	img{
-		width: 80%;
+		width: 100%;
 	}
 
 	p{

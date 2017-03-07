@@ -1,5 +1,7 @@
 
-			<?php include("include/header.php"); ?>
+			<?php 
+		session_start();
+		include("include/header.php"); ?>
 			<div class="container">
 				<div class="row top">
 				<h1 class="col-md-12 boxtitle"><i class="fa fa-code" aria-hidden="true"></i>PRÉSENTATION</h1>
@@ -16,7 +18,7 @@
 						<table class="table table-striped">
 							<tbody>
 							<?php 
-								$bdd=new PDO();
+								$bdd=new PDO('mysql:host=localhost;dbname=c2c5aa0474;charset=utf8', 'root', '');
 								$req = $bdd->prepare('SELECT * FROM EleveFabrik');
 								$req->execute();
 								while($data = $req->fetch()){

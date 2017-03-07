@@ -1,5 +1,7 @@
 
-		<?php include("include/header.php"); ?>
+		<?php
+		session_start();
+		 include("include/header.php"); ?>
 		<div class="container">
 
 			<div class="row" id="presentation">
@@ -98,6 +100,10 @@
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
 				</div>
+				<?php
+					if(!empty($_SESSION["login"]))
+						echo '<button class="btn btn-primary">Ajouter une action</button>';
+				?>	
 			</div>
 
 		</div>

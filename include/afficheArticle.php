@@ -1,5 +1,5 @@
 <?php
-		$bdd=new PDO();
+		$bdd=new PDO('mysql:host=localhost;dbname=faceMoulins;charset=utf8', 'faceMoulins', 'Mysteria666');
 		$req=$bdd->prepare('SELECT * FROM Articles');
 		$req->execute();
 		echo '<section id="sectionArticle">';

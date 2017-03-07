@@ -1,3 +1,6 @@
+#container {
+  display: flex; }
+
 .connexion {
   width: 400px;
   height: 400px;
@@ -6,8 +9,9 @@
   justify-content: center;
   align-content: center;
   align-items: center;
-  margin: auto;
-  padding-top: 100px; }
+  padding-top: 100px;
+  text-align: center;
+  margin: auto; }
   .connexion form {
     display: flex;
     flex-direction: column; }
@@ -35,7 +39,9 @@
   padding: 50px; }
 
 #visualisation {
-  margin-top: 100px; }
+  margin-top: 100px;
+  text-align: center;
+  width: 50%; }
 
 #paragraphe {
   min-width: 100px;
@@ -60,8 +66,9 @@
   width: 33%;
   height: 300px;
   overflow-y: scroll;
-  border: 1px solid black; }
+  border: 1px solid black;
+  text-align: center; }
   #articleAdmin img {
-    width: 80%; }
+    width: 100%; }
   #articleAdmin p {
     margin-top: 20px; }
