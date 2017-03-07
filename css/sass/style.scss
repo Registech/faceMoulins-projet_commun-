@@ -273,13 +273,26 @@ html, body{
 		background-position: 47% 50%;
 	}
 
-	.navbar #bottom .container .navbar-nav {
+	.navbar #bottom .container .navbar-nav{
 		text-align: left;
 	}
 
-	.navbar #bottom .container .navbar-nav > li {
+	.navbar #bottom .container .navbar-nav > li{
 		float: none;
 		display: block;
+	}
+}
+
+@media (min-width: 768px){
+	.navbar #bottom .container{
+		width: 100%;
+		padding:{
+			right: 0px;
+			left: 0px;
+		}
+		.nav li a.active{ /* Texte des liens */
+			padding: 10px 27px;
+		}
 	}
 }
 

@@ -221,6 +221,14 @@ html, body {
   .navbar #bottom .container .navbar-nav > li {
     float: none;
     display: block; } }
+@media (min-width: 768px) {
+  .navbar #bottom .container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px; }
+    .navbar #bottom .container .nav li a.active {
+      /* Texte des liens */
+      padding: 10px 27px; } }
 @media screen and (max-width: 425px) {
   .navbar #top {
     background-position: 46% 50%; } }
