@@ -140,7 +140,7 @@ html, body {
   /* Lien actuel */
   background-color: #8b563c; }
 
-.navbar #bottom .container .nav a {
+.navbar #bottom .container .nav li a.active {
   /* Texte des liens */
   color: #FFFFFF;
   text-transform: uppercase;
@@ -176,7 +176,8 @@ html, body {
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   /* Texte des liens au survol */
-  background-color: #D5855C; }
+  background-color: #D5855C;
+  color: #FFFFFF; }
 
 .navbar #bottom .container .bars {
   background-color: transparent;

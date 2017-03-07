@@ -185,12 +185,13 @@ html, body{
 	background-color: $couleur2;
 }
 
-.navbar #bottom .container .nav a{ /* Texte des liens */
+.navbar #bottom .container .nav li a.active{ /* Texte des liens */
 	color: $blanc;
 	text-transform: uppercase;
 	transition: 300ms cubic-bezier(0.4, 0, 1, 1);
 	padding: 10px 30px;
 }
+
 .navbar #bottom .container .nav > li > a:hover { /* Texte des liens au survol */
 	background-color: $couleur1;
 }
@@ -222,6 +223,7 @@ html, body{
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{ /* Texte des liens au survol */
 	background-color: $couleur1;
+	color: $blanc;
 }
 
 ///////////////////////// MOBILE FIRST /////////////////////////
