@@ -48,6 +48,7 @@
 						<ul class="dropdown-menu">
 							<li><a href="#">Presse</a></li>
 							<li><a href="#">Agenda</a></li>
+							<li><a href="article.php">Articles</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">

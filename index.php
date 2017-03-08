@@ -4,6 +4,7 @@
 		$_SESSION["connexion"] = "se déconnecter";
 	else
 		$_SESSION["connexion"] = 'se connecter';
+	
 	include("include/header.php"); ?>
 	<div class="container">
 		<section class="row" id="section1">

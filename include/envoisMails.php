@@ -6,7 +6,7 @@
 	function my_mail($message_html){
 		$i=0;$k=0;	
 		require '../PHPMailer/PHPMailerAutoload.php';
-		$bdd=new PDO('mysql:host=localhost;dbname=c2c5aa0474;charset=utf8', 'root', '');
+		$bdd=new PDO();
 		$req=$bdd->prepare('SELECT * FROM Mail');
 		$req->execute();
 		while($donnees = $req->fetch()){

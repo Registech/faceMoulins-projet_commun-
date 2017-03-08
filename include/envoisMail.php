@@ -1,3 +1,9 @@
+<?php
+	session_start();
+	if($_SESSION["connexion"] != "se déconnecter"){
+		header("location:youShouldNotPass.php");
+	}
+?>
 <div class= "connexion">
 	<h3>Envoyer une newsletter</h3>
 	<form onsubmit="return false">

@@ -27,5 +27,5 @@
 		}
 	}
 
-	
-my_mail($_POST["mail"], $_POST["prenom"], $_POST["sujet"], $_POST["message"]);
+if(isset($_POST["mail"]))	
+	my_mail($_POST["mail"], $_POST["prenom"], $_POST["sujet"], $_POST["message"]);

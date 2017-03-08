@@ -430,6 +430,27 @@ html, body {
 
   #divFacebook div {
     width: 100%; } }
+#sectionArticle {
+  display: flex;
+  flex-wrap: wrap; }
+
+#articleAdmin {
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  background-color: #FFFFFF;
+  border-top: 1px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-left: 1px;
+  border-style: solid;
+  border-color: black;
+  text-align: center; }
+  #articleAdmin img {
+    width: 100%; }
+  #articleAdmin article {
+    line-height: 25px; }
+
 #carou {
   margin-bottom: 100px;
   color: #555;

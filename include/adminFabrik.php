@@ -1,3 +1,9 @@
+<?php
+session_start();
+	if($_SESSION["connexion"] != "se déconnecter";){
+		header("location:youShouldNotPass.php");
+	}
+?>	
 <div class= "connexion" style="display:flex; flex-wrap: wrap;width:100%; height: 500px;">
 	<div style="width:33%;margin-bottom: 20px; border:1px solid black;">
 		<h3>Ajouter Elève</h3>

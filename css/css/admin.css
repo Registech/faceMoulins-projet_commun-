@@ -64,11 +64,11 @@
 
 #articleAdmin {
   width: 33%;
-  height: 300px;
+  height: 100%;
   overflow-y: scroll;
   border: 1px solid black;
   text-align: center; }
   #articleAdmin img {
     width: 100%; }
-  #articleAdmin p {
-    margin-top: 20px; }
+  #articleAdmin article {
+    line-height: 25px; }

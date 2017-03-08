@@ -1,6 +1,9 @@
 <?php
 
 	session_start();
+	if($_SESSION["connexion"] != "se déconnecter"){
+		header("location:youShouldNotPass.php");
+	}
 	?>
 	<!DOCTYPE html>
 	<html>

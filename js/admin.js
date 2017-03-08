@@ -6,6 +6,10 @@ function escapeHtml(text) {
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#039;");
 }
+function nl2br (str, is_xhtml) {
+    var breakTag = (is_xhtml || typeof is_xhtml === 'undefined') ? '<br />' : '<br>';
+    return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1' + breakTag + '$2');
+}
 function getXHR(){
 	var xhr = null; 
  
@@ -64,7 +68,7 @@ function go(page){
 		xhr.open("POST", "AjouteArticle.php",true);
 		xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
 		image = data;
-		para = document.getElementById("paragraphe").value;
+		para = nl2br(document.getElementById("paragraphe").value, 'undefined');
 		for(i=0;i<para.length;i++){
 			if(para[i]==",")
 				texte += "@.";
