@@ -503,6 +503,28 @@ html, body{
 	display: flex;
 	flex-wrap: wrap;
 }
+#article {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: $blanc; 
+  h1 {
+    font-size: 5em; 
+	}
+   img {
+    width: 100%; 
+	}
+}
+.h1ArticleAdmin  {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 100%;
+  color: #FFFFFF;
+  line-height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center; }  
 #articleAdmin{
 	width: 50%;
 	height: 100%;
@@ -510,13 +532,19 @@ html, body{
 	background-color: $blanc;
 	@include bordure(1px, black);
 	text-align: center;
+	overflow: hidden;
+	position: relative;
 
 	img{
 		width: 100%;
+		margin: 0;
 	}
 
 	article{
 		line-height: 25px;
+		h3{
+			text-align: center;
+		}
 	}
 }
 

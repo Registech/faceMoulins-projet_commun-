@@ -26,7 +26,7 @@
 	<body class="container-fluid" style="margin-left:auto; margin-right: auto;">
 		<?php
 		if(isset($_POST["login"])){
-				$bdd = new PDO();
+				$bdd = new PDO('mysql:host=localhost;dbname=faceMoulins;charset=utf8', 'faceMoulins', 'Mysteria666');
 					$req = $bdd->prepare('SELECT * FROM idUsers LIMIT 1');
 					$req -> execute();
 					while($donnees = $req->fetch()){

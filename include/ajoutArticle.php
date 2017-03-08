@@ -20,7 +20,7 @@
 				<textarea class="admin" id="paragraphe" placeholder="Texte de l'article" onfocus="visual();"></textarea>
 				<input class="admin" type="submit" value="Valider" id="validArticle" onclick="go('article');" />
 			</form>
-			<a id="afficheArticle" href="#" onclick="go('afficherArticle');" >Voir les articles non publié</a>
+			<a id="afficheArticle" href="#" onclick="go('afficherArticle');" >Gérer les publications</a>
 		</div>	
 		<div id="visualisation">
 			<h1 id="titre"></h1>
