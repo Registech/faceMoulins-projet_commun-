@@ -3,7 +3,7 @@
 	include("include/header.php");?>
 	<div class="container">
 		<?php 
-			$bdd=new PDO('mysql:host=localhost;dbname=faceMoulins;charset=utf8', 'faceMoulins', 'Mysteria666');
+			$bdd=new PDO();
 			
 			if(!isset($_GET["article"])){
 				$req=$bdd->prepare('SELECT * FROM Articles WHERE publish=?');

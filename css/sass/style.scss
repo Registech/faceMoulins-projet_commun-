@@ -750,6 +750,50 @@ html, body{
 
 #liste_padding{ padding-top: 2em;}
 
+#sectionApprenant{
+	margin-top: 5%;
+} 
+.lienApprenant{
+	color:rgba(18,110,122,1);
+	&:hover{
+		color: #aaa9a9;
+		text-decoration: none;
+	}
+}
+.glyphicon{
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+small{
+	display: block;
+	line-height: 1.428571429;
+	color: #999;
+}
+.well{
+	border: 1px solid #BEBFBF;
+	box-shadow: 6px 10px 18px 4px rgba(0,0,0,0.1); 
+}
+.btn-default{
+	font-weight: 600;
+	background-color: #1693a5;
+    border-color: #1693a5;
+}
+
+.boutonMobile{
+	width: 40%;
+	display: inline-block;
+	color: white;
+	border-radius: 5%;
+	margin-top: 7%;
+	margin-right: 7%;
+}
+#cadre{
+	@include centreFlex;
+	img {
+		height:130px;
+	}
+}	
+
 /////////////////////////////////////////////////////////////////////////////
 ////////////////////////////// PARTENARIAT //////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////

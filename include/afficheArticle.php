@@ -1,5 +1,10 @@
 <?php
-	$bdd=new PDO('mysql:host=localhost;dbname=faceMoulins;charset=utf8', 'faceMoulins', 'Mysteria666');
+	session_start();
+	if($_SESSION["connexion"] != "se déconnecter"){
+		header("location:youShouldNotPass.php");
+	}
+
+	$bdd=new PDO();
 	if(isset($_GET["del"]) AND isset($_GET["publish"])){
 		$req=$bdd->prepare('UPDATE Articles SET publish=? WHERE id=?');
 		$req->execute(array("none", $_GET["publish"]));
