@@ -65,41 +65,9 @@
 			</div>
 
 			<div class="row" id="actions">
-				<h1 class="col-md-12 boxtitle"><i class="fa fa-check-square-o" aria-hidden="true"></i>Nos actions</h1>
+			
 
-				<div class="col-md-12 box">
-					<div class="col-md-4">
-						<h3>La fabrique du numérique</h3>
-						<hr />
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					</div>
-
-					<div class="col-md-4">
-						<h3>Projet Civigaz</h3>
-						<hr />
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div>
-
-					<div class="col-md-4">
-						<h3>Café d'en Face</h3>
-						<hr />
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div>
-				</div>
+				
 				<?php
 					if(!empty($_SESSION["login"]))
 						echo '<button class="btn btn-primary">Ajouter une action</button>';
