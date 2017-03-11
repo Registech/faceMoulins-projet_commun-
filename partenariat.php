@@ -18,7 +18,7 @@
 			 	<button id="boutton3" style="background-color: #B3DED0; color: #00A5AA;"  class="col-md-4 boutton" type="button" class="btn btn-outline-primary">PARTENAIRES ASSIOCIATIFS</button>
 			</div>
 				<div id="partenariat1">
-				<ol id="img-r" class="container">
+				<ol id="img-r">
 					<li class="col-md-12">
 						<p>
 							La Commission Européenne
@@ -134,7 +134,7 @@
 				</ol>
 				</div>
 				<div id="partenariat2">
-				<ol id="img-r" class="container">
+				<ol id="img-r">
 					<li class="col-md-12">
 						<p>
 							ENGIE
@@ -204,7 +204,7 @@
 				</ol>	
 				</div>
 				<div id="partenariat3">
-				<ol id="img-r" class="container">
+				<ol id="img-r">
 					<li class="col-md-12">
 						<p>
 							L’ADMICAL
