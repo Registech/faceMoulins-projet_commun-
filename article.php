@@ -26,8 +26,8 @@
 				$req=$bdd->prepare('SELECT * FROM Articles WHERE id=?');
 				$req->execute(array($_GET["article"]));
 				while($donnees = $req->fetch()){
-					$_SESSION["login"] ? $titre = "<h1 onclick='modif(this, ".$donnees["id"].", \"titre\");'>".$donnees["titre"].'</h1><br/><br/>' :  $titre = '<h1>'.$donnees["titre"].'</h1><br/><br/>';
-					$_SESSION["login"] ? $texte = '<article onclick="modif(this, '.$donnees["id"].', \'texte\');">'.$donnees["texte"].'</article>' :  $texte = '<article>'.$donnees["texte"].'</article>';
+					isset($_SESSION["login"]) ? $titre = "<h1 onclick='modif(this, ".$donnees["id"].", \"titre\");'>".$donnees["titre"].'</h1><br/><br/>' :  $titre = '<h1>'.$donnees["titre"].'</h1><br/><br/>';
+					isset($_SESSION["login"]) ? $texte = '<article onclick="modif(this, '.$donnees["id"].', \'texte\');">'.$donnees["texte"].'</article>' :  $texte = '<article>'.$donnees["texte"].'</article>';
 					echo '<div id="article">';
 					echo $titre;
 					echo '<img src="'.$donnees["img"].'" alt="'.$donnees["titre"].'" />';
