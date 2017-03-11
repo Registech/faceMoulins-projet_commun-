@@ -27,7 +27,7 @@
 						<h3>NewsLetter</h3>
 						<p>Inscrivez vous à notre newsletter pour recevoir mensuellement les dernières actualités de Face Territoire Bourbonnais</p>
 						<div id="mailDiv">
-							<input type="email" name="email" id="mailer" placeholder="Entrez votre mail"/><p id="boxEnveloppe" onclick="goXHR()"><i class="glyphicon glyphicon-envelope" id="enveloppe"></i></p>		
+							<input type="email" name="email" id="mailer" placeholder="Entrez votre mail"/><p id="boxEnveloppe" onclick="goXHR()"><i class="fa fa-envelope" id="enveloppe"></i></p>		
 						</div>
 						<p id="texteEtoile">
 							* Les données personnelles que vous avez enregistrées seront utilisées afin de pouvoir vous envoyer cette newsletter. Ces données ne seront pas partagées avec des tiers.
