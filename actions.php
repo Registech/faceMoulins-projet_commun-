@@ -8,8 +8,8 @@
 	<main>
 	    <div class='container' id='container'>
 	        <div class="row">
-	            <div class="col-md-10 col col-md-offset-1" id="padding50">
-	                <h1 class="titre-h1" id="padding"><span id='presentation-span'><strong>A</strong></span>ctions</h1><hr>
+	                <h1 class="col-md-12 boxtitle" id="padding"><span id='presentation-span'><strong>A</strong></span>ctions</h1><hr>
+	            <div class="col-md-10 col col-md-offset-1 box" id="padding50">
 	     <!-- <img src="">      image photoshop Actions_____  -->
 	                <div id="action-page" class="text-justify">
 	                <!--	<img src="http://www.iccrs.org/_files/images/page_en_construction.jpg">-->
