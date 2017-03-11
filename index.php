@@ -7,6 +7,11 @@
 	
 	include("include/header.php"); ?>
 	<div class="container">
+	<section class="row" id="section1">
+	<h3 class="text-center"> FACE est une association qui lutte contre toutes formes d'exclusion .</h3>
+					<p><em>« Sans se substituer à la puissance publique, ni aux associations, la capacité des entreprises à accompagner l’accès à l’emploi, à la formation, aux biens et services essentiels, aux droits…   constitue un formidable levier d’insertion, d’inclusion et d’intégration. »</em></p>
+	</section>
+
 		<section class="row" id="section1">
 			<article class="col-md-7 text-center hidden-xs" id="sec" >
 				<a id="lienArticle" href="http://www.fondationface.org/lancement-de-la-fondation-pour-linvestissement-social-et-le-developpement-humain/"><img class="img1" id="img1" src="http://www.fondationface.org/wp-content/uploads/hollande-675x385.jpg"></a>
