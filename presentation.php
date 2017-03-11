@@ -43,12 +43,9 @@
 				<div class="col-md-7">
 					<h1 class="boxtitle"><i class="fa fa-history" aria-hidden="true"></i>Histoire</h1>
 					<div class="box">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p><strong> Tout est parti d’un constat simple : « L’exclusion permanente d’une partie de nos concitoyens est inacceptable ! Entreprises et pouvoirs publics doivent conjointement développer l’innovation sociale pour relever ce défi ».</strong></p>
+						<p>Forte de sa mission d’utilité publique, FACE lutte contre toutes les formes d’exclusion, de discriminations et de pauvreté. FACE défend – depuis 1993, date de sa création – les valeurs de solidarité, de cohésion sociale, d’égalité des chances et de traitement.</p>
+						Ses missions sont de favoriser la mise en action individuelle et collective de la responsabilité sociale/sociétale des entreprises (RSE) ; de mobiliser et coordonner les volontés et initiatives d’engagement social et sociétal des entreprises dans leur territoire ; de développer l’innovation sociale et sociétale avec et pour les entreprises ; d’affirmer la place et le discours des entreprises socialement responsables.</p>
 					</div>
 				</div>	
 				<div class="col-md-4 col-md-offset-1">
