@@ -39,7 +39,7 @@
 					<ul id="listFooter" class="list-unstyled list-inline col-xs-offset-2 xol-xs-8  col-md-offset-2 col-md-4">
 						<li><a href="#">Accueil</a> |</li>
 						<li><a href="#">Contact</a> |</li>
-						<li><a href="#">Mentions Légales</a> |</li>
+						<li><a href="mentionsLegales.php">Mentions Légales</a> |</li>
 						<?php
 							if($_SESSION["connexion"] == "se déconnecter"){
 								echo '<li><a href="admin.php?bye=@+">'.$_SESSION["connexion"].'</a></li>';

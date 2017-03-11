@@ -55,7 +55,7 @@
 						<a href="presentation.php" title="Présentation" class="active">Présentation</a>
 						<ul class="dropdown-menu">
 							<li><a href="presentation.php#histoire">Histoire</a></li>
-							<li><a href="presentation.php#actions">Actions</a></li>
+							<li><a href="actions.php">Actions</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
