@@ -115,46 +115,35 @@ html, body{
 	height: 111px;
 }
 
-.navbar #top .search{ /* Bloc de recherche */
-	position: relative;
-	width: auto;
-	display: table;
-}
-
-.navbar #top .search input{ /* Zone de texte / bloc de recherche */
-	background-color: $couleur3;
-	display: table-cell;
+.navbar #top .don{ /* Bouton de don */
+	background-color: transparent;
 	width: 250px;
 	padding: 8px;
-	color: #333333;
-	line-height: 0px;
-	font-size: 13px;
-	outline: none;
-	@include bordure(2px, $couleur4);
-	border-radius: 5px 0px 0px 5px;
-}
-
-.navbar #top .search span{ /* Bouton recherche / bloc de recherche */
-	display: table-cell;
-	width: 20%;
-	color: $blanc;
-	line-height: 0px;
-	text-align: center;
-	padding: 8px;
-	border-radius: 0px 5px 5px 0px;
-	background-color: $couleur4;
-	cursor: pointer;
-}
-
-.navbar #top .search p#error{ /* Message d'erreur bloc de recherche */
-	display: none;
-	caption-side: bottom;
 	color: $couleur4;
-	font-size: 12px;
-	margin:{
-		top: 5px;
-		bottom: 0px;
+	font:{
+		family: 'Fjalla One', sans-serif;
+		size: 18px;
 	}
+	text-transform: uppercase;
+	@include bordure(2px, $couleur4);
+	border-radius: 10px;
+	transition: all .5s;
+	outline: none;
+}
+
+.navbar #top .don:hover{ /* Bouton de don au survol */
+	background-color: $couleur4;
+	color: $couleur3;
+}
+
+.navbar #top .don i{ /* Bouton de don au survol */
+	transition: all .5s;
+	font-size: 23px;
+	margin-left: 70px;
+}
+
+.navbar #top .don:hover i{ /* Bouton de don au survol */
+	padding-left: 20px;
 }
 
 .navbar #bottom{ /* Zone menu & navigation */
@@ -185,12 +174,13 @@ html, body{
 	background-color: $couleur2;
 }
 
-.navbar #bottom .container .nav a{ /* Texte des liens */
+.navbar #bottom .container .nav li a.active{ /* Texte des liens */
 	color: $blanc;
 	text-transform: uppercase;
 	transition: 300ms cubic-bezier(0.4, 0, 1, 1);
 	padding: 10px 30px;
 }
+
 .navbar #bottom .container .nav > li > a:hover { /* Texte des liens au survol */
 	background-color: $couleur1;
 }
@@ -222,6 +212,7 @@ html, body{
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{ /* Texte des liens au survol */
 	background-color: $couleur1;
+	color: $blanc;
 }
 
 ///////////////////////// MOBILE FIRST /////////////////////////
@@ -271,13 +262,26 @@ html, body{
 		background-position: 47% 50%;
 	}
 
-	.navbar #bottom .container .navbar-nav {
+	.navbar #bottom .container .navbar-nav{
 		text-align: left;
 	}
 
-	.navbar #bottom .container .navbar-nav > li {
+	.navbar #bottom .container .navbar-nav > li{
 		float: none;
 		display: block;
+	}
+}
+
+@media (min-width: 768px){
+	.navbar #bottom .container{
+		width: 100%;
+		padding:{
+			right: 0px;
+			left: 0px;
+		}
+		.nav li a.active{ /* Texte des liens */
+			padding: 10px 27px;
+		}
 	}
 }
 

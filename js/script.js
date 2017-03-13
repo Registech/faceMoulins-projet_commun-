@@ -73,21 +73,6 @@ else if (document.location.href.indexOf("laFabrik.php") != -1)
 else if (document.location.href.indexOf("contact.php") != -1)
 	active[5].id = "active";
 
-///////////////////////////////////
-//-------Limite recherche--------//
-///////////////////////////////////
-
-document.getElementById('search').addEventListener('input',function(){
-	if(document.getElementById('search').value.length >= 100){
-		setTimeout(function() {
-			$('#error').fadeIn(800).css('display','table-caption');
-		}, 1000);
-		setTimeout(function() {
-			$('#error').fadeOut(800);
-		}, 6000);
-	}
-})
-
 ///////////////////////////////////		
 //----------Cache header---------//		
 ///////////////////////////////////		
@@ -114,19 +99,22 @@ $("#galerieVideo").on("click", function(){
 	$("#container2").css("display", "block");
 	$("#container1").css("display", "none");
 });
+
 ///////////////////////////////////
 //-------Menu slide down---------//
 ///////////////////////////////////
 
 $(document).ready(function(){
-	$(".dropdown").hover(
-		function() {
-			$(this).find('.dropdown-menu').first().stop(true, true).slideDown(150);
-		},
-		function() {
-			$(this).find('.dropdown-menu').first().stop(true, true).slideUp(105);
-		}
-	);
+	if($(window).width() > 768) {
+		$(".dropdown").hover(
+				function() {
+					$(this).find('.dropdown-menu').first().stop(true, true).slideDown(150);
+				},
+				function() {
+					$(this).find('.dropdown-menu').first().stop(true, true).slideUp(105);
+				}
+		);
+	}
 });
 
 //////////////////////////////////////////

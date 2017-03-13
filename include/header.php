@@ -23,11 +23,9 @@
 
 	<!-- Logo & recherche -->
 	<div id="top">
-		<img src="img/faceimg.png" alt="logo_face" />
+		<a href="index.php" title="FACE Territoire Bourbonnais"><img src="img/faceimg.png" alt="logo_face" /></a>
 		<div class="search hidden-xs hidden-sm">
-			<input type="text" name="search" placeholder="Recherche..." id="search" maxlength="100">
-			<span><i class="fa fa-search"></i></span>
-			<p id="error"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Limite de caractère atteint.</p>
+			<button class="don">Faire un don <i class="fa fa-arrow-circle-right"></i></button>
 		</div>
 	</div>
 
@@ -65,14 +63,8 @@
 							<li><a href="galerieVideo.php">Médias</a></li>
 						</ul>
 					</li>
-					<li class="dropdown">
+					<li>
 						<a href="partenariat.php" title="Partenariat" class="active">Partenariat</a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Entreprises</a></li>
-							<li><a href="#">Associations</a></li>
-							<li><a href="#">Particuliers</a></li>
-							<li><a href="#">Institutions</a></li>
-						</ul>
 					</li>
 					<li class="dropdown">
 						<a href="laFabrik.php" title="Fabrik" class="active">La Fabrik</a>
