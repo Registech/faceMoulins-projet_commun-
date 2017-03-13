@@ -115,46 +115,35 @@ html, body{
 	height: 111px;
 }
 
-.navbar #top .search{ /* Bloc de recherche */
-	position: relative;
-	width: auto;
-	display: table;
-}
-
-.navbar #top .search input{ /* Zone de texte / bloc de recherche */
-	background-color: $couleur3;
-	display: table-cell;
+.navbar #top .don{ /* Bouton de don */
+	background-color: transparent;
 	width: 250px;
 	padding: 8px;
-	color: #333333;
-	line-height: 0px;
-	font-size: 13px;
-	outline: none;
-	@include bordure(2px, $couleur4);
-	border-radius: 5px 0px 0px 5px;
-}
-
-.navbar #top .search span{ /* Bouton recherche / bloc de recherche */
-	display: table-cell;
-	width: 20%;
-	color: $blanc;
-	line-height: 0px;
-	text-align: center;
-	padding: 8px;
-	border-radius: 0px 5px 5px 0px;
-	background-color: $couleur4;
-	cursor: pointer;
-}
-
-.navbar #top .search p#error{ /* Message d'erreur bloc de recherche */
-	display: none;
-	caption-side: bottom;
 	color: $couleur4;
-	font-size: 12px;
-	margin:{
-		top: 5px;
-		bottom: 0px;
+	font:{
+		family: 'Fjalla One', sans-serif;
+		size: 18px;
 	}
+	text-transform: uppercase;
+	@include bordure(2px, $couleur4);
+	border-radius: 10px;
+	transition: all .5s;
+	outline: none;
+}
+
+.navbar #top .don:hover{ /* Bouton de don au survol */
+	background-color: $couleur4;
+	color: $couleur3;
+}
+
+.navbar #top .don i{ /* Bouton de don au survol */
+	transition: all .5s;
+	font-size: 23px;
+	margin-left: 70px;
+}
+
+.navbar #top .don:hover i{ /* Bouton de don au survol */
+	padding-left: 20px;
 }
 
 .navbar #bottom{ /* Zone menu & navigation */

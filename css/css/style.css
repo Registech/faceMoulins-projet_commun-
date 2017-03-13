@@ -67,50 +67,39 @@ html, body {
   width: 300px;
   height: 111px; }
 
-.navbar #top .search {
-  /* Bloc de recherche */
-  position: relative;
-  width: auto;
-  display: table; }
-
-.navbar #top .search input {
-  /* Zone de texte / bloc de recherche */
-  background-color: #f8f8f8;
-  display: table-cell;
+.navbar #top .don {
+  /* Bouton de don */
+  background-color: transparent;
   width: 250px;
   padding: 8px;
-  color: #333333;
-  line-height: 0px;
-  font-size: 13px;
-  outline: none;
+  color: #1e5d74;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
   border-top: 2px;
   border-right: 2px;
   border-bottom: 2px;
   border-left: 2px;
   border-style: solid;
   border-color: #1e5d74;
-  border-radius: 5px 0px 0px 5px; }
+  border-radius: 10px;
+  transition: all .5s;
+  outline: none; }
 
-.navbar #top .search span {
-  /* Bouton recherche / bloc de recherche */
-  display: table-cell;
-  width: 20%;
-  color: #FFFFFF;
-  line-height: 0px;
-  text-align: center;
-  padding: 8px;
-  border-radius: 0px 5px 5px 0px;
+.navbar #top .don:hover {
+  /* Bouton de don au survol */
   background-color: #1e5d74;
-  cursor: pointer; }
+  color: #f8f8f8; }
 
-.navbar #top .search p#error {
-  /* Message d'erreur bloc de recherche */
-  display: none;
-  caption-side: bottom;
-  color: #1e5d74;
-  font-size: 12px;
-  margin-top: 5px;
-  margin-bottom: 0px; }
+.navbar #top .don i {
+  /* Bouton de don au survol */
+  transition: all .5s;
+  font-size: 23px;
+  margin-left: 70px; }
+
+.navbar #top .don:hover i {
+  /* Bouton de don au survol */
+  padding-left: 20px; }
 
 .navbar #bottom {
   /* Zone menu & navigation */
